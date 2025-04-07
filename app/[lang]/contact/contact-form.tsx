@@ -4,13 +4,15 @@ import type React from "react"
 
 import { useState } from "react"
 import Link from "next/link"
-import { LanguageSwitcher } from "@/components/language-switcher"
 import { Button } from "@/components/ui/button"
 import { Input } from "@/components/ui/input"
 import { Textarea } from "@/components/ui/textarea"
 import { Mail, MessageSquare, AlertCircle } from "lucide-react"
 import type { Locale } from "@/types"
 import type { Dictionary } from "@/dictionaries"
+import { Breadcrumbs } from "@/components/breadcrumbs"
+import { StructuredData } from "@/components/structured-data"
+import { MobileHeader } from "@/app/[lang]/components/mobile-header"
 
 export default function ContactForm({
   params: { lang },
@@ -29,6 +31,24 @@ export default function ContactForm({
 
   // Use the dictionary from props
   const dict = dictionary
+
+  // Define structured data for the page
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "ContactPage",
+    name: `${dict.pages.contact.title} | invisibletext.top`,
+    description: dict.pages.contact.introduction,
+    url: `https://invisibletext.top/${lang}/contact`,
+    publisher: {
+      "@type": "Organization",
+      name: "invisibletext.top",
+      contactPoint: {
+        "@type": "ContactPoint",
+        email: "contact@invisibletext.top",
+        contactType: "customer service",
+      },
+    },
+  }
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     const { name, value } = e.target
@@ -53,31 +73,29 @@ export default function ContactForm({
 
   return (
     <div className="min-h-screen bg-slate-50 bg-[radial-gradient(#e0e0e0_1px,transparent_1px)] [background-size:20px_20px]">
-      <header className="container mx-auto py-6 px-4 flex justify-between items-center">
-        <Link href={`/${lang}`} className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-white border-2 border-black rounded-md flex items-center justify-center">
-            <span className="font-bold text-lg">IT</span>
-          </div>
-          <span className="font-bold text-xl tracking-tight">
-            {dict.hero.title}
-            <div className="h-1 w-full bg-emerald-400 mt-0.5"></div>
-          </span>
-        </Link>
-        <nav className="flex gap-6 items-center">
-          <Link href={`/${lang}/#features`} className="font-medium hover:text-emerald-500 transition-colors">
-            {dict.navigation.features}
-          </Link>
-          <Link href={`/${lang}/about`} className="font-medium hover:text-emerald-500 transition-colors">
-            {dict.navigation.about}
-          </Link>
-          <Link href={`/${lang}/contact`} className="font-medium hover:text-emerald-500 transition-colors">
-            {dict.navigation.contact}
-          </Link>
-          <LanguageSwitcher lang={lang} />
-        </nav>
-      </header>
+      {/* Add structured data */}
+      <StructuredData data={structuredData} />
+
+      <MobileHeader
+        lang={lang}
+        title={dict.hero.title}
+        navigation={{
+          features: dict.navigation.features,
+          about: dict.navigation.about,
+          contact: dict.navigation.contact,
+        }}
+      />
 
       <main className="container mx-auto px-4 py-12">
+        {/* Add breadcrumbs for better SEO */}
+        <Breadcrumbs
+          items={[
+            { label: "Home", url: `/${lang}` },
+            { label: dict.pages.contact.title, url: `/${lang}/contact` },
+          ]}
+          lang={lang}
+        />
+
         <div className="max-w-4xl mx-auto">
           <h1 className="text-5xl font-black tracking-tight mb-8 text-center">
             {dict.pages.contact.title}
@@ -105,6 +123,7 @@ export default function ContactForm({
                 <a
                   href="#"
                   className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-emerald-100 transition-colors"
+                  aria-label="Facebook"
                 >
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
@@ -117,6 +136,7 @@ export default function ContactForm({
                 <a
                   href="#"
                   className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-emerald-100 transition-colors"
+                  aria-label="Twitter"
                 >
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path d="M8.29 20.251c7.547 0 11.675-6.253 11.675-11.675 0-.178 0-.355-.012-.53A8.348 8.348 0 0022 5.92a8.19 8.19 0 01-2.357.646 4.118 4.118 0 001.804-2.27 8.224 8.224 0 01-2.605.996 4.107 4.107 0 00-6.993 3.743 11.65 11.65 0 01-8.457-4.287 4.106 4.106 0 001.27 5.477A4.072 4.072 0 012.8 9.713v.052a4.105 4.105 0 003.292 4.022 4.095 4.095 0 01-1.853.07 4.108 4.108 0 003.834 2.85A8.233 8.233 0 012 18.407a11.616 11.616 0 006.29 1.84"></path>
@@ -125,6 +145,7 @@ export default function ContactForm({
                 <a
                   href="#"
                   className="w-8 h-8 bg-gray-200 rounded-full flex items-center justify-center hover:bg-emerald-100 transition-colors"
+                  aria-label="Instagram"
                 >
                   <svg className="w-4 h-4" fill="currentColor" viewBox="0 0 24 24" aria-hidden="true">
                     <path
@@ -271,11 +292,6 @@ export default function ContactForm({
                   <li>
                     <Link href={`/${lang}/about`} className="text-sm hover:text-emerald-500 transition-colors">
                       {dict.navigation.about}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`/${lang}/contact`} className="text-sm hover:text-emerald-500 transition-colors">
-                      {dict.navigation.contact}
                     </Link>
                   </li>
                 </ul>

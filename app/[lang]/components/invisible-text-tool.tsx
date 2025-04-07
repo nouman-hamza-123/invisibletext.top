@@ -112,18 +112,34 @@ export function InvisibleTextTool({
     <Card className="max-w-4xl mx-auto border-2 border-black rounded-xl shadow-lg">
       <CardContent className="p-6">
         <Tabs defaultValue="method1" className="w-full">
-          <TabsList className="grid grid-cols-4 mb-6">
-            <TabsTrigger value="method1" className="data-[state=active]:bg-black data-[state=active]:text-white">
-              {dict.tool.tabs.quickCopy}
+          <TabsList className="grid grid-cols-2 md:grid-cols-4 mb-6 gap-1">
+            <TabsTrigger
+              value="method1"
+              className="data-[state=active]:bg-black data-[state=active]:text-white text-xs sm:text-sm md:text-base"
+            >
+              <span className="hidden sm:inline">{dict.tool.tabs.quickCopy}</span>
+              <span className="sm:hidden">Quick</span>
             </TabsTrigger>
-            <TabsTrigger value="method2" className="data-[state=active]:bg-black data-[state=active]:text-white">
-              {dict.tool.tabs.manualSelect}
+            <TabsTrigger
+              value="method2"
+              className="data-[state=active]:bg-black data-[state=active]:text-white text-xs sm:text-sm md:text-base"
+            >
+              <span className="hidden sm:inline">{dict.tool.tabs.manualSelect}</span>
+              <span className="sm:hidden">Manual</span>
             </TabsTrigger>
-            <TabsTrigger value="method3" className="data-[state=active]:bg-black data-[state=active]:text-white">
-              {dict.tool.tabs.customGenerator}
+            <TabsTrigger
+              value="method3"
+              className="data-[state=active]:bg-black data-[state=active]:text-white text-xs sm:text-sm md:text-base"
+            >
+              <span className="hidden sm:inline">{dict.tool.tabs.customGenerator}</span>
+              <span className="sm:hidden">Generate</span>
             </TabsTrigger>
-            <TabsTrigger value="test" className="data-[state=active]:bg-black data-[state=active]:text-white">
-              {dict.tool.tabs.testCopy}
+            <TabsTrigger
+              value="test"
+              className="data-[state=active]:bg-black data-[state=active]:text-white text-xs sm:text-sm md:text-base"
+            >
+              <span className="hidden sm:inline">{dict.tool.tabs.testCopy}</span>
+              <span className="sm:hidden">Test</span>
             </TabsTrigger>
           </TabsList>
 
@@ -132,7 +148,7 @@ export function InvisibleTextTool({
               <h3 className="text-xl font-bold mb-4">{dict.tool.method1.title}</h3>
               <p className="mb-6">{dict.tool.method1.description}</p>
 
-              <div className="flex flex-col sm:flex-row gap-4 mb-6">
+              <div className="grid grid-cols-1 sm:grid-cols-3 gap-4 mb-6">
                 <Button
                   onClick={copySmall}
                   variant="outline"
@@ -193,14 +209,14 @@ export function InvisibleTextTool({
               <h3 className="text-xl font-bold mb-4">{dict.tool.method3.title}</h3>
               <p className="mb-6">{dict.tool.method3.description}</p>
 
-              <div className="flex gap-4 mb-6">
+              <div className="grid grid-cols-1 sm:grid-cols-4 gap-4 mb-6">
                 <Input
                   type="number"
                   min="1"
                   max="1000"
                   value={charCount}
                   onChange={(e) => setCharCount(Number.parseInt(e.target.value) || 1)}
-                  className="border-2 border-black w-full max-w-xs"
+                  className="border-2 border-black w-full sm:col-span-3"
                 />
 
                 <Button onClick={generateInvisibleChars} className="bg-black hover:bg-gray-800 text-white">

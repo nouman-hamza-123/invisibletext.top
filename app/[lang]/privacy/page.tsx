@@ -1,36 +1,22 @@
 import Link from "next/link"
-import { LanguageSwitcher } from "@/components/language-switcher"
 import { getDictionary } from "@/dictionaries"
 import type { Locale } from "@/types"
+import { MobileHeader } from "@/app/[lang]/components/mobile-header"
 
 export default async function PrivacyPolicy({ params: { lang } }: { params: { lang: Locale } }) {
   const dict = await getDictionary(lang)
 
   return (
     <div className="min-h-screen bg-slate-50 bg-[radial-gradient(#e0e0e0_1px,transparent_1px)] [background-size:20px_20px]">
-      <header className="container mx-auto py-6 px-4 flex justify-between items-center">
-        <Link href={`/${lang}`} className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-white border-2 border-black rounded-md flex items-center justify-center">
-            <span className="font-bold text-lg">IT</span>
-          </div>
-          <span className="font-bold text-xl tracking-tight">
-            {dict.hero.title}
-            <div className="h-1 w-full bg-emerald-400 mt-0.5"></div>
-          </span>
-        </Link>
-        <nav className="flex gap-6 items-center">
-          <Link href={`/${lang}/#features`} className="font-medium hover:text-emerald-500 transition-colors">
-            {dict.navigation.features}
-          </Link>
-          <Link href={`/${lang}/about`} className="font-medium hover:text-emerald-500 transition-colors">
-            {dict.navigation.about}
-          </Link>
-          <Link href={`/${lang}/contact`} className="font-medium hover:text-emerald-500 transition-colors">
-            {dict.navigation.contact}
-          </Link>
-          <LanguageSwitcher lang={lang} />
-        </nav>
-      </header>
+      <MobileHeader
+        lang={lang}
+        title={dict.hero.title}
+        navigation={{
+          features: dict.navigation.features,
+          about: dict.navigation.about,
+          contact: dict.navigation.contact,
+        }}
+      />
 
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-3xl mx-auto bg-white p-8 rounded-xl border-2 border-black shadow-lg">

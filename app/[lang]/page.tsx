@@ -1,4 +1,3 @@
-import { LanguageSwitcher } from "@/components/language-switcher"
 import { InvisibleTextTool } from "@/app/[lang]/components/invisible-text-tool"
 import Link from "next/link"
 import { getDictionary } from "@/dictionaries"
@@ -8,6 +7,7 @@ import type { Metadata } from "next"
 import { generateMetadata as generateSeoMetadata } from "../seo-config"
 import { Breadcrumbs } from "@/components/breadcrumbs"
 import { StructuredData } from "@/components/structured-data"
+import { MobileHeader } from "@/app/[lang]/components/mobile-header"
 
 // Generate metadata for the page
 export async function generateMetadata({ params }: { params: { lang: Locale } }): Promise<Metadata> {
@@ -43,33 +43,27 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
       {/* Add structured data */}
       <StructuredData data={structuredData} />
 
-      <header className="container mx-auto py-6 px-4 flex justify-between items-center">
-        <Link href={`/${lang}`} className="flex items-center gap-2">
-          <div className="w-10 h-10 bg-white border-2 border-black rounded-md flex items-center justify-center">
-            <span className="font-bold text-lg">IT</span>
-          </div>
-          <span className="font-bold text-xl tracking-tight">
-            {dict.hero.title}
-            <div className="h-1 w-full bg-emerald-400 mt-0.5"></div>
-          </span>
-        </Link>
-        <nav className="flex gap-6 items-center">
-          <Link href={`/${lang}/#features`} className="font-medium hover:text-emerald-500 transition-colors">
-            {dict.navigation.features}
-          </Link>
-          <Link href={`/${lang}/about`} className="font-medium hover:text-emerald-500 transition-colors">
-            {dict.navigation.about}
-          </Link>
-          <Link href={`/${lang}/contact`} className="font-medium hover:text-emerald-500 transition-colors">
-            {dict.navigation.contact}
-          </Link>
-          <LanguageSwitcher lang={lang} />
-        </nav>
-      </header>
+      <MobileHeader
+        lang={lang}
+        title={dict.hero.title}
+        navigation={{
+          features: dict.navigation.features,
+          about: dict.navigation.about,
+          contact: dict.navigation.contact,
+        }}
+      />
 
       <main className="container mx-auto px-4 py-12">
         {/* Add breadcrumbs for better SEO */}
         <Breadcrumbs items={[{ label: "Home", url: `/${lang}` }]} lang={lang} />
+
+        <section className="text-center mb-16">
+          <h1 className="text-6xl font-black tracking-tight mb-2">
+            {dict.hero.title}
+            <div className="h-2 w-1/3 bg-emerald-400 mx-auto mt-2"></div>
+          </h1>
+          <p className="text-xl mt-8 max-w-3xl mx-auto">{dict.hero.subtitle}</p>
+        </section>
 
         {/* Pass the dictionary directly to the component */}
         <InvisibleTextTool lang={lang} dictionary={dict} />
@@ -362,6 +356,37 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
             </div>
           </div>
         </section>
+
+        {/* Enhanced internal linking section */}
+        <section className="max-w-4xl mx-auto mb-20">
+          <h2 className="text-4xl font-black tracking-tight mb-8">
+            Explore More
+            <div className="h-1 w-24 bg-emerald-400 mt-2"></div>
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <Link
+              href={`/${lang}/about`}
+              className="bg-white p-6 rounded-xl border-2 border-black shadow-md hover:shadow-lg transition-shadow"
+            >
+              <h3 className="text-xl font-bold mb-4">{dict.navigation.about}</h3>
+              <p>Learn more about our team and mission to provide the best invisible text tools.</p>
+            </Link>
+            <Link
+              href={`/${lang}/contact`}
+              className="bg-white p-6 rounded-xl border-2 border-black shadow-md hover:shadow-lg transition-shadow"
+            >
+              <h3 className="text-xl font-bold mb-4">{dict.navigation.contact}</h3>
+              <p>Have questions or suggestions? We'd love to hear from you!</p>
+            </Link>
+            <Link
+              href={`/${lang}/#faq`}
+              className="bg-white p-6 rounded-xl border-2 border-black shadow-md hover:shadow-lg transition-shadow"
+            >
+              <h3 className="text-xl font-bold mb-4">FAQ</h3>
+              <p>Find answers to commonly asked questions about invisible text.</p>
+            </Link>
+          </div>
+        </section>
       </main>
 
       <footer className="bg-white border-t-2 border-black py-8">
@@ -391,6 +416,16 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
                   <li>
                     <Link href={`/${lang}/#features`} className="text-sm hover:text-emerald-500 transition-colors">
                       {dict.navigation.features}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href={`/${lang}/#use-cases`} className="text-sm hover:text-emerald-500 transition-colors">
+                      Use Cases
+                    </Link>
+                  </li>
+                  <li>
+                    <Link href={`/${lang}/#faq`} className="text-sm hover:text-emerald-500 transition-colors">
+                      FAQ
                     </Link>
                   </li>
                   <li>
