@@ -1,13 +1,14 @@
 import type { MetadataRoute } from "next"
+import { baseUrl } from "./seo-config"
 
 export default function robots(): MetadataRoute.Robots {
   return {
     rules: {
       userAgent: "*",
       allow: "/",
-      disallow: ["/api/", "/admin/"],
+      disallow: ["/api/", "/_next/"],
     },
-    sitemap: "https://www.invisibletext.pro/sitemap.xml",
+    sitemap: `${baseUrl}/sitemap.xml`,
   }
 }
 

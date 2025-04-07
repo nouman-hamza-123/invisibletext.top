@@ -4,12 +4,45 @@ import Link from "next/link"
 import { getDictionary } from "@/dictionaries"
 import type { Locale } from "@/types"
 import { Check } from "lucide-react"
+import type { Metadata } from "next"
+import { generateMetadata as generateSeoMetadata } from "../seo-config"
+import { Breadcrumbs } from "@/components/breadcrumbs"
+import { StructuredData } from "@/components/structured-data"
+
+// Generate metadata for the page
+export async function generateMetadata({ params }: { params: { lang: Locale } }): Promise<Metadata> {
+  const dict = await getDictionary(params.lang)
+  return generateSeoMetadata("home", params.lang, dict)
+}
 
 export default async function Home({ params: { lang } }: { params: { lang: Locale } }) {
   const dict = await getDictionary(lang)
 
+  // Define structured data for the page
+  const structuredData = {
+    "@context": "https://schema.org",
+    "@type": "WebApplication",
+    name: "Invisible Text Generator",
+    applicationCategory: "UtilityApplication",
+    operatingSystem: "Any",
+    offers: {
+      "@type": "Offer",
+      price: "0",
+      priceCurrency: "USD",
+    },
+    description: dict.meta.description,
+    url: `https://invisibletext.top/${lang}`,
+    author: {
+      "@type": "Organization",
+      name: "invisibletext.top",
+    },
+  }
+
   return (
     <div className="min-h-screen bg-slate-50 bg-[radial-gradient(#e0e0e0_1px,transparent_1px)] [background-size:20px_20px]">
+      {/* Add structured data */}
+      <StructuredData data={structuredData} />
+
       <header className="container mx-auto py-6 px-4 flex justify-between items-center">
         <Link href={`/${lang}`} className="flex items-center gap-2">
           <div className="w-10 h-10 bg-white border-2 border-black rounded-md flex items-center justify-center">
@@ -35,13 +68,8 @@ export default async function Home({ params: { lang } }: { params: { lang: Local
       </header>
 
       <main className="container mx-auto px-4 py-12">
-        <section className="text-center mb-16">
-          <h1 className="text-6xl font-black tracking-tight mb-2">
-            {dict.hero.title}
-            <div className="h-2 w-1/3 bg-emerald-400 mx-auto mt-2"></div>
-          </h1>
-          <p className="text-xl mt-8 max-w-3xl mx-auto">{dict.hero.subtitle}</p>
-        </section>
+        {/* Add breadcrumbs for better SEO */}
+        <Breadcrumbs items={[{ label: "Home", url: `/${lang}` }]} lang={lang} />
 
         {/* Pass the dictionary directly to the component */}
         <InvisibleTextTool lang={lang} dictionary={dict} />

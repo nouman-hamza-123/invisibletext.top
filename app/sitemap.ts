@@ -1,39 +1,19 @@
 import type { MetadataRoute } from "next"
+import { baseUrl } from "./seo-config"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://www.invisibletext.pro"
+  const languages = ["en", "es"]
+  const pages = ["", "/about", "/contact", "/privacy", "/terms-of-service"]
 
-  return [
-    {
-      url: baseUrl,
+  const routes = languages.flatMap((lang) =>
+    pages.map((page) => ({
+      url: `${baseUrl}/${lang}${page}`,
       lastModified: new Date(),
-      changeFrequency: "daily",
-      priority: 1,
-    },
-    {
-      url: `${baseUrl}/blog`,
-      lastModified: new Date(),
-      changeFrequency: "weekly",
-      priority: 0.8,
-    },
-    {
-      url: `${baseUrl}/privacy`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/terms`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.5,
-    },
-    {
-      url: `${baseUrl}/contact`,
-      lastModified: new Date(),
-      changeFrequency: "monthly",
-      priority: 0.7,
-    },
-  ]
+      changeFrequency: page === "" ? "daily" : ("weekly" as "daily" | "weekly"),
+      priority: page === "" ? 1 : 0.8,
+    })),
+  )
+
+  return routes
 }
 
