@@ -1,0 +1,394 @@
+{
+  "meta": {
+    "title": "Invisible Text Generator | invisibletext.top",
+    "description": "Generate invisible text for games, social media, and more. Create blank usernames, hidden messages, and invisible characters easily."
+  },
+  "navigation": {
+    "features": "Features",
+    "about": "About Us",
+    "contact": "Contact",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service"
+  },
+  "hero": {
+    "title": "INVISIBLE TEXT",
+    "subtitle": "Welcome to our free online invisible text generator! Hide messages in plain sight using zero-width characters, color masking, and more."
+  },
+  "tool": {
+    "tabs": {
+      "quickCopy": "Quick Copy",
+      "manualSelect": "Manual Select",
+      "customGenerator": "Custom Generator",
+      "testCopy": "Test & Copy"
+    },
+    "method1": {
+      "title": "Method 1 - Copy with a button",
+      "description": "Click one of the buttons below to copy an invisible character to your clipboard.",
+      "copySmall": "Copy small",
+      "copyMedium": "Copy medium",
+      "copyLarge": "Copy large",
+      "note": "Click the button above to copy an invisible character to your clipboard. If this doesn't work on your device, use method 2 to copy and paste blank space."
+    },
+    "method2": {
+      "title": "Method 2 - Copy Blank Space manually",
+      "description": "Manually select and copy the empty character from the dashed text area below. You can click the Select button under the text area. Invisible character will be selected, then press [CTRL+C (for Windows) or CMD+C (for MacOS)] to copy.",
+      "select": "Select",
+      "note": "After selecting the invisible character, press Ctrl+C (Windows) or Cmd+C (Mac) to copy it to your clipboard."
+    },
+    "method3": {
+      "title": "Method 3 - Generate Unlimited Invisible Characters",
+      "description": "Type the number of invisible characters you want to generate (from 1-1000), then click the \"Generate\" button.",
+      "generate": "Generate",
+      "generatedText": "Generated invisible characters:",
+      "copy": "Copy",
+      "copied": "Copied!",
+      "charactersGenerated": "invisible character generated",
+      "charactersGeneratedPlural": "invisible characters generated"
+    },
+    "test": {
+      "title": "Test & Copy Invisible Character",
+      "description": "Paste invisible characters here to test them or see how many characters are present.",
+      "placeholder": "Invisible character copy, paste and test here...",
+      "characters": "Characters:",
+      "clear": "Clear",
+      "copy": "Copy"
+    },
+    "proTip": {
+      "title": "Pro Tip:",
+      "content": "Different platforms may handle invisible characters differently. If one method doesn't work for your specific use case, try another method or a different number of characters."
+    }
+  },
+  "sections": {
+    "whatIs": {
+      "title": "WHAT IS INVISIBLE TEXT?",
+      "content1": "Invisible text refers to characters or strings that are present in a document or message but are not visible to the naked eye. This is achieved through various techniques such as using zero-width characters, applying color masking (white text on white background), or utilizing special Unicode characters that have no visible representation.",
+      "content2": "These invisible characters still exist in the digital space and can be copied, pasted, and transmitted just like regular text. However, they remain hidden from casual observation, making them useful for various applications where discreet communication is desired."
+    },
+    "howTo": {
+      "title": "HOW TO COPY-PASTE INVISIBLE TEXT",
+      "step1": {
+        "title": "Choose Method",
+        "content": "Select from our quick copy buttons, manual selection, or custom generator options."
+      },
+      "step2": {
+        "title": "Copy",
+        "content": "Copy the invisible characters to your clipboard with a single click."
+      },
+      "step3": {
+        "title": "Test & Use",
+        "content": "Test your invisible text in our testing area, then use it anywhere you need it."
+      }
+    },
+    "whyUse": {
+      "title": "WHY WOULD YOU NEED INVISIBLE TEXT?",
+      "privacy": {
+        "title": "Privacy & Discretion",
+        "content": "Invisible text allows you to hide messages in plain sight, providing an additional layer of privacy for sensitive information that you don't want to be immediately visible."
+      },
+      "creative": {
+        "title": "Creative Uses",
+        "content": "Create unique usernames in games, send blank messages on social platforms, or add hidden watermarks to your content to track unauthorized copying."
+      },
+      "steganography": {
+        "title": "Digital Steganography",
+        "content": "Hide messages within other messages or documents, allowing for covert communication that doesn't draw attention to itself."
+      },
+      "accessibility": {
+        "title": "Accessibility",
+        "content": "Add hidden context or metadata to content that can be accessed by screen readers or other assistive technologies without affecting visual presentation."
+      }
+    },
+    "whoUses": {
+      "title": "WHO USES INVISIBLE TEXT?",
+      "gamers": {
+        "title": "Gamers",
+        "content": "Players of games like Free Fire, PUBG, and other online games use invisible characters to create unique, minimal usernames that stand out or appear blank."
+      },
+      "socialMedia": {
+        "title": "Social Media Users",
+        "content": "People who want to create unique profiles, send blank messages, or hide information within regular posts on platforms like Instagram, Twitter, and Discord."
+      },
+      "contentCreators": {
+        "title": "Content Creators",
+        "content": "Writers, designers, and digital artists who want to add hidden watermarks or metadata to their work to track unauthorized use."
+      }
+    },
+    "features": {
+      "title": "FEATURES OF OUR INVISIBLE TEXT TOOL",
+      "methods": {
+        "title": "Multiple Invisibility Methods",
+        "content": "Choose from various techniques including zero-width characters, color masking, and more."
+      },
+      "quickCopy": {
+        "title": "Quick Copy Buttons",
+        "content": "Instantly copy small, medium, or large invisible characters with a single click."
+      },
+      "customGenerator": {
+        "title": "Custom Generator",
+        "content": "Generate any number of invisible characters from 1 to infinity with our custom generator."
+      },
+      "testingArea": {
+        "title": "Testing Area",
+        "content": "Test your invisible characters before using them to ensure they work as expected."
+      },
+      "counter": {
+        "title": "Character Counter",
+        "content": "See exactly how many invisible characters you've generated or pasted."
+      },
+      "encoding": {
+        "title": "Advanced Text Encoding",
+        "content": "Hide entire messages within invisible characters that can be decoded later."
+      }
+    },
+    "benefits": {
+      "title": "BENEFITS OF USING INVISIBLETEXT.TOP",
+      "free": {
+        "title": "100% Free",
+        "content": "No hidden fees or premium features locked behind paywalls."
+      },
+      "noRegistration": {
+        "title": "No Registration Required",
+        "content": "Use our tool instantly without creating an account."
+      },
+      "privacy": {
+        "title": "Privacy-Focused",
+        "content": "We don't store your text or track your usage."
+      },
+      "userFriendly": {
+        "title": "User-Friendly Interface",
+        "content": "Simple, intuitive design that anyone can use."
+      },
+      "moreMethods": {
+        "title": "More Methods Than Competitors",
+        "content": "We offer more ways to create and use invisible text than any other tool."
+      },
+      "mobileFriendly": {
+        "title": "Mobile-Friendly",
+        "content": "Works perfectly on smartphones and tablets."
+      }
+    },
+    "useCases": {
+      "title": "PRACTICAL USE CASES",
+      "gaming": {
+        "title": "Gaming",
+        "content": "Create unique \"invisible\" usernames in games like Free Fire, PUBG, and other online games to stand out from other players.",
+        "example": "PlayerName: \"⁣ ⁣\"",
+        "note": "(Appears as a blank or minimal username)"
+      },
+      "socialMedia": {
+        "title": "Social Media",
+        "content": "Send blank messages on platforms like WhatsApp, Telegram, or Discord, or create unique-looking profiles.",
+        "example": "Message: \"⁣ ⁣\"",
+        "note": "(Appears as an empty message but can be copied and decoded)"
+      },
+      "watermarking": {
+        "title": "Digital Watermarking",
+        "content": "Add invisible signatures to your content that can be used to verify authenticity or track unauthorized copying.",
+        "example": "Document: \"This is my content‍‌‍‌‍‌‍‌.\"",
+        "note": "(Contains hidden watermark that's invisible to readers)"
+      },
+      "hiddenMessages": {
+        "title": "Hidden Messages",
+        "content": "Embed secret messages within regular text that can only be revealed by those who know to look for them.",
+        "example": "Public post: \"Great weather today!‍‌‍‌‍‌‍‌\"",
+        "note": "(Contains hidden message: \"Meet at 5pm\")"
+      }
+    },
+    "faq": {
+      "title": "FREQUENTLY ASKED QUESTIONS",
+      "isInvisible": {
+        "question": "Is invisible text really invisible?",
+        "answer": "Yes, invisible text is not visible to the naked eye when viewed normally. However, it can be revealed by selecting the text, using our decoder tool, or through certain text editors that display special characters."
+      },
+      "allPlatforms": {
+        "question": "Will invisible text work on all platforms?",
+        "answer": "Most invisible text methods work across a wide range of platforms including social media, messaging apps, and games. However, some platforms may have restrictions or filters that affect how invisible text is displayed."
+      },
+      "allowed": {
+        "question": "Is using invisible text allowed in games?",
+        "answer": "This depends on the specific game's terms of service. Some games may consider using invisible characters for usernames as a violation of their rules. Always check the game's policies before using invisible text."
+      },
+      "decode": {
+        "question": "How do I decode invisible text?",
+        "answer": "You can decode invisible text by using our \"Test & Copy\" area. Simply paste the text containing invisible characters, and our tool will show you the character count and allow you to see the hidden content."
+      },
+      "difference": {
+        "question": "What's the difference between the small, medium, and large invisible characters?",
+        "answer": "The small, medium, and large options refer to the number of invisible characters generated. Small creates 1 character, medium creates 5 characters, and large creates 10 characters. More characters can make the invisible text more robust on certain platforms."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 invisibletext.top. All rights reserved.",
+    "navigation": "Navigation",
+    "legal": "Legal",
+    "contact": "Contact"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Privacy Policy",
+      "lastUpdated": "Last Updated: April 7, 2025",
+      "introduction": {
+        "title": "Introduction",
+        "content": "At invisibletext.top, we value your privacy and are committed to protecting your personal information. This Privacy Policy explains how we collect, use, and safeguard your information when you visit our website."
+      },
+      "informationCollected": {
+        "title": "Information We Collect",
+        "content": "We collect minimal information to provide and improve our services:",
+        "items": [
+          "Usage Data: We collect anonymous information about how you interact with our website, including pages visited and time spent.",
+          "Device Information: We collect information about your device, including browser type, IP address, and operating system.",
+          "Cookies: We use cookies to enhance your experience and analyze website traffic."
+        ]
+      },
+      "useOfInformation": {
+        "title": "How We Use Your Information",
+        "content": "We use the collected information for the following purposes:",
+        "items": [
+          "To provide and maintain our service",
+          "To improve our website and user experience",
+          "To monitor usage patterns and analyze trends",
+          "To detect and prevent technical issues"
+        ]
+      },
+      "dataSharing": {
+        "title": "Sharing Your Information",
+        "content": "We do not sell, trade, or otherwise transfer your information to third parties. We may share anonymous, aggregated data with analytics providers to help us understand how our website is used."
+      },
+      "dataRetention": {
+        "title": "Data Retention",
+        "content": "We retain your information only for as long as necessary to fulfill the purposes outlined in this Privacy Policy."
+      },
+      "security": {
+        "title": "Security",
+        "content": "We implement appropriate security measures to protect your information. However, no method of transmission over the Internet or electronic storage is 100% secure, and we cannot guarantee absolute security."
+      },
+      "childrenPrivacy": {
+        "title": "Children's Privacy",
+        "content": "Our website is not directed to children under 13. We do not knowingly collect personal information from children under 13. If you are a parent or guardian and believe your child has provided us with personal information, please contact us."
+      },
+      "changes": {
+        "title": "Changes to This Privacy Policy",
+        "content": "We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page and updating the 'Last Updated' date."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about this Privacy Policy, please contact us at privacy@invisibletext.top."
+      }
+    },
+    "terms": {
+      "title": "Terms of Service",
+      "lastUpdated": "Last Updated: April 7, 2025",
+      "introduction": {
+        "title": "Introduction",
+        "content": "Welcome to invisibletext.top. By accessing or using our website, you agree to be bound by these Terms of Service. If you disagree with any part of these terms, you may not access our website."
+      },
+      "intellectualProperty": {
+        "title": "Intellectual Property",
+        "content": "The content, features, and functionality of our website are owned by invisibletext.top and are protected by international copyright, trademark, and other intellectual property laws."
+      },
+      "userConduct": {
+        "title": "User Conduct",
+        "content": "When using our website, you agree to:",
+        "items": [
+          "Use our services only for lawful purposes",
+          "Not use our services for any illegal or unauthorized purpose",
+          "Not attempt to interfere with the proper functioning of our website",
+          "Not use our services to harm others or engage in harmful activities"
+        ]
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "content": "Our website and its contents are provided 'as is' and 'as available' without warranty of any kind, either express or implied. We do not guarantee that our website will be uninterrupted, secure, or error-free."
+      },
+      "limitation": {
+        "title": "Limitation of Liability",
+        "content": "In no event shall invisibletext.top be liable for any indirect, incidental, special, consequential, or punitive damages arising out of or relating to your use of our website."
+      },
+      "indemnification": {
+        "title": "Indemnification",
+        "content": "You agree to indemnify and hold harmless invisibletext.top and its affiliates from any claims, damages, liabilities, costs, or expenses arising from your use of our website or violation of these Terms of Service."
+      },
+      "changes": {
+        "title": "Changes to These Terms",
+        "content": "We reserve the right to modify or replace these Terms of Service at any time. We will notify you of any changes by posting the new Terms of Service on this page and updating the 'Last Updated' date."
+      },
+      "contact": {
+        "title": "Contact Us",
+        "content": "If you have any questions about these Terms of Service, please contact us at terms@invisibletext.top."
+      }
+    },
+    "about": {
+      "title": "About Us",
+      "mission": {
+        "title": "Our Mission",
+        "content": "At invisibletext.top, our mission is to provide the most user-friendly and comprehensive invisible text generation tool available online. We believe in making digital communication more versatile and creative by offering innovative ways to use invisible characters."
+      },
+      "story": {
+        "title": "Our Story",
+        "content": "Invisibletext.top was created by a team of developers who were fascinated by the creative applications of invisible Unicode characters. What started as a simple tool for generating zero-width spaces has evolved into a comprehensive platform for creating, testing, and using invisible text in various contexts."
+      },
+      "team": {
+        "title": "Our Team",
+        "content": "We are a small team of passionate developers, designers, and digital communication enthusiasts dedicated to creating useful tools that enhance online expression and communication."
+      },
+      "values": {
+        "title": "Our Values",
+        "items": [
+          {
+            "title": "Simplicity",
+            "content": "We believe in creating tools that are intuitive and easy to use, regardless of technical expertise."
+          },
+          {
+            "title": "Innovation",
+            "content": "We continuously explore new ways to improve our tools and offer unique solutions to digital communication challenges."
+          },
+          {
+            "title": "Accessibility",
+            "content": "We are committed to making our tools accessible to everyone, free of charge and without unnecessary barriers."
+          },
+          {
+            "title": "Privacy",
+            "content": "We respect your privacy and do not collect or store any personal information or the content you create with our tools."
+          }
+        ]
+      },
+      "future": {
+        "title": "Looking Forward",
+        "content": "We are constantly working to improve invisibletext.top and expand our offerings. Our roadmap includes adding more invisible character types, enhancing our testing tools, and developing new applications for invisible text technology."
+      },
+      "contact": {
+        "title": "Get in Touch",
+        "content": "We love hearing from our users! If you have suggestions, feedback, or questions, please don't hesitate to contact us."
+      }
+    },
+    "contact": {
+      "title": "Contact Us",
+      "introduction": "We'd love to hear from you! Whether you have a question, feedback, or just want to say hello, feel free to reach out to us using any of the methods below.",
+      "form": {
+        "title": "Send Us a Message",
+        "name": "Your Name",
+        "email": "Your Email",
+        "subject": "Subject",
+        "message": "Your Message",
+        "submit": "Send Message",
+        "success": "Your message has been sent successfully!",
+        "error": "There was an error sending your message. Please try again."
+      },
+      "email": {
+        "title": "Email Us",
+        "address": "contact@invisibletext.top",
+        "note": "We typically respond to emails within 24-48 hours."
+      },
+      "social": {
+        "title": "Connect With Us",
+        "note": "Follow us on social media for updates, tips, and more."
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "note": "Before reaching out, you might want to check our FAQ section to see if your question has already been answered."
+      }
+    }
+  }
+}
+
