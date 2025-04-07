@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "Unsichtbarer Text Generator | invisibletext.top",
+    "description": "Erstellen Sie unsichtbaren Text für Spiele, soziale Medien und mehr. Generieren Sie leere Benutzernamen, versteckte Nachrichten und unsichtbare Zeichen mühelos. Unser Tool ist SEO-optimiert und bietet erweiterte Funktionen für verbesserte Online-Sichtbarkeit."
+  },
+  "navigation": {
+    "features": "Funktionen",
+    "about": "Über uns",
+    "contact": "Kontakt",
+    "privacy": "Datenschutzrichtlinie",
+    "terms": "Nutzungsbedingungen"
+  },
+  "hero": {
+    "title": "UNSICHTBARER TEXT",
+    "subtitle": "Willkommen bei unserem kostenlosen Online-Generator für unsichtbaren Text! Verbergen Sie Ihre Nachrichten im Klartext mithilfe von Nullbreitenzeichen, Farbmischtechniken und vielem mehr. Profitieren Sie von innovativen SEO-Techniken, die Ihre Online-Präsenz stärken."
+  },
+  "tool": {
+    "tabs": {
+      "quickCopy": "Schnellkopie",
+      "manualSelect": "Manuelle Auswahl",
+      "customGenerator": "Benutzerdefinierter Generator",
+      "testCopy": "Testen & Kopieren"
+    },
+    "method1": {
+      "title": "Methode 1 - Kopieren per Button",
+      "description": "Klicken Sie auf einen der unten stehenden Buttons, um ein unsichtbares Zeichen in Ihre Zwischenablage zu kopieren. Diese einfache Methode steigert Ihre Produktivität und unterstützt Ihre SEO-Strategie.",
+      "copySmall": "Kleines Zeichen kopieren",
+      "copyMedium": "Mittleres Zeichen kopieren",
+      "copyLarge": "Großes Zeichen kopieren",
+      "note": "Klicken Sie auf den Button, um ein unsichtbares Zeichen zu kopieren. Falls diese Methode auf Ihrem Gerät nicht funktioniert, verwenden Sie Methode 2, um den leeren Raum manuell zu kopieren."
+    },
+    "method2": {
+      "title": "Methode 2 - Leeren Raum manuell kopieren",
+      "description": "Markieren und kopieren Sie manuell das leere Zeichen im gestrichelten Textfeld unten. Klicken Sie auf den Auswählen-Button, um den unsichtbaren Charakter zu aktivieren, und drücken Sie anschließend [STRG+C (Windows) oder CMD+C (MacOS)]. Diese Methode optimiert auch Ihre SEO durch präzise Kontrolle des Inhalts.",
+      "select": "Auswählen",
+      "note": "Nach der Auswahl drücken Sie STRG+C (Windows) oder CMD+C (Mac), um den unsichtbaren Charakter zu kopieren."
+    },
+    "method3": {
+      "title": "Methode 3 - Unbegrenzt unsichtbare Zeichen generieren",
+      "description": "Geben Sie die Anzahl der unsichtbaren Zeichen ein (von 1 bis 1000) und klicken Sie auf den 'Generieren'-Button. Diese Funktion ermöglicht es, umfangreiche SEO-optimierte Inhalte mit versteckten Schlüsselwörtern zu erstellen.",
+      "generate": "Generieren",
+      "generatedText": "Generierte unsichtbare Zeichen:",
+      "copy": "Kopieren",
+      "copied": "Kopiert!",
+      "charactersGenerated": "unsichtbares Zeichen generiert",
+      "charactersGeneratedPlural": "unsichtbare Zeichen generiert"
+    },
+    "test": {
+      "title": "Unsichtbares Zeichen testen & kopieren",
+      "description": "Fügen Sie hier unsichtbare Zeichen ein, um sie zu testen oder die Anzahl der Zeichen zu überprüfen. Diese Testumgebung unterstützt Sie bei der SEO-Optimierung Ihres Inhalts.",
+      "placeholder": "Unsichtbare Zeichen hier einfügen, kopieren und testen...",
+      "characters": "Zeichen:",
+      "clear": "Löschen",
+      "copy": "Kopieren"
+    },
+    "proTip": {
+      "title": "Profi-Tipp:",
+      "content": "Verschiedene Plattformen handhaben unsichtbare Zeichen unterschiedlich. Wenn eine Methode für Ihren Anwendungsfall nicht funktioniert, probieren Sie eine alternative Methode oder ändern Sie die Anzahl der Zeichen. Nutzen Sie unsere SEO-Tipps, um die Sichtbarkeit Ihres Inhalts weiter zu steigern."
+    }
+  },
+  "sections": {
+    "whatIs": {
+      "title": "WAS IST UNSICHTBARER TEXT?",
+      "content1": "Unsichtbarer Text bezieht sich auf Zeichen oder Zeichenketten, die in einem Dokument oder einer Nachricht vorhanden sind, jedoch mit bloßem Auge nicht sichtbar sind. Dies wird durch verschiedene Techniken erreicht, etwa durch die Verwendung von Nullbreitenzeichen, Farbmischungen (z.B. weißer Text auf weißem Hintergrund) oder speziellen Unicode-Zeichen, die keine visuelle Darstellung haben.",
+      "content2": "Diese unsichtbaren Zeichen existieren digital und können wie normaler Text kopiert, eingefügt und übertragen werden. Sie sind ideal, um diskrete Nachrichten zu übermitteln und gleichzeitig SEO-relevante, versteckte Inhalte einzubinden."
+    },
+    "howTo": {
+      "title": "WIE MAN UNSICHTBAREN TEXT KOPIERT & EINFÜGT",
+      "step1": {
+        "title": "Methode wählen",
+        "content": "Wählen Sie zwischen den Schnellkopie-Buttons, manueller Auswahl oder dem benutzerdefinierten Generator – je nach Ihren SEO-Zielen und Anforderungen."
+      },
+      "step2": {
+        "title": "Kopieren",
+        "content": "Kopieren Sie die unsichtbaren Zeichen mit einem Klick in Ihre Zwischenablage, bereit zur Integration in Ihre SEO-optimierten Inhalte."
+      },
+      "step3": {
+        "title": "Testen & Verwenden",
+        "content": "Testen Sie den unsichtbaren Text in unserem Testbereich und fügen Sie ihn anschließend in Ihre Nachrichten oder Webseiten ein, um die SEO-Leistung zu verbessern."
+      }
+    },
+    "whyUse": {
+      "title": "WARUM UNSICHTBAREN TEXT VERWENDEN?",
+      "privacy": {
+        "title": "Privatsphäre & Diskretion",
+        "content": "Unsichtbarer Text ermöglicht es, Nachrichten im Klartext zu verstecken, wodurch sensible Informationen diskret übermittelt und gleichzeitig SEO-Aspekte wie Schlüsselwortintegration unterstützt werden."
+      },
+      "creative": {
+        "title": "Kreative Anwendungen",
+        "content": "Erstellen Sie einzigartige Benutzernamen in Spielen, senden Sie leere Nachrichten in sozialen Medien oder fügen Sie versteckte Wasserzeichen in Ihre Inhalte ein, um Urheberrechtsverletzungen vorzubeugen und SEO zu verbessern."
+      },
+      "steganography": {
+        "title": "Digitale Steganographie",
+        "content": "Betten Sie Nachrichten in andere Nachrichten oder Dokumente ein, um diskrete Kommunikation zu ermöglichen und gleichzeitig wichtige SEO-Elemente zu integrieren."
+      },
+      "accessibility": {
+        "title": "Barrierefreiheit",
+        "content": "Fügen Sie unsichtbare Metadaten hinzu, die von Screenreadern erkannt werden, ohne die visuelle Darstellung zu beeinträchtigen – ein Ansatz, der sowohl Zugänglichkeit als auch SEO fördert."
+      }
+    },
+    "whoUses": {
+      "title": "WER VERWENDET UNSICHTBAREN TEXT?",
+      "gamers": {
+        "title": "Spieler",
+        "content": "Spieler von Titeln wie Free Fire, PUBG und anderen Online-Spielen nutzen unsichtbare Zeichen, um minimalistische und einzigartige Benutzernamen zu erstellen, die durch SEO-Aspekte weiter optimiert werden."
+      },
+      "socialMedia": {
+        "title": "Nutzer sozialer Netzwerke",
+        "content": "Personen, die originelle Profile erstellen, leere Nachrichten senden oder Informationen innerhalb von Beiträgen auf Plattformen wie Instagram, Twitter und Discord verstecken möchten, profitieren von dieser Technik und optimieren gleichzeitig ihr SEO."
+      },
+      "contentCreators": {
+        "title": "Inhaltsersteller",
+        "content": "Schriftsteller, Designer und digitale Künstler verwenden unsichtbaren Text, um Wasserzeichen oder Metadaten einzubetten, die den Schutz vor unbefugter Nutzung gewährleisten und gleichzeitig das Suchmaschinenranking verbessern."
+      }
+    },
+    "features": {
+      "title": "FUNKTIONEN UNSERES UNSICHTBAREN TEXT-TOOLS",
+      "methods": {
+        "title": "Vielfältige Unsichtbarkeitsmethoden",
+        "content": "Wählen Sie aus verschiedenen Techniken wie Nullbreitenzeichen und Farbmischungen, um SEO-optimierte, versteckte Inhalte zu erstellen."
+      },
+      "quickCopy": {
+        "title": "Schnellkopier-Buttons",
+        "content": "Kopieren Sie sofort kleine, mittlere oder große unsichtbare Zeichen mit einem einzigen Klick, um Ihre SEO-Arbeit zu beschleunigen."
+      },
+      "customGenerator": {
+        "title": "Benutzerdefinierter Generator",
+        "content": "Erstellen Sie beliebig viele unsichtbare Zeichen (von 1 bis unendlich) mit unserem Generator und integrieren Sie wichtige SEO-Schlüsselwörter in Ihren Text."
+      },
+      "testingArea": {
+        "title": "Testbereich",
+        "content": "Testen Sie Ihre unsichtbaren Zeichen vor der Verwendung, um sicherzustellen, dass sie optimal funktionieren und Ihren SEO-Anforderungen entsprechen."
+      },
+      "counter": {
+        "title": "Zeichenzähler",
+        "content": "Überprüfen Sie genau, wie viele unsichtbare Zeichen Sie generiert oder eingefügt haben, um Ihre Inhalte für Suchmaschinen weiter zu optimieren."
+      },
+      "encoding": {
+        "title": "Erweiterte Textcodierung",
+        "content": "Verbergen Sie ganze Nachrichten innerhalb unsichtbarer Zeichen, die später decodiert werden können – ein innovativer Ansatz, der diskrete Kommunikation und SEO vereint."
+      }
+    },
+    "benefits": {
+      "title": "VORTEILE DER NUTZUNG VON INVISIBLETEXT.TOP",
+      "free": {
+        "title": "100% Kostenlos",
+        "content": "Keine versteckten Gebühren oder Premiumfunktionen – nutzen Sie ein Tool, das Ihnen kostenfrei alle SEO-Vorteile bietet."
+      },
+      "noRegistration": {
+        "title": "Keine Registrierung erforderlich",
+        "content": "Verwenden Sie unser Tool sofort ohne Anmeldung, was den Zugang erleichtert und die Konversionsrate im SEO verbessert."
+      },
+      "privacy": {
+        "title": "Datenschutzorientiert",
+        "content": "Wir speichern Ihre Texte nicht und verfolgen Ihre Nutzung nicht, sodass Ihre Privatsphäre geschützt ist und Ihre SEO-Daten sicher bleiben."
+      },
+      "userFriendly": {
+        "title": "Benutzerfreundliche Oberfläche",
+        "content": "Ein einfaches und intuitives Design, das jedem die Nutzung erleichtert und gleichzeitig die Nutzererfahrung und das Suchmaschinenranking verbessert."
+      },
+      "moreMethods": {
+        "title": "Mehr Methoden als die Konkurrenz",
+        "content": "Wir bieten eine breitere Palette an Techniken zur Erstellung und Verwendung von unsichtbarem Text, was Ihnen zusätzliche SEO-Vorteile verschafft."
+      },
+      "mobileFriendly": {
+        "title": "Mobil optimiert",
+        "content": "Unser Tool funktioniert perfekt auf Smartphones und Tablets, was eine reibungslose mobile Nutzererfahrung und optimiertes SEO ermöglicht."
+      }
+    },
+    "useCases": {
+      "title": "PRAKTISCHE ANWENDUNGSFÄLLE",
+      "gaming": {
+        "title": "Gaming",
+        "content": "Erstellen Sie einzigartige unsichtbare Benutzernamen in Spielen wie Free Fire, PUBG und anderen Online-Spielen, um sich abzuheben und Ihre SEO-Präsenz zu verbessern.",
+        "example": "Spielername: \"⁣ ⁣\"",
+        "note": "(Wird als leerer oder minimaler Name angezeigt)"
+      },
+      "socialMedia": {
+        "title": "Soziale Medien",
+        "content": "Senden Sie leere Nachrichten auf Plattformen wie WhatsApp, Telegram oder Discord oder erstellen Sie einzigartige Profile, um SEO-relevante Inhalte zu integrieren.",
+        "example": "Nachricht: \"⁣ ⁣\"",
+        "note": "(Wird als leer angezeigt, kann aber kopiert und decodiert werden)"
+      },
+      "watermarking": {
+        "title": "Digitales Wasserzeichen",
+        "content": "Fügen Sie Ihren Inhalten unsichtbare Signaturen hinzu, um deren Authentizität zu sichern oder unbefugte Kopien zu verfolgen, während gleichzeitig SEO-relevante Schlüsselwörter eingebunden werden.",
+        "example": "Dokument: \"Dies ist mein Inhalt‍‌‍‌‍‌‍‌.\"",
+        "note": "(Enthält ein verborgenes Wasserzeichen, das für den Leser nicht sichtbar ist)"
+      },
+      "hiddenMessages": {
+        "title": "Versteckte Nachrichten",
+        "content": "Betten Sie geheime Nachrichten in normalen Text ein, die nur von Eingeweihten erkannt werden, während wichtige SEO-Metadaten diskret integriert werden.",
+        "example": "Öffentlicher Beitrag: \"Tolles Wetter heute!‍‌‍‌‍‌‍‌\"",
+        "note": "(Enthält die versteckte Nachricht: \"Treffen um 17 Uhr\")"
+      }
+    },
+    "faq": {
+      "title": "HÄUFIG GESTELLTE FRAGEN",
+      "isInvisible": {
+        "question": "Ist unsichtbarer Text wirklich unsichtbar?",
+        "answer": "Ja, unsichtbarer Text ist bei normaler Ansicht nicht sichtbar. Er kann jedoch durch Markieren, mit unserem Dekodierungstool oder speziellen Editoren sichtbar gemacht werden."
+      },
+      "allPlatforms": {
+        "question": "Funktioniert unsichtbarer Text auf allen Plattformen?",
+        "answer": "Die meisten Methoden funktionieren auf vielen Plattformen wie sozialen Medien, Messengern und Spielen. Einige Plattformen könnten jedoch Einschränkungen oder Filter haben."
+      },
+      "allowed": {
+        "question": "Ist die Nutzung von unsichtbarem Text in Spielen erlaubt?",
+        "answer": "Dies hängt von den Nutzungsbedingungen des jeweiligen Spiels ab. Einige Spiele könnten die Verwendung unsichtbarer Zeichen in Benutzernamen untersagen. Prüfen Sie die Regeln, bevor Sie es einsetzen."
+      },
+      "decode": {
+        "question": "Wie dekodiere ich unsichtbaren Text?",
+        "answer": "Nutzen Sie unseren Bereich \"Testen & Kopieren\", um den Text mit unsichtbaren Zeichen einzufügen. Das Tool zeigt die Zeichenanzahl an und gibt Ihnen den versteckten Inhalt frei."
+      },
+      "difference": {
+        "question": "Was ist der Unterschied zwischen kleinen, mittleren und großen unsichtbaren Zeichen?",
+        "answer": "Die Optionen 'klein', 'mittel' und 'groß' beziehen sich auf die Anzahl der generierten Zeichen. Klein erzeugt 1 Zeichen, mittel 5 und groß 10 Zeichen. Eine höhere Anzahl kann die Robustheit des unsichtbaren Textes auf bestimmten Plattformen erhöhen."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 invisibletext.top. Alle Rechte vorbehalten.",
+    "navigation": "Navigation",
+    "legal": "Rechtliches",
+    "contact": "Kontakt"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Datenschutzrichtlinie",
+      "lastUpdated": "Letzte Aktualisierung: 7. April 2025",
+      "introduction": {
+        "title": "Einleitung",
+        "content": "Bei invisibletext.top steht der Schutz Ihrer Privatsphäre an erster Stelle. Diese Richtlinie erklärt, wie wir Ihre persönlichen Daten sammeln, verwenden und schützen – stets mit dem Ziel, SEO-optimierte Inhalte anzubieten."
+      },
+      "informationCollected": {
+        "title": "Erfasste Informationen",
+        "content": "Wir sammeln minimale Daten, um unsere Dienste bereitzustellen und zu verbessern:",
+        "items": [
+          "Nutzungsdaten: Anonyme Informationen über Ihre Interaktion mit unserer Website (besuchte Seiten, Verweildauer etc.).",
+          "Geräteinformationen: Daten zu Ihrem Gerät, wie Browsertyp, IP-Adresse und Betriebssystem.",
+          "Cookies: Wir verwenden Cookies, um Ihre Nutzererfahrung zu verbessern und den Website-Traffic zu analysieren."
+        ]
+      },
+      "useOfInformation": {
+        "title": "Verwendung Ihrer Informationen",
+        "content": "Die gesammelten Informationen werden zur Optimierung und Pflege unserer Dienste verwendet:",
+        "items": [
+          "Bereitstellung und Wartung unserer Dienste",
+          "Verbesserung der Nutzererfahrung und Website-Performance",
+          "Analyse von Nutzungstrends zur SEO-Optimierung",
+          "Erkennung und Prävention technischer Probleme"
+        ]
+      },
+      "dataSharing": {
+        "title": "Weitergabe Ihrer Daten",
+        "content": "Wir verkaufen, handeln oder übertragen Ihre Daten nicht an Dritte. Nur anonymisierte und aggregierte Informationen können mit Analysepartnern geteilt werden, um unser SEO und unsere Performance zu verbessern."
+      },
+      "dataRetention": {
+        "title": "Datenaufbewahrung",
+        "content": "Ihre Informationen werden nur so lange gespeichert, wie es für die in dieser Richtlinie beschriebenen Zwecke und zur Optimierung unserer SEO-Leistung erforderlich ist."
+      },
+      "security": {
+        "title": "Sicherheit",
+        "content": "Wir setzen angemessene Sicherheitsmaßnahmen ein, um Ihre Daten zu schützen. Allerdings gibt es keine 100%ige Sicherheit bei der Übertragung oder Speicherung digitaler Daten."
+      },
+      "childrenPrivacy": {
+        "title": "Kinderschutz",
+        "content": "Unsere Website richtet sich nicht an Kinder unter 13 Jahren. Wir sammeln wissentlich keine persönlichen Daten von Kindern. Sollten Sie Bedenken haben, kontaktieren Sie uns bitte."
+      },
+      "changes": {
+        "title": "Änderungen dieser Richtlinie",
+        "content": "Wir behalten uns das Recht vor, diese Datenschutzrichtlinie zu aktualisieren. Alle Änderungen werden hier veröffentlicht und das Datum der letzten Aktualisierung wird angepasst, um volle Transparenz und SEO-Konformität zu gewährleisten."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "content": "Bei Fragen zur Datenschutzrichtlinie kontaktieren Sie uns bitte unter: privacy@invisibletext.top."
+      }
+    },
+    "terms": {
+      "title": "Nutzungsbedingungen",
+      "lastUpdated": "Letzte Aktualisierung: 7. April 2025",
+      "introduction": {
+        "title": "Einleitung",
+        "content": "Willkommen bei invisibletext.top. Durch die Nutzung unserer Website stimmen Sie diesen Bedingungen zu. Falls Sie nicht einverstanden sind, nutzen Sie unsere Website bitte nicht. Diese Bedingungen sind ebenfalls auf SEO-Ziele ausgerichtet."
+      },
+      "intellectualProperty": {
+        "title": "Geistiges Eigentum",
+        "content": "Der Inhalt, die Funktionen und das Design unserer Website sind Eigentum von invisibletext.top und durch internationale Urheberrechts-, Marken- und sonstige Schutzgesetze abgesichert."
+      },
+      "userConduct": {
+        "title": "Nutzerverhalten",
+        "content": "Bei der Nutzung unserer Website verpflichten Sie sich:",
+        "items": [
+          "Unsere Dienste ausschließlich für rechtmäßige Zwecke zu nutzen",
+          "Keine illegalen oder unautorisierten Aktivitäten durchzuführen",
+          "Den ordnungsgemäßen Betrieb der Website nicht zu stören",
+          "Nicht schädlich oder gefährdend zu handeln"
+        ]
+      },
+      "disclaimer": {
+        "title": "Haftungsausschluss",
+        "content": "Unsere Website und deren Inhalte werden \"wie sie sind\" bereitgestellt, ohne ausdrückliche oder implizite Garantien. Wir garantieren nicht eine unterbrechungsfreie, sichere oder fehlerfreie Nutzung, was auch SEO-Aspekte betrifft."
+      },
+      "limitation": {
+        "title": "Haftungsbeschränkung",
+        "content": "In keinem Fall haftet invisibletext.top für indirekte, zufällige, besondere, Folge- oder Strafschäden, die aus der Nutzung der Website resultieren."
+      },
+      "indemnification": {
+        "title": "Freistellung",
+        "content": "Sie erklären sich damit einverstanden, invisibletext.top und seine Partner von jeglichen Ansprüchen oder Schäden freizustellen, die aus Ihrer Nutzung der Website oder der Verletzung dieser Bedingungen resultieren."
+      },
+      "changes": {
+        "title": "Änderungen der Bedingungen",
+        "content": "Wir behalten uns das Recht vor, diese Nutzungsbedingungen jederzeit zu ändern oder zu ersetzen. Änderungen werden auf dieser Seite bekannt gegeben und das Datum der letzten Aktualisierung wird angepasst, um die SEO-Optimierung sicherzustellen."
+      },
+      "contact": {
+        "title": "Kontakt",
+        "content": "Bei Fragen zu diesen Nutzungsbedingungen wenden Sie sich bitte an: terms@invisibletext.top."
+      }
+    },
+    "about": {
+      "title": "Über uns",
+      "mission": {
+        "title": "Unsere Mission",
+        "content": "Bei invisibletext.top ist es unsere Mission, das benutzerfreundlichste und umfassendste Tool zur Generierung von unsichtbarem Text bereitzustellen. Wir fördern Innovation in der digitalen Kommunikation und integrieren fortschrittliche SEO-Techniken, um Ihre Online-Sichtbarkeit zu maximieren."
+      },
+      "story": {
+        "title": "Unsere Geschichte",
+        "content": "Invisibletext.top wurde von einem Team leidenschaftlicher Entwickler geschaffen, die von den kreativen Möglichkeiten unsichtbarer Unicode-Zeichen fasziniert waren. Was als einfacher Generator für Nullbreitenzeichen begann, hat sich zu einer umfangreichen Plattform entwickelt, die SEO-optimierte Inhalte für verschiedenste Anwendungsfälle liefert."
+      },
+      "team": {
+        "title": "Unser Team",
+        "content": "Wir sind ein engagiertes Team aus Entwicklern, Designern und Digitalexperten, das sich der Verbesserung der Online-Kommunikation und SEO-Optimierung verschrieben hat."
+      },
+      "values": {
+        "title": "Unsere Werte",
+        "items": [
+          {
+            "title": "Einfachheit",
+            "content": "Wir entwickeln intuitive Tools, die für Anwender aller Erfahrungsstufen leicht zugänglich sind."
+          },
+          {
+            "title": "Innovation",
+            "content": "Wir suchen ständig nach neuen Wegen, um unsere Tools zu verbessern und einzigartige Lösungen für digitale Herausforderungen und SEO-Strategien zu bieten."
+          },
+          {
+            "title": "Zugänglichkeit",
+            "content": "Unsere Tools stehen allen Nutzern kostenlos zur Verfügung, ohne unnötige Hürden, und fördern so eine breite Online-Präsenz."
+          },
+          {
+            "title": "Datenschutz",
+            "content": "Der Schutz Ihrer Privatsphäre hat für uns höchste Priorität – wir speichern keine persönlichen Daten und gewährleisten so Ihre Sicherheit."
+          }
+        ]
+      },
+      "future": {
+        "title": "Blick in die Zukunft",
+        "content": "Wir arbeiten kontinuierlich an der Verbesserung von invisibletext.top und erweitern unser Angebot. Unsere zukünftigen Projekte umfassen die Integration neuer unsichtbarer Zeichentypen, die Erweiterung der Testtools und die Entwicklung innovativer Anwendungen zur weiteren SEO-Optimierung."
+      },
+      "contact": {
+        "title": "Kontaktieren Sie uns",
+        "content": "Wir freuen uns über Ihr Feedback! Wenn Sie Vorschläge, Kommentare oder Fragen haben, kontaktieren Sie uns gerne, um gemeinsam die Online-Kommunikation und SEO zu verbessern."
+      }
+    },
+    "contact": {
+      "title": "Kontakt",
+      "introduction": "Wir freuen uns, von Ihnen zu hören! Ob Sie Fragen, Feedback oder einfach nur Grüße haben – kontaktieren Sie uns über die untenstehenden Kanäle für eine verbesserte Nutzererfahrung und SEO-Leistung.",
+      "form": {
+        "title": "Senden Sie uns eine Nachricht",
+        "name": "Ihr Name",
+        "email": "Ihre E-Mail",
+        "subject": "Betreff",
+        "message": "Ihre Nachricht",
+        "submit": "Nachricht senden",
+        "success": "Ihre Nachricht wurde erfolgreich versendet!",
+        "error": "Beim Senden Ihrer Nachricht ist ein Fehler aufgetreten. Bitte versuchen Sie es erneut."
+      },
+      "email": {
+        "title": "Per E-Mail kontaktieren",
+        "address": "contact@invisibletext.top",
+        "note": "Wir antworten in der Regel innerhalb von 24 bis 48 Stunden."
+      },
+      "social": {
+        "title": "Folgen Sie uns",
+        "note": "Folgen Sie uns auf den sozialen Medien für Updates, Tipps und mehr."
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "note": "Bevor Sie uns kontaktieren, schauen Sie in unserem FAQ-Bereich nach, ob Ihre Frage bereits beantwortet wurde."
+      }
+    }
+  }
+}

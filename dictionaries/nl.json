@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "Onzichtbare Tekst Generator | invisibletext.top",
+    "description": "Genereer onzichtbare tekst voor games, sociale media en meer. Maak eenvoudig lege gebruikersnamen, verborgen berichten en onzichtbare tekens. Ons SEO-geoptimaliseerde hulpmiddel helpt u uw online zichtbaarheid te vergroten."
+  },
+  "navigation": {
+    "features": "Functies",
+    "about": "Over ons",
+    "contact": "Contact",
+    "privacy": "Privacybeleid",
+    "terms": "Gebruiksvoorwaarden"
+  },
+  "hero": {
+    "title": "ONZICHTBARE TEKST",
+    "subtitle": "Welkom bij onze gratis online generator voor onzichtbare tekst! Verberg berichten in het volle zicht met behulp van null-breedte tekens, kleurmaskering en meer. Profiteer van geavanceerde SEO-technieken om uw online aanwezigheid te versterken."
+  },
+  "tool": {
+    "tabs": {
+      "quickCopy": "Snel Kopiëren",
+      "manualSelect": "Handmatige Selectie",
+      "customGenerator": "Aangepaste Generator",
+      "testCopy": "Testen & Kopiëren"
+    },
+    "method1": {
+      "title": "Methode 1 - Kopiëren met een knop",
+      "description": "Klik op een van de knoppen hieronder om een onzichtbaar teken naar uw klembord te kopiëren. Deze methode verhoogt uw productiviteit en ondersteunt uw SEO-strategie.",
+      "copySmall": "Kopieer klein teken",
+      "copyMedium": "Kopieer middelgroot teken",
+      "copyLarge": "Kopieer groot teken",
+      "note": "Klik op de knop hierboven om een onzichtbaar teken te kopiëren. Als dit niet werkt op uw apparaat, gebruik dan methode 2 om handmatig een lege ruimte te kopiëren."
+    },
+    "method2": {
+      "title": "Methode 2 - Lege Ruimte handmatig kopiëren",
+      "description": "Selecteer en kopieer handmatig het lege teken uit het stippellijn tekstvak hieronder. Klik op de selecteerknop om het onzichtbare teken te activeren en druk vervolgens op [CTRL+C (Windows) of CMD+C (MacOS)]. Deze methode biedt u nauwkeurige controle en verbetert uw SEO.",
+      "select": "Selecteren",
+      "note": "Na selectie drukt u op CTRL+C (Windows) of CMD+C (Mac) om het onzichtbare teken te kopiëren."
+    },
+    "method3": {
+      "title": "Methode 3 - Genereer Onbeperkt Onzichtbare Tekens",
+      "description": "Voer het aantal onzichtbare tekens in dat u wilt genereren (van 1 tot 1000) en klik op de 'Genereer'-knop. Deze functie maakt het mogelijk om uitgebreide, SEO-geoptimaliseerde inhoud met verborgen zoekwoorden te creëren.",
+      "generate": "Genereer",
+      "generatedText": "Gegenereerde onzichtbare tekens:",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd!",
+      "charactersGenerated": "onzichtbaar teken gegenereerd",
+      "charactersGeneratedPlural": "onzichtbare tekens gegenereerd"
+    },
+    "test": {
+      "title": "Test en Kopieer Onzichtbaar Teken",
+      "description": "Plak hier onzichtbare tekens om ze te testen of het aantal tekens te controleren. Deze testomgeving ondersteunt uw SEO-optimalisatie.",
+      "placeholder": "Plak hier onzichtbare tekens, kopieer en test...",
+      "characters": "Tekens:",
+      "clear": "Wissen",
+      "copy": "Kopiëren"
+    },
+    "proTip": {
+      "title": "Pro Tip:",
+      "content": "Verschillende platforms behandelen onzichtbare tekens op andere manieren. Als een methode niet werkt voor uw situatie, probeer dan een alternatieve methode of wijzig het aantal tekens. Gebruik onze SEO-tips om uw inhoud verder te optimaliseren."
+    }
+  },
+  "sections": {
+    "whatIs": {
+      "title": "WAT IS ONZICHTBARE TEKST?",
+      "content1": "Onzichtbare tekst verwijst naar tekens of reeksen tekens die aanwezig zijn in een document of bericht, maar met het blote oog niet zichtbaar zijn. Dit wordt bereikt door technieken zoals het gebruik van null-breedte tekens, kleurmaskering (bijvoorbeeld witte tekst op een witte achtergrond) of speciale Unicode-tekens die geen visuele weergave hebben.",
+      "content2": "Ondanks dat ze verborgen zijn, bestaan deze tekens digitaal en kunnen ze worden gekopieerd, geplakt en verzonden als normale tekst. Ze zijn ideaal om discrete berichten te versturen en tegelijkertijd SEO-relevante, verborgen inhoud te integreren."
+    },
+    "howTo": {
+      "title": "HOE ONZICHTBARE TEKST KOPIËREN & PLAKKEN",
+      "step1": {
+        "title": "Kies een Methode",
+        "content": "Selecteer tussen de snelkopieknoppen, handmatige selectie of de aangepaste generator, afhankelijk van uw SEO-behoeften."
+      },
+      "step2": {
+        "title": "Kopieer",
+        "content": "Kopieer de onzichtbare tekens met één klik naar uw klembord, klaar om in uw SEO-geoptimaliseerde inhoud te gebruiken."
+      },
+      "step3": {
+        "title": "Test & Gebruik",
+        "content": "Test uw onzichtbare tekst in onze testomgeving en gebruik deze vervolgens in uw berichten of webpagina's om uw SEO-prestaties te verbeteren."
+      }
+    },
+    "whyUse": {
+      "title": "WAAROM ONZICHTBARE TEKST GEBRUIKEN?",
+      "privacy": {
+        "title": "Privacy & Discretie",
+        "content": "Onzichtbare tekst maakt het mogelijk om berichten in het volle zicht te verbergen, zodat gevoelige informatie discreet wordt overgedragen en tegelijkertijd SEO-voordelen worden benut."
+      },
+      "creative": {
+        "title": "Creatieve Toepassingen",
+        "content": "Creëer unieke gebruikersnamen voor games, verstuur lege berichten op sociale media of voeg verborgen watermerken toe aan uw content om auteursrechtelijke inbreuken te voorkomen en uw SEO te verbeteren."
+      },
+      "steganography": {
+        "title": "Digitale Steganografie",
+        "content": "Verberg berichten binnen andere berichten of documenten, zodat u discreet kunt communiceren en tegelijkertijd belangrijke SEO-elementen integreert."
+      },
+      "accessibility": {
+        "title": "Toegankelijkheid",
+        "content": "Voeg verborgen metadata toe aan uw content die toegankelijk is voor screenreaders, zonder de visuele presentatie te verstoren – een aanpak die zowel toegankelijkheid als SEO bevordert."
+      }
+    },
+    "whoUses": {
+      "title": "WIE GEBRUIKT ONZICHTBARE TEKST?",
+      "gamers": {
+        "title": "Gamers",
+        "content": "Spelers van titels zoals Free Fire, PUBG en andere online games gebruiken onzichtbare tekens om minimalistische en unieke gebruikersnamen te creëren die door SEO-optimalisatie verder versterkt worden."
+      },
+      "socialMedia": {
+        "title": "Social Media Gebruikers",
+        "content": "Personen die originele profielen willen creëren, lege berichten willen versturen of informatie in posts op platforms als Instagram, Twitter en Discord willen verbergen, profiteren van deze techniek en optimaliseren tegelijkertijd hun SEO."
+      },
+      "contentCreators": {
+        "title": "Content Makers",
+        "content": "Schrijvers, ontwerpers en digitale kunstenaars gebruiken onzichtbare tekst om verborgen watermerken of metadata in hun werk te integreren, waarmee ze zowel auteursrechten beschermen als hun zoekmachineoptimalisatie verbeteren."
+      }
+    },
+    "features": {
+      "title": "FUNCTIES VAN ONS ONZICHTBARE TEKST-TOOL",
+      "methods": {
+        "title": "Meerdere Onzichtbaarheidsmethoden",
+        "content": "Kies uit diverse technieken zoals null-breedte tekens en kleurmaskering om SEO-geoptimaliseerde, verborgen inhoud te creëren."
+      },
+      "quickCopy": {
+        "title": "Snel Kopiëren Knoppen",
+        "content": "Kopieer direct kleine, middelgrote of grote onzichtbare tekens met één klik voor een snelle en efficiënte SEO-ondersteuning."
+      },
+      "customGenerator": {
+        "title": "Aangepaste Generator",
+        "content": "Genereer het gewenste aantal onzichtbare tekens (van 1 tot in het oneindige) met onze aangepaste generator en verwerk relevante SEO-zoekwoorden in uw tekst."
+      },
+      "testingArea": {
+        "title": "Testgebied",
+        "content": "Test uw onzichtbare tekens voordat u ze gebruikt, zodat u zeker weet dat ze correct werken en bijdragen aan een betere SEO-prestatie."
+      },
+      "counter": {
+        "title": "Tekenenteller",
+        "content": "Bekijk precies hoeveel onzichtbare tekens u hebt gegenereerd of geplakt, zodat u uw content kunt optimaliseren voor zoekmachines."
+      },
+      "encoding": {
+        "title": "Geavanceerde Tekstcodering",
+        "content": "Verberg hele berichten binnen onzichtbare tekens die later kunnen worden gedecodeerd – een innovatieve manier om SEO-rijke, verborgen informatie over te dragen."
+      }
+    },
+    "benefits": {
+      "title": "VOORDELEN VAN INVISIBLETEXT.TOP",
+      "free": {
+        "title": "100% Gratis",
+        "content": "Geen verborgen kosten of premium functies – gebruik een tool die u gratis alle SEO-voordelen biedt."
+      },
+      "noRegistration": {
+        "title": "Geen Registratie Nodig",
+        "content": "Gebruik onze tool direct zonder registratie, wat de toegang vergemakkelijkt en de SEO-conversie verbetert."
+      },
+      "privacy": {
+        "title": "Privacygericht",
+        "content": "Wij slaan uw tekst niet op en volgen uw gebruik niet, zodat uw privacy beschermd is en uw SEO-strategie veilig blijft."
+      },
+      "userFriendly": {
+        "title": "Gebruiksvriendelijke Interface",
+        "content": "Een eenvoudig en intuïtief ontwerp dat het voor iedereen makkelijk maakt om onze tool te gebruiken en tegelijkertijd bijdraagt aan een betere SEO-prestatie."
+      },
+      "moreMethods": {
+        "title": "Meer Methoden dan de Concurrentie",
+        "content": "Wij bieden een breder scala aan methoden voor het creëren en gebruiken van onzichtbare tekst, wat u extra SEO-voordelen oplevert."
+      },
+      "mobileFriendly": {
+        "title": "Mobiel Vriendelijk",
+        "content": "Onze tool werkt perfect op smartphones en tablets, wat een soepele mobiele ervaring en geoptimaliseerde SEO garandeert."
+      }
+    },
+    "useCases": {
+      "title": "PRAKTISCHE GEBRUIKSVOORBEELDEN",
+      "gaming": {
+        "title": "Gaming",
+        "content": "Creëer unieke 'onzichtbare' gebruikersnamen voor games zoals Free Fire, PUBG en andere online games om op te vallen en uw SEO te verbeteren.",
+        "example": "Spelernaam: \"⁣ ⁣\"",
+        "note": "(Wordt weergegeven als een lege of minimale gebruikersnaam)"
+      },
+      "socialMedia": {
+        "title": "Sociale Media",
+        "content": "Verstuur lege berichten op platforms zoals WhatsApp, Telegram of Discord, of creëer unieke profielen met verborgen SEO-elementen.",
+        "example": "Bericht: \"⁣ ⁣\"",
+        "note": "(Wordt als leeg bericht weergegeven, maar kan gekopieerd en gedecodeerd worden)"
+      },
+      "watermarking": {
+        "title": "Digitaal Watermerk",
+        "content": "Voeg onzichtbare handtekeningen toe aan uw content om de authenticiteit te verifiëren of ongeoorloofd kopiëren op te sporen, terwijl u tegelijkertijd SEO-zoekwoorden integreert.",
+        "example": "Document: \"Dit is mijn inhoud‍‌‍‌‍‌‍‌.\"",
+        "note": "(Bevat een verborgen watermerk dat voor de lezer niet zichtbaar is)"
+      },
+      "hiddenMessages": {
+        "title": "Verborgen Berichten",
+        "content": "Verberg geheime berichten in normale tekst die alleen zichtbaar zijn voor ingewijden, en integreer daarbij belangrijke SEO-metadata.",
+        "example": "Publieke post: \"Mooi weer vandaag!‍‌‍‌‍‌‍‌\"",
+        "note": "(Bevat het verborgen bericht: \"Afspraak om 17.00 uur\")"
+      }
+    },
+    "faq": {
+      "title": "VEELGESTELDE VRAGEN",
+      "isInvisible": {
+        "question": "Is onzichtbare tekst echt onzichtbaar?",
+        "answer": "Ja, onzichtbare tekst is bij normaal gebruik niet zichtbaar. Hij kan echter zichtbaar worden gemaakt door de tekst te selecteren of via speciale decoderingstools."
+      },
+      "allPlatforms": {
+        "question": "Werkt onzichtbare tekst op alle platforms?",
+        "answer": "De meeste methoden werken op diverse platforms zoals sociale media, berichtenapps en games. Sommige platforms kunnen beperkingen of filters hebben."
+      },
+      "allowed": {
+        "question": "Is het toegestaan onzichtbare tekst in games te gebruiken?",
+        "answer": "Dit hangt af van de gebruiksvoorwaarden van elk spel. Sommige spellen verbieden mogelijk het gebruik van onzichtbare tekens in gebruikersnamen. Controleer altijd de spelregels."
+      },
+      "decode": {
+        "question": "Hoe decodeer ik onzichtbare tekst?",
+        "answer": "Gebruik onze 'Testen & Kopiëren'-sectie. Plak de tekst met onzichtbare tekens en het hulpmiddel toont het aantal tekens en onthult de verborgen inhoud."
+      },
+      "difference": {
+        "question": "Wat is het verschil tussen kleine, middelgrote en grote onzichtbare tekens?",
+        "answer": "De opties 'klein', 'middel' en 'groot' verwijzen naar het aantal gegenereerde tekens. Klein genereert 1 teken, middel 5 en groot 10. Een hoger aantal tekens kan de robuustheid van de onzichtbare tekst op bepaalde platforms vergroten."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 invisibletext.top. Alle rechten voorbehouden.",
+    "navigation": "Navigatie",
+    "legal": "Juridisch",
+    "contact": "Contact"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Privacybeleid",
+      "lastUpdated": "Laatst Bijgewerkt: 7 april 2025",
+      "introduction": {
+        "title": "Inleiding",
+        "content": "Bij invisibletext.top staat uw privacy voorop. Dit privacybeleid legt uit hoe we uw persoonlijke gegevens verzamelen, gebruiken en beschermen, met als doel om SEO-geoptimaliseerde inhoud te bieden."
+      },
+      "informationCollected": {
+        "title": "Verzamelde Informatie",
+        "content": "We verzamelen minimale gegevens om onze diensten te leveren en te verbeteren:",
+        "items": [
+          "Gebruiksgegevens: Anonieme informatie over hoe u onze site gebruikt (bezochte pagina's, bezoektijd, etc.).",
+          "Apparaatgegevens: Informatie over uw apparaat, zoals browsertype, IP-adres en besturingssysteem.",
+          "Cookies: We maken gebruik van cookies om uw gebruikerservaring te verbeteren en het siteverkeer te analyseren."
+        ]
+      },
+      "useOfInformation": {
+        "title": "Gebruik van Uw Gegevens",
+        "content": "De verzamelde informatie wordt gebruikt voor:",
+        "items": [
+          "Het leveren en onderhouden van onze dienst",
+          "Het verbeteren van de gebruikerservaring en website-prestaties",
+          "Analyse van gebruikspatronen voor SEO-optimalisatie",
+          "Het detecteren en voorkomen van technische problemen"
+        ]
+      },
+      "dataSharing": {
+        "title": "Delen van Uw Gegevens",
+        "content": "Wij verkopen, verhandelen of delen uw gegevens niet met derden. Alleen geanonimiseerde en geaggregeerde data kan gedeeld worden met analysetools om onze SEO-prestaties te verbeteren."
+      },
+      "dataRetention": {
+        "title": "Gegevensbewaring",
+        "content": "Uw informatie wordt alleen bewaard zolang dit noodzakelijk is om de doelen van dit beleid te bereiken en om onze SEO-prestaties te optimaliseren."
+      },
+      "security": {
+        "title": "Beveiliging",
+        "content": "Wij nemen passende veiligheidsmaatregelen om uw gegevens te beschermen. Geen enkele methode van elektronische overdracht of opslag is 100% veilig."
+      },
+      "childrenPrivacy": {
+        "title": "Privacy van Kinderen",
+        "content": "Onze website is niet gericht op kinderen onder de 13 jaar. Wij verzamelen niet bewust persoonlijke gegevens van kinderen. Neem contact met ons op als u vermoedt dat een kind ons gegevens heeft verstrekt."
+      },
+      "changes": {
+        "title": "Wijzigingen in dit Beleid",
+        "content": "We behouden ons het recht voor om dit privacybeleid van tijd tot tijd aan te passen. Alle wijzigingen worden hier gepubliceerd en de 'Laatst Bijgewerkt'-datum zal worden aangepast, zodat de SEO-optimalisatie behouden blijft."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "Voor vragen over dit privacybeleid kunt u contact opnemen via: privacy@invisibletext.top."
+      }
+    },
+    "terms": {
+      "title": "Gebruiksvoorwaarden",
+      "lastUpdated": "Laatst Bijgewerkt: 7 april 2025",
+      "introduction": {
+        "title": "Inleiding",
+        "content": "Welkom bij invisibletext.top. Door toegang te krijgen tot of gebruik te maken van onze website, gaat u akkoord met deze voorwaarden. Als u het niet eens bent, gebruik dan onze site niet. Deze voorwaarden zijn tevens geoptimaliseerd voor SEO-doeleinden."
+      },
+      "intellectualProperty": {
+        "title": "Intellectueel Eigendom",
+        "content": "De inhoud, functies en vormgeving van onze website zijn eigendom van invisibletext.top en worden beschermd door internationale auteursrechten, merken en andere intellectuele eigendomsrechten."
+      },
+      "userConduct": {
+        "title": "Gebruikersgedrag",
+        "content": "Bij het gebruik van onze website stemt u ermee in:",
+        "items": [
+          "Onze diensten uitsluitend voor legale doeleinden te gebruiken",
+          "Geen illegale of ongeautoriseerde activiteiten uit te voeren",
+          "De goede werking van onze website niet te verstoren",
+          "Geen schadelijke activiteiten te ondernemen"
+        ]
+      },
+      "disclaimer": {
+        "title": "Disclaimer",
+        "content": "Onze website en de inhoud worden geleverd \"zoals ze zijn\" zonder enige expliciete of impliciete garantie. We garanderen niet dat de website ononderbroken, veilig of foutloos functioneert, wat ook van invloed is op de SEO."
+      },
+      "limitation": {
+        "title": "Aansprakelijkheidsbeperking",
+        "content": "In geen geval is invisibletext.top aansprakelijk voor indirecte, incidentele, bijzondere, gevolg- of strafschade als gevolg van het gebruik van onze website."
+      },
+      "indemnification": {
+        "title": "Vrijwaring",
+        "content": "U stemt ermee in om invisibletext.top en haar partners te vrijwaren van alle claims of schade die voortvloeien uit uw gebruik van de website of uw schending van deze voorwaarden."
+      },
+      "changes": {
+        "title": "Wijzigingen in de Voorwaarden",
+        "content": "Wij behouden ons het recht voor om deze gebruiksvoorwaarden op elk moment te wijzigen of te vervangen. Wijzigingen worden op deze pagina bekendgemaakt en de 'Laatst Bijgewerkt'-datum wordt aangepast voor optimale SEO."
+      },
+      "contact": {
+        "title": "Contact",
+        "content": "Neem contact met ons op voor vragen over deze voorwaarden via: terms@invisibletext.top."
+      }
+    },
+    "about": {
+      "title": "Over ons",
+      "mission": {
+        "title": "Onze Missie",
+        "content": "Bij invisibletext.top is het onze missie om het meest gebruiksvriendelijke en complete hulpmiddel voor onzichtbare tekst te bieden. We geloven in innovatie binnen digitale communicatie en in SEO-optimalisatie om uw online zichtbaarheid te maximaliseren."
+      },
+      "story": {
+        "title": "Ons Verhaal",
+        "content": "Invisibletext.top is gecreëerd door een team van ontwikkelaars die gefascineerd waren door de creatieve mogelijkheden van onzichtbare Unicode-tekens. Wat begon als een eenvoudige generator voor null-breedte tekens, is uitgegroeid tot een uitgebreid platform voor het genereren, testen en gebruiken van onzichtbare tekst in diverse toepassingen, inclusief SEO."
+      },
+      "team": {
+        "title": "Ons Team",
+        "content": "Wij zijn een klein, toegewijd team van ontwikkelaars, ontwerpers en digitale communicatie-experts die zich richten op het verbeteren van online expressie en SEO-optimalisatie."
+      },
+      "values": {
+        "title": "Onze Waarden",
+        "items": [
+          {
+            "title": "Eenvoud",
+            "content": "Wij ontwikkelen intuïtieve tools die voor iedereen toegankelijk zijn, ongeacht de technische ervaring."
+          },
+          {
+            "title": "Innovatie",
+            "content": "Wij blijven zoeken naar nieuwe manieren om onze tools te verbeteren en unieke oplossingen te bieden voor digitale communicatie en SEO-uitdagingen."
+          },
+          {
+            "title": "Toegankelijkheid",
+            "content": "Wij geloven in gratis toegang tot onze tools, zonder onnodige barrières, zodat iedereen kan profiteren van SEO-optimalisatie."
+          },
+          {
+            "title": "Privacy",
+            "content": "Wij respecteren uw privacy en slaan geen persoonlijke gegevens of door u gegenereerde content op."
+          }
+        ]
+      },
+      "future": {
+        "title": "Toekomstvisie",
+        "content": "Wij werken voortdurend aan de verbetering van invisibletext.top en breiden ons aanbod uit. Onze roadmap omvat de integratie van nieuwe soorten onzichtbare tekens, uitbreiding van onze testtools en ontwikkeling van innovatieve SEO-toepassingen."
+      },
+      "contact": {
+        "title": "Neem Contact op",
+        "content": "Wij horen graag van u! Als u suggesties, feedback of vragen heeft, neem dan gerust contact met ons op om samen de digitale communicatie en SEO verder te optimaliseren."
+      }
+    },
+    "contact": {
+      "title": "Contact",
+      "introduction": "Wij staan klaar om van u te horen! Of u nu een vraag heeft, feedback wilt geven of gewoon hallo wilt zeggen, neem gerust contact met ons op via de onderstaande methoden voor een betere gebruikerservaring en SEO-prestaties.",
+      "form": {
+        "title": "Stuur Ons Een Bericht",
+        "name": "Uw Naam",
+        "email": "Uw E-mail",
+        "subject": "Onderwerp",
+        "message": "Uw Bericht",
+        "submit": "Verzend Bericht",
+        "success": "Uw bericht is succesvol verzonden!",
+        "error": "Er is een fout opgetreden bij het verzenden van uw bericht. Probeer het opnieuw."
+      },
+      "email": {
+        "title": "Stuur Een E-mail",
+        "address": "contact@invisibletext.top",
+        "note": "Wij reageren doorgaans binnen 24-48 uur."
+      },
+      "social": {
+        "title": "Volg Ons",
+        "note": "Volg ons op sociale media voor updates, tips en meer."
+      },
+      "faq": {
+        "title": "Veelgestelde Vragen",
+        "note": "Bekijk eerst onze FAQ-sectie, misschien vindt u daar al een antwoord op uw vraag."
+      }
+    }
+  }
+}

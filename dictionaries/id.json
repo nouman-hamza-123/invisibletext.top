@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "Generator Teks Tak Terlihat | invisibletext.top",
+    "description": "Buat teks tak terlihat untuk game, media sosial, dan lainnya. Hasilkan nama pengguna kosong, pesan tersembunyi, dan karakter tak terlihat dengan mudah. Alat kami telah dioptimalkan untuk SEO dan menyediakan fitur-fitur lanjutan guna meningkatkan visibilitas online Anda."
+  },
+  "navigation": {
+    "features": "Fitur",
+    "about": "Tentang Kami",
+    "contact": "Kontak",
+    "privacy": "Kebijakan Privasi",
+    "terms": "Ketentuan Layanan"
+  },
+  "hero": {
+    "title": "TEKS TAK TERLIHAT",
+    "subtitle": "Selamat datang di generator teks tak terlihat online gratis kami! Sembunyikan pesan Anda di tempat yang terbuka dengan menggunakan karakter nol-lebar, masking warna, dan lainnya. Manfaatkan teknik SEO canggih untuk memperkuat kehadiran digital Anda."
+  },
+  "tool": {
+    "tabs": {
+      "quickCopy": "Salin Cepat",
+      "manualSelect": "Pilih Manual",
+      "customGenerator": "Generator Kustom",
+      "testCopy": "Uji & Salin"
+    },
+    "method1": {
+      "title": "Metode 1 - Salin dengan Tombol",
+      "description": "Klik salah satu tombol di bawah untuk menyalin karakter tak terlihat ke clipboard Anda. Metode ini meningkatkan produktivitas dan mendukung strategi SEO Anda.",
+      "copySmall": "Salin kecil",
+      "copyMedium": "Salin sedang",
+      "copyLarge": "Salin besar",
+      "note": "Klik tombol di atas untuk menyalin karakter tak terlihat. Jika metode ini tidak bekerja di perangkat Anda, gunakan Metode 2 untuk menyalin spasi kosong secara manual."
+    },
+    "method2": {
+      "title": "Metode 2 - Salin Spasi Kosong Secara Manual",
+      "description": "Pilih dan salin karakter kosong secara manual dari area teks yang diberi garis putus-putus di bawah ini. Klik tombol 'Pilih' untuk mengaktifkan karakter tak terlihat, lalu tekan [CTRL+C (Windows) atau CMD+C (MacOS)]. Metode ini memberikan kontrol presisi atas konten Anda sekaligus mendukung optimasi SEO.",
+      "select": "Pilih",
+      "note": "Setelah memilih karakter tak terlihat, tekan CTRL+C (Windows) atau CMD+C (Mac) untuk menyalinnya ke clipboard Anda."
+    },
+    "method3": {
+      "title": "Metode 3 - Hasilkan Karakter Tak Terlihat Secara Tak Terbatas",
+      "description": "Masukkan jumlah karakter tak terlihat yang ingin Anda hasilkan (dari 1 hingga 1000), lalu klik tombol 'Hasilkan'. Fitur ini memungkinkan pembuatan konten SEO yang kaya dengan kata kunci tersembunyi.",
+      "generate": "Hasilkan",
+      "generatedText": "Karakter tak terlihat yang dihasilkan:",
+      "copy": "Salin",
+      "copied": "Tersalin!",
+      "charactersGenerated": "karakter tak terlihat dihasilkan",
+      "charactersGeneratedPlural": "karakter tak terlihat dihasilkan"
+    },
+    "test": {
+      "title": "Uji & Salin Karakter Tak Terlihat",
+      "description": "Tempelkan karakter tak terlihat di sini untuk mengujinya atau menghitung jumlahnya. Area uji ini membantu Anda memastikan konten berfungsi dengan baik dan teroptimasi untuk SEO.",
+      "placeholder": "Tempelkan, salin, dan uji karakter tak terlihat di sini...",
+      "characters": "Karakter:",
+      "clear": "Bersihkan",
+      "copy": "Salin"
+    },
+    "proTip": {
+      "title": "Tips Profesional:",
+      "content": "Platform yang berbeda dapat menangani karakter tak terlihat dengan cara yang berbeda. Jika satu metode tidak cocok, coba metode lain atau ubah jumlah karakter. Gunakan juga tips SEO kami untuk lebih mengoptimalkan konten Anda."
+    }
+  },
+  "sections": {
+    "whatIs": {
+      "title": "APA ITU TEKS TAK TERLIHAT?",
+      "content1": "Teks tak terlihat mengacu pada karakter atau rangkaian karakter yang ada dalam dokumen atau pesan namun tidak terlihat oleh mata telanjang. Hal ini dapat dicapai dengan teknik seperti penggunaan karakter nol-lebar, masking warna (misalnya teks putih di latar putih), atau karakter Unicode khusus yang tidak memiliki representasi visual.",
+      "content2": "Meskipun tersembunyi, karakter ini tetap ada di ruang digital dan dapat disalin, ditempel, dan dikirim seperti teks biasa. Mereka ideal untuk menyampaikan pesan secara rahasia sekaligus menyisipkan elemen SEO tersembunyi."
+    },
+    "howTo": {
+      "title": "CARA MENYALIN & MENEMPATKAN TEKS TAK TERLIHAT",
+      "step1": {
+        "title": "Pilih Metode",
+        "content": "Pilih antara tombol salin cepat, pemilihan manual, atau generator kustom, sesuai dengan kebutuhan SEO Anda."
+      },
+      "step2": {
+        "title": "Salin",
+        "content": "Salin karakter tak terlihat dengan sekali klik ke clipboard Anda, siap untuk digunakan dalam konten SEO yang optimal."
+      },
+      "step3": {
+        "title": "Uji & Gunakan",
+        "content": "Uji teks tak terlihat di area pengujian kami, lalu gunakan di pesan atau halaman web Anda untuk meningkatkan performa SEO."
+      }
+    },
+    "whyUse": {
+      "title": "MENGAPA MENGGUNAKAN TEKS TAK TERLIHAT?",
+      "privacy": {
+        "title": "Privasi & Kerahasiaan",
+        "content": "Teks tak terlihat memungkinkan Anda menyembunyikan pesan di tempat yang tampak biasa, sehingga informasi sensitif dapat disampaikan dengan rahasia sambil menyisipkan kata kunci SEO penting."
+      },
+      "creative": {
+        "title": "Penggunaan Kreatif",
+        "content": "Buat nama pengguna unik dalam game, kirim pesan kosong di media sosial, atau tambahkan watermark tersembunyi pada konten Anda untuk melindungi hak cipta dan mendongkrak SEO."
+      },
+      "steganography": {
+        "title": "Steganografi Digital",
+        "content": "Sembunyikan pesan di dalam pesan atau dokumen lain untuk komunikasi rahasia, sambil menyisipkan elemen SEO secara strategis."
+      },
+      "accessibility": {
+        "title": "Aksesibilitas",
+        "content": "Tambahkan metadata tersembunyi yang bisa diakses oleh pembaca layar tanpa mengganggu tampilan visual—sebuah pendekatan yang meningkatkan aksesibilitas sekaligus SEO."
+      }
+    },
+    "whoUses": {
+      "title": "SIAPA YANG MENGGUNAKAN TEKS TAK TERLIHAT?",
+      "gamers": {
+        "title": "Pemain",
+        "content": "Pemain game seperti Free Fire, PUBG, dan game online lainnya menggunakan karakter tak terlihat untuk membuat nama pengguna yang minimalis dan unik, dengan tambahan optimasi SEO untuk menonjolkan profil mereka."
+      },
+      "socialMedia": {
+        "title": "Pengguna Media Sosial",
+        "content": "Orang-orang yang ingin membuat profil unik, mengirim pesan kosong, atau menyembunyikan informasi dalam posting di platform seperti Instagram, Twitter, dan Discord, memanfaatkan teknik ini untuk tampilan estetis dan SEO yang optimal."
+      },
+      "contentCreators": {
+        "title": "Pencipta Konten",
+        "content": "Penulis, desainer, dan seniman digital menggunakan teks tak terlihat untuk menambahkan watermark atau metadata tersembunyi dalam karya mereka, melindungi hak cipta sekaligus meningkatkan peringkat SEO."
+      }
+    },
+    "features": {
+      "title": "FITUR ALAT TEKS TAK TERLIHAT KAMI",
+      "methods": {
+        "title": "Berbagai Metode Menyembunyikan",
+        "content": "Pilih dari berbagai teknik seperti karakter nol-lebar dan masking warna untuk membuat konten tersembunyi yang dioptimalkan untuk SEO."
+      },
+      "quickCopy": {
+        "title": "Tombol Salin Cepat",
+        "content": "Salin secara instan karakter tak terlihat dalam ukuran kecil, sedang, atau besar hanya dengan satu klik untuk mendukung pekerjaan SEO Anda."
+      },
+      "customGenerator": {
+        "title": "Generator Kustom",
+        "content": "Hasilkan jumlah karakter tak terlihat yang Anda inginkan (dari 1 hingga tak terbatas) dengan generator kustom kami, sekaligus menyisipkan kata kunci SEO penting."
+      },
+      "testingArea": {
+        "title": "Area Uji",
+        "content": "Uji karakter tak terlihat sebelum digunakan untuk memastikan mereka bekerja dengan optimal dan mendukung strategi SEO Anda."
+      },
+      "counter": {
+        "title": "Penghitung Karakter",
+        "content": "Lihat jumlah pasti karakter tak terlihat yang telah Anda hasilkan atau tempel, sehingga Anda dapat menyesuaikan konten untuk SEO terbaik."
+      },
+      "encoding": {
+        "title": "Pengkodean Teks Lanjutan",
+        "content": "Sembunyikan pesan lengkap di balik karakter tak terlihat yang nantinya bisa didekode—metode inovatif yang menggabungkan komunikasi rahasia dan SEO."
+      }
+    },
+    "benefits": {
+      "title": "MANFAAT MENGGUNAKAN INVISIBLETEXT.TOP",
+      "free": {
+        "title": "100% Gratis",
+        "content": "Tanpa biaya tersembunyi atau fitur premium. Nikmati alat yang sepenuhnya gratis untuk mendapatkan keuntungan SEO maksimal."
+      },
+      "noRegistration": {
+        "title": "Tanpa Registrasi",
+        "content": "Gunakan alat kami secara instan tanpa perlu membuat akun, sehingga akses mudah dan konversi SEO meningkat."
+      },
+      "privacy": {
+        "title": "Berfokus pada Privasi",
+        "content": "Kami tidak menyimpan teks Anda atau melacak penggunaan, menjaga kerahasiaan dan keamanan data SEO Anda."
+      },
+      "userFriendly": {
+        "title": "Antarmuka Ramah Pengguna",
+        "content": "Desain yang sederhana dan intuitif, memudahkan siapa saja untuk menggunakan alat ini sambil meningkatkan pengalaman pengguna dan SEO."
+      },
+      "moreMethods": {
+        "title": "Lebih Banyak Metode Dibanding Kompetitor",
+        "content": "Kami menyediakan lebih banyak cara untuk membuat dan menggunakan teks tak terlihat, memberikan Anda keunggulan SEO tambahan."
+      },
+      "mobileFriendly": {
+        "title": "Responsif di Mobile",
+        "content": "Alat kami bekerja dengan sempurna di smartphone dan tablet, menjamin pengalaman mobile yang optimal dan SEO yang terintegrasi."
+      }
+    },
+    "useCases": {
+      "title": "KASUS PENGGUNAAN PRAKTIS",
+      "gaming": {
+        "title": "Gaming",
+        "content": "Buat nama pengguna 'tak terlihat' yang unik dalam game seperti Free Fire, PUBG, dan game online lainnya untuk tampil beda dan meningkatkan SEO profil Anda.",
+        "example": "NamaPemain: \"⁣ ⁣\"",
+        "note": "(Ditampilkan sebagai nama yang kosong atau minimal)"
+      },
+      "socialMedia": {
+        "title": "Media Sosial",
+        "content": "Kirim pesan kosong di aplikasi seperti WhatsApp, Telegram, atau Discord, atau buat profil unik dengan menyematkan elemen SEO tersembunyi.",
+        "example": "Pesan: \"⁣ ⁣\"",
+        "note": "(Tampil sebagai pesan kosong, namun bisa disalin dan didekode)"
+      },
+      "watermarking": {
+        "title": "Watermark Digital",
+        "content": "Tambahkan tanda tangan tersembunyi ke konten Anda untuk mengautentikasi atau melacak salinan yang tidak sah, sambil menyisipkan kata kunci SEO secara rahasia.",
+        "example": "Dokumen: \"Ini adalah konten saya‍‌‍‌‍‌‍‌.\"",
+        "note": "(Mengandung watermark tersembunyi yang tidak terlihat oleh pembaca)"
+      },
+      "hiddenMessages": {
+        "title": "Pesan Tersembunyi",
+        "content": "Sisipkan pesan rahasia dalam teks biasa yang hanya dapat diungkap oleh yang tahu caranya, dilengkapi dengan metadata SEO.",
+        "example": "Posting Publik: \"Cuaca hari ini sangat cerah!‍‌‍‌‍‌‍‌\"",
+        "note": "(Mengandung pesan tersembunyi: \"Bertemu pukul 17.00\")"
+      }
+    },
+    "faq": {
+      "title": "PERTANYAAN YANG SERING DIAJUKAN",
+      "isInvisible": {
+        "question": "Apakah teks tak terlihat benar-benar tidak terlihat?",
+        "answer": "Ya, teks tak terlihat tidak tampak saat dilihat biasa. Namun, teks tersebut bisa ditampilkan dengan cara memilih atau menggunakan alat dekoder kami."
+      },
+      "allPlatforms": {
+        "question": "Apakah teks tak terlihat berfungsi di semua platform?",
+        "answer": "Sebagian besar metode bekerja di berbagai platform seperti media sosial, aplikasi pesan, dan game. Namun, beberapa platform mungkin memiliki batasan atau filter."
+      },
+      "allowed": {
+        "question": "Apakah diperbolehkan menggunakan teks tak terlihat di game?",
+        "answer": "Itu tergantung pada ketentuan penggunaan masing-masing game. Beberapa game mungkin melarang penggunaan karakter tak terlihat pada nama pengguna. Selalu periksa aturan permainan terlebih dahulu."
+      },
+      "decode": {
+        "question": "Bagaimana cara mendekode teks tak terlihat?",
+        "answer": "Gunakan area 'Uji & Salin' kami. Tempel teks dengan karakter tak terlihat dan alat kami akan menampilkan jumlah karakter serta isi yang tersembunyi."
+      },
+      "difference": {
+        "question": "Apa perbedaan antara karakter kecil, sedang, dan besar?",
+        "answer": "Opsi 'kecil', 'sedang', dan 'besar' mengacu pada jumlah karakter yang dihasilkan. Kecil menghasilkan 1 karakter, sedang 5, dan besar 10. Jumlah yang lebih banyak dapat meningkatkan kekokohan teks tak terlihat di platform tertentu."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 invisibletext.top. Semua hak dilindungi.",
+    "navigation": "Navigasi",
+    "legal": "Legal",
+    "contact": "Kontak"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Kebijakan Privasi",
+      "lastUpdated": "Terakhir Diperbarui: 7 April 2025",
+      "introduction": {
+        "title": "Pendahuluan",
+        "content": "Di invisibletext.top, privasi Anda sangat penting bagi kami. Kebijakan Privasi ini menjelaskan bagaimana kami mengumpulkan, menggunakan, dan melindungi data pribadi Anda, sekaligus mendukung praktik SEO terbaik."
+      },
+      "informationCollected": {
+        "title": "Informasi yang Dikumpulkan",
+        "content": "Kami mengumpulkan data seminimal mungkin untuk menyediakan dan meningkatkan layanan kami:",
+        "items": [
+          "Data Penggunaan: Informasi anonim tentang interaksi Anda dengan situs (halaman yang dikunjungi, durasi, dll.).",
+          "Informasi Perangkat: Data mengenai perangkat Anda, termasuk tipe browser, alamat IP, dan sistem operasi.",
+          "Cookies: Kami menggunakan cookies untuk meningkatkan pengalaman pengguna dan menganalisis lalu lintas situs."
+        ]
+      },
+      "useOfInformation": {
+        "title": "Penggunaan Informasi Anda",
+        "content": "Data yang dikumpulkan digunakan untuk:",
+        "items": [
+          "Menyediakan dan memelihara layanan kami",
+          "Meningkatkan pengalaman pengguna dan performa situs",
+          "Menganalisis tren penggunaan untuk optimasi SEO",
+          "Mendeteksi dan mencegah masalah teknis"
+        ]
+      },
+      "dataSharing": {
+        "title": "Berbagi Data",
+        "content": "Kami tidak menjual, menukar, atau mentransfer data Anda kepada pihak ketiga. Hanya data yang telah dianonimkan dan digabungkan yang dapat dibagikan dengan penyedia analitik untuk meningkatkan SEO."
+      },
+      "dataRetention": {
+        "title": "Penyimpanan Data",
+        "content": "Data Anda disimpan hanya selama diperlukan untuk mencapai tujuan yang dijelaskan dalam kebijakan ini dan untuk mengoptimalkan performa SEO situs kami."
+      },
+      "security": {
+        "title": "Keamanan",
+        "content": "Kami menerapkan langkah-langkah keamanan yang sesuai untuk melindungi data Anda. Namun, tidak ada metode transmisi atau penyimpanan digital yang 100% aman."
+      },
+      "childrenPrivacy": {
+        "title": "Privasi Anak",
+        "content": "Situs kami tidak ditujukan untuk anak di bawah 13 tahun. Kami tidak secara sadar mengumpulkan data pribadi dari anak-anak. Jika Anda mencurigai bahwa seorang anak telah memberikan data kepada kami, silakan hubungi kami."
+      },
+      "changes": {
+        "title": "Perubahan Kebijakan",
+        "content": "Kami dapat memperbarui kebijakan privasi ini dari waktu ke waktu. Semua perubahan akan dipublikasikan di halaman ini dengan tanggal pembaruan terbaru untuk memastikan transparansi dan kepatuhan SEO."
+      },
+      "contact": {
+        "title": "Kontak",
+        "content": "Jika Anda memiliki pertanyaan tentang kebijakan privasi ini, silakan hubungi kami di: privacy@invisibletext.top."
+      }
+    },
+    "terms": {
+      "title": "Ketentuan Layanan",
+      "lastUpdated": "Terakhir Diperbarui: 7 April 2025",
+      "introduction": {
+        "title": "Pendahuluan",
+        "content": "Selamat datang di invisibletext.top. Dengan mengakses atau menggunakan situs kami, Anda setuju untuk terikat dengan ketentuan ini. Jika tidak setuju, mohon untuk tidak menggunakan situs kami. Ketentuan ini juga telah dioptimalkan untuk tujuan SEO."
+      },
+      "intellectualProperty": {
+        "title": "Kekayaan Intelektual",
+        "content": "Konten, fitur, dan desain situs kami dimiliki oleh invisibletext.top dan dilindungi oleh undang-undang hak cipta, merek dagang, dan hak kekayaan intelektual internasional."
+      },
+      "userConduct": {
+        "title": "Perilaku Pengguna",
+        "content": "Dengan menggunakan situs kami, Anda setuju untuk:",
+        "items": [
+          "Menggunakan layanan kami hanya untuk tujuan yang sah",
+          "Tidak melakukan aktivitas ilegal atau tidak sah",
+          "Tidak mengganggu operasional situs kami",
+          "Tidak melakukan tindakan yang dapat merugikan orang lain"
+        ]
+      },
+      "disclaimer": {
+        "title": "Penafian",
+        "content": "Situs dan konten kami disediakan 'apa adanya' tanpa jaminan, baik tersurat maupun tersirat. Kami tidak menjamin situs akan berjalan tanpa gangguan, aman, atau bebas dari kesalahan, termasuk untuk aspek SEO."
+      },
+      "limitation": {
+        "title": "Batasan Tanggung Jawab",
+        "content": "Dalam keadaan apapun, invisibletext.top tidak bertanggung jawab atas kerugian tidak langsung, insidental, khusus, konsekuensial, atau hukuman yang timbul akibat penggunaan situs kami."
+      },
+      "indemnification": {
+        "title": "Ganti Rugi",
+        "content": "Anda setuju untuk mengganti kerugian dan membebaskan invisibletext.top serta afiliasinya dari klaim, kerusakan, atau biaya yang timbul akibat penggunaan situs atau pelanggaran ketentuan ini."
+      },
+      "changes": {
+        "title": "Perubahan Ketentuan",
+        "content": "Kami berhak untuk mengubah atau mengganti ketentuan layanan ini kapan saja. Setiap perubahan akan diumumkan di halaman ini dengan pembaruan tanggal, untuk menjaga transparansi dan SEO."
+      },
+      "contact": {
+        "title": "Kontak",
+        "content": "Untuk pertanyaan mengenai ketentuan ini, silakan hubungi kami di: terms@invisibletext.top."
+      }
+    },
+    "about": {
+      "title": "Tentang Kami",
+      "mission": {
+        "title": "Misi Kami",
+        "content": "Di invisibletext.top, misi kami adalah menyediakan alat generator teks tak terlihat yang paling mudah digunakan dan komprehensif. Kami percaya pada inovasi dalam komunikasi digital dan optimasi SEO untuk memaksimalkan visibilitas online Anda."
+      },
+      "story": {
+        "title": "Sejarah Kami",
+        "content": "Invisibletext.top dibuat oleh tim pengembang yang terinspirasi oleh kemungkinan kreatif karakter Unicode tak terlihat. Dimulai sebagai generator spasi nol-lebar, kini berkembang menjadi platform lengkap untuk membuat, menguji, dan menggunakan teks tak terlihat, termasuk penerapan SEO."
+      },
+      "team": {
+        "title": "Tim Kami",
+        "content": "Kami adalah tim kecil yang berdedikasi, terdiri dari pengembang, desainer, dan ahli komunikasi digital yang berfokus pada peningkatan ekspresi online dan optimasi SEO."
+      },
+      "values": {
+        "title": "Nilai-Nilai Kami",
+        "items": [
+          {
+            "title": "Kesederhanaan",
+            "content": "Kami menciptakan alat yang intuitif dan mudah digunakan oleh semua kalangan."
+          },
+          {
+            "title": "Inovasi",
+            "content": "Kami terus mencari cara baru untuk meningkatkan alat kami dan menawarkan solusi unik untuk tantangan digital dan SEO."
+          },
+          {
+            "title": "Aksesibilitas",
+            "content": "Kami berkomitmen untuk menyediakan alat gratis tanpa hambatan sehingga semua orang dapat mendapatkan manfaat optimasi SEO."
+          },
+          {
+            "title": "Privasi",
+            "content": "Kami menghargai privasi Anda dan tidak menyimpan data pribadi atau konten yang Anda buat."
+          }
+        ]
+      },
+      "future": {
+        "title": "Melihat ke Depan",
+        "content": "Kami terus berupaya meningkatkan invisibletext.top dan memperluas penawaran kami. Rencana kami mencakup penambahan jenis karakter tak terlihat baru, peningkatan alat uji, dan pengembangan aplikasi SEO inovatif."
+      },
+      "contact": {
+        "title": "Hubungi Kami",
+        "content": "Kami selalu senang mendengar masukan Anda! Jika ada saran, komentar, atau pertanyaan, jangan ragu untuk menghubungi kami demi perbaikan berkelanjutan dan optimasi SEO."
+      }
+    },
+    "contact": {
+      "title": "Kontak",
+      "introduction": "Kami senang mendengar kabar dari Anda! Apakah Anda memiliki pertanyaan, masukan, atau sekadar ingin menyapa, silakan hubungi kami melalui metode di bawah ini untuk pengalaman pengguna dan SEO yang lebih baik.",
+      "form": {
+        "title": "Kirim Pesan Kepada Kami",
+        "name": "Nama Anda",
+        "email": "Email Anda",
+        "subject": "Subjek",
+        "message": "Pesan Anda",
+        "submit": "Kirim Pesan",
+        "success": "Pesan Anda berhasil terkirim!",
+        "error": "Terjadi kesalahan saat mengirim pesan. Silakan coba lagi."
+      },
+      "email": {
+        "title": "Kirim Email",
+        "address": "contact@invisibletext.top",
+        "note": "Kami biasanya membalas email dalam 24-48 jam."
+      },
+      "social": {
+        "title": "Ikuti Kami",
+        "note": "Ikuti kami di media sosial untuk update, tips, dan lainnya."
+      },
+      "faq": {
+        "title": "Pertanyaan Umum",
+        "note": "Sebelum menghubungi kami, silakan periksa bagian FAQ, mungkin pertanyaan Anda sudah terjawab."
+      }
+    }
+  }
+}

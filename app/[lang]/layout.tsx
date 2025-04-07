@@ -25,12 +25,12 @@ export default function RootLayout({
     <html lang={params.lang}>
       <head>
         {/* Self-referencing canonical tag */}
-        <link rel="canonical" href={`https://invisibletext.top/${params.lang}`} />
+        <link rel="canonical" href={`https://www.invisibletext.top/${params.lang}`} />
         
         {/* hreflang tags */}
-        <link rel="alternate" href="https://invisibletext.top/en" hrefLang="en" />
-        <link rel="alternate" href="https://invisibletext.top/es" hrefLang="es" />
-        <link rel="alternate" href="https://invisibletext.top/en" hrefLang="x-default" />
+        <link rel="alternate" href="https://www.invisibletext.top/en" hrefLang="en" />
+        <link rel="alternate" href="https://www.invisibletext.top/es" hrefLang="es" />
+        <link rel="alternate" href="https://www.invisibletext.top/en" hrefLang="x-default" />
       </head>
       <body className={inter.className}>{children}</body>
     </html>

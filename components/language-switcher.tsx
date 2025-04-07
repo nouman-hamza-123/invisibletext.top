@@ -31,6 +31,27 @@ export function LanguageSwitcher({ lang }: { lang: string }) {
         <DropdownMenuItem onClick={() => switchLanguage("es")} className={lang === "es" ? "bg-muted" : ""}>
           Español
         </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => switchLanguage("id")} className={lang === "id" ? "bg-muted" : ""}>
+          Indonesian
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => switchLanguage("fr")} className={lang === "fr" ? "bg-muted" : ""}>
+          French
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => switchLanguage("pt")} className={lang === "pt" ? "bg-muted" : ""}>
+          Portuguese
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => switchLanguage("it")} className={lang === "it" ? "bg-muted" : ""}>
+          Italian
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => switchLanguage("ru")} className={lang === "ru" ? "bg-muted" : ""}>
+          Russian
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => switchLanguage("nl")} className={lang === "nl" ? "bg-muted" : ""}>
+          Dutch
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => switchLanguage("de")} className={lang === "de" ? "bg-muted" : ""}>
+          Deutsch
+        </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>
   )

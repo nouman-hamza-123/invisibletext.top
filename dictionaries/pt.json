@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "Gerador de Texto Invisível | invisibletext.top",
+    "description": "Gere texto invisível para jogos, redes sociais e muito mais. Crie facilmente nomes de usuário vazios, mensagens ocultas e caracteres invisíveis. Nossa ferramenta é otimizada para SEO e oferece recursos avançados para aumentar sua visibilidade online."
+  },
+  "navigation": {
+    "features": "Recursos",
+    "about": "Sobre Nós",
+    "contact": "Contato",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Serviço"
+  },
+  "hero": {
+    "title": "TEXTO INVISÍVEL",
+    "subtitle": "Bem-vindo ao nosso gerador online gratuito de texto invisível! Oculte suas mensagens à vista usando caracteres de largura zero, mascaramento de cor e muito mais. Aproveite técnicas SEO avançadas para fortalecer sua presença digital."
+  },
+  "tool": {
+    "tabs": {
+      "quickCopy": "Cópia Rápida",
+      "manualSelect": "Seleção Manual",
+      "customGenerator": "Gerador Personalizado",
+      "testCopy": "Testar & Copiar"
+    },
+    "method1": {
+      "title": "Método 1 - Copiar com Botão",
+      "description": "Clique em um dos botões abaixo para copiar um caractere invisível para sua área de transferência. Este método aumenta sua produtividade e suporta sua estratégia SEO.",
+      "copySmall": "Copiar pequeno",
+      "copyMedium": "Copiar médio",
+      "copyLarge": "Copiar grande",
+      "note": "Clique no botão acima para copiar um caractere invisível. Se não funcionar em seu dispositivo, utilize o Método 2 para copiar manualmente o espaço em branco."
+    },
+    "method2": {
+      "title": "Método 2 - Copiar Espaço em Branco Manualmente",
+      "description": "Selecione e copie manualmente o caractere vazio da área de texto pontilhada abaixo. Clique no botão 'Selecionar' para ativar o caractere invisível e, em seguida, pressione [CTRL+C (Windows) ou CMD+C (MacOS)]. Este método garante controle preciso do conteúdo e melhora o SEO.",
+      "select": "Selecionar",
+      "note": "Após selecionar o caractere invisível, pressione CTRL+C (Windows) ou CMD+C (Mac) para copiá-lo para sua área de transferência."
+    },
+    "method3": {
+      "title": "Método 3 - Gerar Caracteres Invisíveis Ilimitados",
+      "description": "Digite o número de caracteres invisíveis que deseja gerar (de 1 a 1000) e clique no botão 'Gerar'. Este recurso permite criar conteúdos ricos em palavras-chave ocultas otimizadas para SEO.",
+      "generate": "Gerar",
+      "generatedText": "Caracteres invisíveis gerados:",
+      "copy": "Copiar",
+      "copied": "Copiado!",
+      "charactersGenerated": "caractere invisível gerado",
+      "charactersGeneratedPlural": "caracteres invisíveis gerados"
+    },
+    "test": {
+      "title": "Testar & Copiar o Caractere Invisível",
+      "description": "Cole aqui os caracteres invisíveis para testá-los ou verificar a quantidade. Esta área de teste ajuda a garantir que seu conteúdo funcione corretamente e esteja otimizado para SEO.",
+      "placeholder": "Cole, copie e teste os caracteres invisíveis aqui...",
+      "characters": "Caracteres:",
+      "clear": "Limpar",
+      "copy": "Copiar"
+    },
+    "proTip": {
+      "title": "Dica Profissional:",
+      "content": "Plataformas diferentes podem lidar com caracteres invisíveis de maneiras variadas. Se um método não funcionar, tente outro ou ajuste a quantidade de caracteres. Aproveite também nossas dicas de SEO para otimizar ainda mais seu conteúdo."
+    }
+  },
+  "sections": {
+    "whatIs": {
+      "title": "O QUE É TEXTO INVISÍVEL?",
+      "content1": "Texto invisível refere-se a caracteres ou sequências de caracteres que estão presentes em um documento ou mensagem, mas não são visíveis a olho nu. Isso é alcançado através de técnicas como o uso de caracteres de largura zero, mascaramento de cores (por exemplo, texto branco em fundo branco) ou caracteres Unicode especiais sem representação visual.",
+      "content2": "Embora estejam ocultos, esses caracteres existem no ambiente digital e podem ser copiados, colados e transmitidos como texto comum. Eles são ideais para comunicações discretas e para incorporar elementos SEO ocultos."
+    },
+    "howTo": {
+      "title": "COMO COPIAR & COLAR TEXTO INVISÍVEL",
+      "step1": {
+        "title": "Escolha o Método",
+        "content": "Selecione entre os botões de cópia rápida, seleção manual ou o gerador personalizado, de acordo com suas necessidades de SEO."
+      },
+      "step2": {
+        "title": "Copie",
+        "content": "Copie os caracteres invisíveis com um clique para sua área de transferência, prontos para serem usados em seus conteúdos otimizados para SEO."
+      },
+      "step3": {
+        "title": "Teste & Use",
+        "content": "Teste o texto invisível na nossa área de teste e, em seguida, use-o em suas mensagens ou páginas para melhorar o desempenho SEO."
+      }
+    },
+    "whyUse": {
+      "title": "POR QUE USAR TEXTO INVISÍVEL?",
+      "privacy": {
+        "title": "Privacidade & Discrição",
+        "content": "O texto invisível permite ocultar mensagens à vista, oferecendo uma camada extra de privacidade para informações sensíveis, enquanto integra palavras-chave SEO de forma oculta."
+      },
+      "creative": {
+        "title": "Usos Criativos",
+        "content": "Crie nomes de usuário únicos em jogos, envie mensagens em branco nas redes sociais ou adicione marcas d'água ocultas ao seu conteúdo para proteger os direitos autorais e melhorar o SEO."
+      },
+      "steganography": {
+        "title": "Esteganografia Digital",
+        "content": "Incorpore mensagens dentro de outras mensagens ou documentos para uma comunicação discreta, integrando elementos SEO estrategicamente."
+      },
+      "accessibility": {
+        "title": "Acessibilidade",
+        "content": "Adicione metadados ocultos que podem ser lidos por leitores de tela sem alterar a apresentação visual, promovendo acessibilidade e SEO."
+      }
+    },
+    "whoUses": {
+      "title": "QUEM USA TEXTO INVISÍVEL?",
+      "gamers": {
+        "title": "Jogadores",
+        "content": "Jogadores de títulos como Free Fire, PUBG e outros jogos online utilizam caracteres invisíveis para criar nomes de usuário minimalistas e únicos, otimizados também para SEO."
+      },
+      "socialMedia": {
+        "title": "Usuários de Redes Sociais",
+        "content": "Pessoas que desejam criar perfis originais, enviar mensagens em branco ou ocultar informações em posts em plataformas como Instagram, Twitter e Discord utilizam essa técnica para um visual elegante e SEO aprimorado."
+      },
+      "contentCreators": {
+        "title": "Criadores de Conteúdo",
+        "content": "Escritores, designers e artistas digitais usam texto invisível para adicionar marcas d'água ou metadados ocultos às suas obras, protegendo seus direitos autorais e otimizando o ranqueamento nos mecanismos de busca."
+      }
+    },
+    "features": {
+      "title": "RECURSOS DA NOSSA FERRAMENTA DE TEXTO INVISÍVEL",
+      "methods": {
+        "title": "Diversos Métodos de Invisibilidade",
+        "content": "Escolha entre várias técnicas, como caracteres de largura zero e mascaramento de cor, para criar conteúdos ocultos otimizados para SEO."
+      },
+      "quickCopy": {
+        "title": "Botões de Cópia Rápida",
+        "content": "Copie instantaneamente caracteres invisíveis em tamanhos pequeno, médio ou grande com um único clique, agilizando seu trabalho e apoiando o SEO."
+      },
+      "customGenerator": {
+        "title": "Gerador Personalizado",
+        "content": "Gere o número exato de caracteres invisíveis que você precisa (de 1 até o infinito) com nosso gerador personalizado, integrando palavras-chave SEO essenciais."
+      },
+      "testingArea": {
+        "title": "Área de Teste",
+        "content": "Teste seus caracteres invisíveis antes de usá-los para garantir que funcionem corretamente e otimizem seu conteúdo para SEO."
+      },
+      "counter": {
+        "title": "Contador de Caracteres",
+        "content": "Visualize o número exato de caracteres invisíveis que você gerou ou colou, permitindo ajustar seu conteúdo para máxima otimização SEO."
+      },
+      "encoding": {
+        "title": "Codificação de Texto Avançada",
+        "content": "Oculte mensagens inteiras dentro de caracteres invisíveis que podem ser decodificados posteriormente – uma abordagem inovadora que une comunicação secreta e SEO."
+      }
+    },
+    "benefits": {
+      "title": "VANTAGENS DO INVISIBLETEXT.TOP",
+      "free": {
+        "title": "100% Gratuito",
+        "content": "Sem taxas ocultas ou funcionalidades premium. Use nossa ferramenta gratuitamente para obter todos os benefícios SEO."
+      },
+      "noRegistration": {
+        "title": "Sem Necessidade de Registro",
+        "content": "Utilize nossa ferramenta imediatamente sem precisar criar uma conta, facilitando o acesso e melhorando a conversão SEO."
+      },
+      "privacy": {
+        "title": "Foco na Privacidade",
+        "content": "Não armazenamos seu texto nem rastreamos seu uso, garantindo a proteção da sua privacidade e a segurança dos seus dados SEO."
+      },
+      "userFriendly": {
+        "title": "Interface Amigável",
+        "content": "Um design simples e intuitivo que torna o uso da ferramenta acessível a todos, melhorando a experiência do usuário e o posicionamento nos mecanismos de busca."
+      },
+      "moreMethods": {
+        "title": "Mais Métodos que a Concorrência",
+        "content": "Oferecemos uma variedade maior de técnicas para criar e utilizar texto invisível, proporcionando vantagens SEO adicionais."
+      },
+      "mobileFriendly": {
+        "title": "Compatível com Dispositivos Móveis",
+        "content": "Nossa ferramenta funciona perfeitamente em smartphones e tablets, garantindo uma experiência móvel otimizada e SEO integrado."
+      }
+    },
+    "useCases": {
+      "title": "CASOS PRÁTICOS DE USO",
+      "gaming": {
+        "title": "Jogos",
+        "content": "Crie nomes de usuário 'invisíveis' únicos em jogos como Free Fire, PUBG e outros jogos online para se destacar e melhorar o SEO do seu perfil.",
+        "example": "NomeJogador: \"⁣ ⁣\"",
+        "note": "(Aparece como um nome vazio ou minimalista)"
+      },
+      "socialMedia": {
+        "title": "Redes Sociais",
+        "content": "Envie mensagens em branco em plataformas como WhatsApp, Telegram ou Discord, ou crie perfis únicos incorporando elementos SEO ocultos.",
+        "example": "Mensagem: \"⁣ ⁣\"",
+        "note": "(Aparece como mensagem vazia, mas pode ser copiada e decodificada)"
+      },
+      "watermarking": {
+        "title": "Marca d'Água Digital",
+        "content": "Adicione assinaturas invisíveis aos seus conteúdos para autenticar ou rastrear cópias não autorizadas, enquanto integra discretamente palavras-chave SEO.",
+        "example": "Documento: \"Este é o meu conteúdo‍‌‍‌‍‌‍‌.\"",
+        "note": "(Contém uma marca d'água oculta que não é visível para os leitores)"
+      },
+      "hiddenMessages": {
+        "title": "Mensagens Ocultas",
+        "content": "Incorpore mensagens secretas dentro de um texto normal, visíveis apenas a quem sabe procurá-las, junto com metadados SEO importantes.",
+        "example": "Postagem Pública: \"O tempo está maravilhoso hoje!‍‌‍‌‍‌‍‌\"",
+        "note": "(Contém a mensagem oculta: \"Encontro às 17h\")"
+      }
+    },
+    "faq": {
+      "title": "PERGUNTAS FREQUENTES",
+      "isInvisible": {
+        "question": "O texto invisível é realmente invisível?",
+        "answer": "Sim, o texto invisível não é visível na visualização padrão, mas pode ser revelado selecionando-o ou usando nossa ferramenta de decodificação."
+      },
+      "allPlatforms": {
+        "question": "O texto invisível funciona em todas as plataformas?",
+        "answer": "A maioria dos métodos funciona em várias plataformas, incluindo redes sociais, aplicativos de mensagem e jogos. No entanto, algumas plataformas podem ter restrições ou filtros."
+      },
+      "allowed": {
+        "question": "É permitido usar texto invisível em jogos?",
+        "answer": "Depende dos termos de serviço de cada jogo. Alguns jogos podem proibir o uso de caracteres invisíveis em nomes de usuário. Verifique sempre as regras do jogo antes de usar."
+      },
+      "decode": {
+        "question": "Como decodificar o texto invisível?",
+        "answer": "Utilize a seção 'Testar & Copiar'. Cole o texto contendo os caracteres invisíveis e nossa ferramenta mostrará a contagem de caracteres e o conteúdo oculto."
+      },
+      "difference": {
+        "question": "Qual a diferença entre os caracteres pequenos, médios e grandes?",
+        "answer": "As opções 'pequeno', 'médio' e 'grande' se referem ao número de caracteres gerados. Pequeno gera 1 caractere, médio gera 5 e grande gera 10. Um número maior de caracteres pode tornar o texto invisível mais robusto em determinadas plataformas."
+      }
+    }
+  },
+  "footer": {
+    "navigation": "Navegação",
+    "legal": "Informações Legais",
+    "contact": "Contato",
+    "copyright": "© 2025 invisibletext.top. Todos os direitos reservados."
+  },
+  "pages": {
+    "privacy": {
+      "title": "Política de Privacidade",
+      "lastUpdated": "Última Atualização: 7 de abril de 2025",
+      "introduction": {
+        "title": "Introdução",
+        "content": "No invisibletext.top, valorizamos sua privacidade e nos comprometemos a proteger suas informações pessoais. Esta Política de Privacidade explica como coletamos, usamos e protegemos seus dados, enquanto seguimos as melhores práticas de SEO."
+      },
+      "informationCollected": {
+        "title": "Informações Coletadas",
+        "content": "Coletamos o mínimo de dados necessário para fornecer e melhorar nossos serviços:",
+        "items": [
+          "Dados de Uso: Informações anônimas sobre como você interage com o site (páginas visitadas, tempo de permanência, etc.).",
+          "Informações do Dispositivo: Dados sobre seu dispositivo, como tipo de navegador, endereço IP e sistema operacional.",
+          "Cookies: Utilizamos cookies para melhorar a experiência do usuário e analisar o tráfego do site."
+        ]
+      },
+      "useOfInformation": {
+        "title": "Uso das Suas Informações",
+        "content": "Os dados coletados são utilizados para:",
+        "items": [
+          "Fornecer e manter nossos serviços",
+          "Melhorar a experiência do usuário e o desempenho do site",
+          "Analisar tendências de uso para otimização SEO",
+          "Detectar e prevenir problemas técnicos"
+        ]
+      },
+      "dataSharing": {
+        "title": "Compartilhamento de Dados",
+        "content": "Não vendemos, trocamos ou transferimos suas informações para terceiros. Apenas dados anonimizados e agregados podem ser compartilhados com parceiros de análise para melhorar o SEO."
+      },
+      "dataRetention": {
+        "title": "Retenção de Dados",
+        "content": "Seus dados são mantidos apenas pelo tempo necessário para atingir os objetivos descritos nesta política e otimizar o desempenho SEO do nosso site."
+      },
+      "security": {
+        "title": "Segurança",
+        "content": "Implementamos medidas de segurança apropriadas para proteger suas informações. Contudo, nenhum método de transmissão ou armazenamento digital é 100% seguro."
+      },
+      "childrenPrivacy": {
+        "title": "Privacidade Infantil",
+        "content": "Nosso site não se destina a crianças com menos de 13 anos. Não coletamos conscientemente informações pessoais de menores. Se você acredita que uma criança nos forneceu seus dados, entre em contato conosco."
+      },
+      "changes": {
+        "title": "Alterações a Esta Política",
+        "content": "Podemos atualizar esta Política de Privacidade periodicamente. Quaisquer alterações serão publicadas nesta página com a data de atualização, garantindo transparência e conformidade SEO."
+      },
+      "contact": {
+        "title": "Contato",
+        "content": "Se você tiver alguma dúvida sobre esta política, entre em contato conosco pelo endereço: privacy@invisibletext.top."
+      }
+    },
+    "terms": {
+      "title": "Termos de Serviço",
+      "lastUpdated": "Última Atualização: 7 de abril de 2025",
+      "introduction": {
+        "title": "Introdução",
+        "content": "Bem-vindo ao invisibletext.top. Ao acessar ou utilizar nosso site, você concorda com estes termos. Se não concordar, por favor, não utilize nosso site. Estes termos também foram otimizados para SEO."
+      },
+      "intellectualProperty": {
+        "title": "Propriedade Intelectual",
+        "content": "O conteúdo, as funcionalidades e o design do nosso site são de propriedade do invisibletext.top e estão protegidos pelas leis internacionais de direitos autorais, marcas registradas e outros direitos de propriedade intelectual."
+      },
+      "userConduct": {
+        "title": "Comportamento do Usuário",
+        "content": "Ao utilizar nosso site, você concorda em:",
+        "items": [
+          "Utilizar nossos serviços apenas para fins legais",
+          "Não realizar atividades ilegais ou não autorizadas",
+          "Não interferir no funcionamento adequado do site",
+          "Não realizar ações que prejudiquem outros"
+        ]
+      },
+      "disclaimer": {
+        "title": "Isenção de Responsabilidade",
+        "content": "Nosso site e seu conteúdo são fornecidos 'no estado em que se encontram', sem garantias expressas ou implícitas. Não garantimos que o site estará sempre disponível, seguro ou livre de erros, incluindo os aspectos de SEO."
+      },
+      "limitation": {
+        "title": "Limitação de Responsabilidade",
+        "content": "Em hipótese alguma, o invisibletext.top será responsável por quaisquer danos indiretos, incidentais, especiais, consequenciais ou punitivos decorrentes do uso do nosso site."
+      },
+      "indemnification": {
+        "title": "Indenização",
+        "content": "Você concorda em indenizar e isentar o invisibletext.top e suas afiliadas de quaisquer reclamações, danos ou despesas decorrentes do uso do site ou da violação destes termos."
+      },
+      "changes": {
+        "title": "Alterações dos Termos",
+        "content": "Reservamo-nos o direito de modificar ou substituir estes termos a qualquer momento. Quaisquer alterações serão publicadas nesta página com a data atualizada, garantindo transparência e SEO adequado."
+      },
+      "contact": {
+        "title": "Contato",
+        "content": "Se você tiver dúvidas sobre estes termos, entre em contato conosco pelo endereço: terms@invisibletext.top."
+      }
+    },
+    "about": {
+      "title": "Sobre Nós",
+      "mission": {
+        "title": "Nossa Missão",
+        "content": "No invisibletext.top, nossa missão é fornecer a ferramenta de geração de texto invisível mais amigável e completa disponível online. Acreditamos na inovação na comunicação digital e na otimização SEO para maximizar sua visibilidade online."
+      },
+      "story": {
+        "title": "Nossa História",
+        "content": "O invisibletext.top foi criado por uma equipe de desenvolvedores apaixonados pelas possibilidades criativas dos caracteres Unicode invisíveis. O que começou como um simples gerador de espaços de largura zero evoluiu para uma plataforma completa para criar, testar e usar texto invisível, incluindo estratégias SEO avançadas."
+      },
+      "team": {
+        "title": "Nossa Equipe",
+        "content": "Somos uma pequena equipe de desenvolvedores, designers e especialistas em comunicação digital dedicados a melhorar a expressão online e a otimização SEO."
+      },
+      "values": {
+        "title": "Nossos Valores",
+        "items": [
+          {
+            "title": "Simplicidade",
+            "content": "Criamos ferramentas intuitivas e fáceis de usar para todos os níveis de experiência."
+          },
+          {
+            "title": "Inovação",
+            "content": "Estamos constantemente em busca de novas maneiras de melhorar nossas ferramentas e oferecer soluções únicas para desafios digitais e SEO."
+          },
+          {
+            "title": "Acessibilidade",
+            "content": "Comprometemo-nos a tornar nossas ferramentas acessíveis a todos, gratuitamente e sem barreiras, promovendo uma presença online otimizada."
+          },
+          {
+            "title": "Privacidade",
+            "content": "Respeitamos sua privacidade e não armazenamos informações pessoais nem o conteúdo que você cria com nossas ferramentas."
+          }
+        ]
+      },
+      "future": {
+        "title": "Olhando para o Futuro",
+        "content": "Trabalhamos continuamente para melhorar o invisibletext.top e expandir nossas ofertas. Nossos planos incluem a adição de novos tipos de caracteres invisíveis, aprimoramento das ferramentas de teste e desenvolvimento de novas aplicações SEO inovadoras."
+      },
+      "contact": {
+        "title": "Entre em Contato",
+        "content": "Adoramos receber feedback! Se você tiver sugestões, comentários ou perguntas, não hesite em entrar em contato para contribuir com a melhoria contínua da nossa ferramenta e da SEO."
+      }
+    },
+    "contact": {
+      "title": "Contato",
+      "introduction": "Adoraríamos ouvir de você! Seja para uma pergunta, um feedback ou apenas para dizer oi, sinta-se à vontade para entrar em contato conosco pelos meios abaixo para uma melhor experiência do usuário e SEO.",
+      "form": {
+        "title": "Envie-nos uma Mensagem",
+        "name": "Seu Nome",
+        "email": "Seu Email",
+        "subject": "Assunto",
+        "message": "Sua Mensagem",
+        "submit": "Enviar Mensagem",
+        "success": "Sua mensagem foi enviada com sucesso!",
+        "error": "Ocorreu um erro ao enviar sua mensagem. Por favor, tente novamente."
+      },
+      "email": {
+        "title": "Envie um Email",
+        "address": "contact@invisibletext.top",
+        "note": "Normalmente respondemos em 24-48 horas."
+      },
+      "social": {
+        "title": "Siga-nos",
+        "note": "Siga-nos nas redes sociais para atualizações, dicas e muito mais."
+      },
+      "faq": {
+        "title": "Perguntas Frequentes",
+        "note": "Antes de entrar em contato, confira nossa seção FAQ para ver se sua dúvida já foi respondida."
+      }
+    }
+  }
+}
