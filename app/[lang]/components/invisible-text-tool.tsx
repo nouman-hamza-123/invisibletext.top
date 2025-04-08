@@ -109,34 +109,34 @@ export function InvisibleTextTool({
   const dict = dictionary
 
   return (
-    <Card className="max-w-4xl mx-auto border-2 border-black rounded-xl shadow-lg">
+    <Card className="max-w-4xl mx-auto border-2 border-black dark:border-gray-700 rounded-xl shadow-lg dark:bg-gray-900">
       <CardContent className="p-6">
         <Tabs defaultValue="method1" className="w-full">
-          <TabsList className="grid grid-cols-2 md:grid-cols-4 mb-6 gap-1">
+          <TabsList className="grid grid-cols-2 md:grid-cols-4 mb-6 gap-1 dark:bg-gray-800">
             <TabsTrigger
               value="method1"
-              className="data-[state=active]:bg-black data-[state=active]:text-white text-xs sm:text-sm md:text-base"
+              className="data-[state=active]:bg-black data-[state=active]:text-white dark:data-[state=active]:bg-gray-700 text-xs sm:text-sm md:text-base"
             >
               <span className="hidden sm:inline">{dict.tool.tabs.quickCopy}</span>
               <span className="sm:hidden">Quick</span>
             </TabsTrigger>
             <TabsTrigger
               value="method2"
-              className="data-[state=active]:bg-black data-[state=active]:text-white text-xs sm:text-sm md:text-base"
+              className="data-[state=active]:bg-black data-[state=active]:text-white dark:data-[state=active]:bg-gray-700 text-xs sm:text-sm md:text-base"
             >
               <span className="hidden sm:inline">{dict.tool.tabs.manualSelect}</span>
               <span className="sm:hidden">Manual</span>
             </TabsTrigger>
             <TabsTrigger
               value="method3"
-              className="data-[state=active]:bg-black data-[state=active]:text-white text-xs sm:text-sm md:text-base"
+              className="data-[state=active]:bg-black data-[state=active]:text-white dark:data-[state=active]:bg-gray-700 text-xs sm:text-sm md:text-base"
             >
               <span className="hidden sm:inline">{dict.tool.tabs.customGenerator}</span>
               <span className="sm:hidden">Generate</span>
             </TabsTrigger>
             <TabsTrigger
               value="test"
-              className="data-[state=active]:bg-black data-[state=active]:text-white text-xs sm:text-sm md:text-base"
+              className="data-[state=active]:bg-black data-[state=active]:text-white dark:data-[state=active]:bg-gray-700 text-xs sm:text-sm md:text-base"
             >
               <span className="hidden sm:inline">{dict.tool.tabs.testCopy}</span>
               <span className="sm:hidden">Test</span>
@@ -144,7 +144,7 @@ export function InvisibleTextTool({
           </TabsList>
 
           <TabsContent value="method1" className="space-y-6">
-            <div className="bg-white p-6 rounded-xl border-2 border-black">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-xl border-2 border-black dark:border-gray-700">
               <h3 className="text-xl font-bold mb-4">{dict.tool.method1.title}</h3>
               <p className="mb-6">{dict.tool.method1.description}</p>
 
@@ -182,7 +182,7 @@ export function InvisibleTextTool({
           </TabsContent>
 
           <TabsContent value="method2" className="space-y-6">
-            <div className="bg-white p-6 rounded-xl border-2 border-black">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-xl border-2 border-black dark:border-gray-700">
               <h3 className="text-xl font-bold mb-4">{dict.tool.method2.title}</h3>
               <p className="mb-6">{dict.tool.method2.description}</p>
 
@@ -205,7 +205,7 @@ export function InvisibleTextTool({
           </TabsContent>
 
           <TabsContent value="method3" className="space-y-6">
-            <div className="bg-white p-6 rounded-xl border-2 border-black">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-xl border-2 border-black dark:border-gray-700">
               <h3 className="text-xl font-bold mb-4">{dict.tool.method3.title}</h3>
               <p className="mb-6">{dict.tool.method3.description}</p>
 
@@ -262,7 +262,7 @@ export function InvisibleTextTool({
           </TabsContent>
 
           <TabsContent value="test" className="space-y-6">
-            <div className="bg-white p-6 rounded-xl border-2 border-black">
+            <div className="bg-white dark:bg-gray-800 p-6 rounded-xl border-2 border-black dark:border-gray-700">
               <h3 className="text-xl font-bold mb-4">{dict.tool.test.title}</h3>
               <p className="mb-6">{dict.tool.test.description}</p>
 
@@ -307,10 +307,10 @@ export function InvisibleTextTool({
           </TabsContent>
         </Tabs>
 
-        <div className="mt-6 p-4 bg-emerald-50 rounded-lg border-2 border-emerald-200 flex gap-3">
-          <Info className="h-5 w-5 text-emerald-600 flex-shrink-0 mt-0.5" />
+        <div className="mt-6 p-4 bg-emerald-50 dark:bg-emerald-900 rounded-lg border-2 border-emerald-200 dark:border-emerald-800 flex gap-3">
+          <Info className="h-5 w-5 text-emerald-600 dark:text-emerald-400 flex-shrink-0 mt-0.5" />
           <div>
-            <p className="text-sm text-emerald-800">
+            <p className="text-sm text-emerald-800 dark:text-emerald-200">
               <span className="font-bold">{dict.tool.proTip.title}</span> {dict.tool.proTip.content}
             </p>
           </div>
@@ -319,4 +319,3 @@ export function InvisibleTextTool({
     </Card>
   )
 }
-
