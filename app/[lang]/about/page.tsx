@@ -147,7 +147,7 @@ export default async function About({
         </div>
       </main>
 
-      <footer className="bg-white border-t-2 border-black py-8">
+      <footer className="bg-white border-t-2 border-black py-8 mt-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
@@ -156,17 +156,15 @@ export default async function About({
                   <span className="font-bold text-sm">IT</span>
                 </div>
                 <span className="font-bold text-lg tracking-tight">
-                  {dict.hero?.title || "INVISIBLE TEXT"}
+                  {dict.hero.title}
                   <div className="h-1 w-full bg-emerald-400 mt-0.5"></div>
                 </span>
               </Link>
-              <p className="text-sm mt-2">
-                {dict.footer?.copyright || "© 2025 invisibletext.pro. All rights reserved."}
-              </p>
+              <p className="text-sm mt-2">{dict.footer.copyright}</p>
             </div>
             <div className="flex flex-col md:flex-row gap-8">
               <div>
-                <h4 className="font-bold mb-2">{dict.footer?.navigation}</h4>
+                <h4 className="font-bold mb-2">{dict.footer.navigation}</h4>
                 <ul className="space-y-1">
                   <li>
                     <Link href={`/${lang}`} className="text-sm hover:text-emerald-500 transition-colors">
@@ -175,37 +173,27 @@ export default async function About({
                   </li>
                   <li>
                     <Link href={`/${lang}/#features`} className="text-sm hover:text-emerald-500 transition-colors">
-                      {dict.navigation?.features}
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`/${lang}/#use-cases`} className="text-sm hover:text-emerald-500 transition-colors">
-                      Use Cases
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href={`/${lang}/#faq`} className="text-sm hover:text-emerald-500 transition-colors">
-                      FAQ
+                      {dict.navigation.features}
                     </Link>
                   </li>
                   <li>
                     <Link href={`/${lang}/about`} className="text-sm hover:text-emerald-500 transition-colors">
-                      {dict.navigation?.about}
+                      {dict.navigation.about}
                     </Link>
                   </li>
                   <li>
                     <Link href={`/${lang}/contact`} className="text-sm hover:text-emerald-500 transition-colors">
-                      {dict.navigation?.contact}
+                      {dict.navigation.contact}
                     </Link>
                   </li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-bold mb-2">{dict.footer?.legal}</h4>
+                <h4 className="font-bold mb-2">{dict.footer.legal}</h4>
                 <ul className="space-y-1">
                   <li>
                     <Link href={`/${lang}/privacy`} className="text-sm hover:text-emerald-500 transition-colors">
-                      {dict.navigation?.privacy}
+                      {dict.navigation.privacy}
                     </Link>
                   </li>
                   <li>
@@ -213,13 +201,13 @@ export default async function About({
                       href={`/${lang}/terms-of-service`}
                       className="text-sm hover:text-emerald-500 transition-colors"
                     >
-                      {dict.navigation?.terms}
+                      {dict.navigation.terms}
                     </Link>
                   </li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-bold mb-2">{dict.footer?.contact}</h4>
+                <h4 className="font-bold mb-2">{dict.footer.contact}</h4>
                 <ul className="space-y-1">
                   <li>
                     <Link href={`/${lang}/contact`} className="text-sm hover:text-emerald-500 transition-colors">

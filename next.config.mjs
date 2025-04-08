@@ -4,7 +4,7 @@ const nextConfig = {
     return [
       {
         source: '/',
-        destination: '/en',
+        destination: '/',
         permanent: true, // or false if it's temporary
       },
     ];
