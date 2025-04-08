@@ -25,15 +25,15 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      url: `https://invisibletext.top/blog/${post.slug}`,
+      url: `https://invisibletext.pro/blog/${post.slug}`,
       type: "article",
       publishedTime: post.date,
       authors: [post.author.name],
       images: [
         {
           url: post.coverImage.startsWith("/placeholder")
-            ? "https://invisibletext.top/og-image.jpg"
-            : `https://invisibletext.top${post.coverImage}`,
+            ? "https://invisibletext.pro/og-image.jpg"
+            : `https://invisibletext.pro${post.coverImage}`,
           width: 1200,
           height: 630,
           alt: post.title,
@@ -80,8 +80,8 @@ export default function BlogPost() {
     headline: post.title,
     description: post.excerpt,
     image: post.coverImage.startsWith("/placeholder")
-      ? "https://invisibletext.top/og-image.jpg"
-      : `https://invisibletext.top${post.coverImage}`,
+      ? "https://invisibletext.pro/og-image.jpg"
+      : `https://invisibletext.pro${post.coverImage}`,
     datePublished: post.date,
     author: {
       "@type": "Person",
@@ -89,15 +89,15 @@ export default function BlogPost() {
     },
     publisher: {
       "@type": "Organization",
-      name: "invisibletext.top",
+      name: "invisibletext.pro",
       logo: {
         "@type": "ImageObject",
-        url: "https://invisibletext.top/logo.png",
+        url: "https://invisibletext.pro/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://invisibletext.top/blog/${post.slug}`,
+      "@id": `https://invisibletext.pro/blog/${post.slug}`,
     },
     keywords: post.tags.join(", "),
   }
@@ -199,7 +199,7 @@ export default function BlogPost() {
                   <div className="h-1 w-full bg-emerald-400 mt-0.5"></div>
                 </span>
               </Link>
-              <p className="text-sm mt-2">© 2025 invisibletext.top. All rights reserved.</p>
+              <p className="text-sm mt-2">© 2025 invisibletext.pro. All rights reserved.</p>
             </div>
             <div className="flex flex-col md:flex-row gap-8">
               <div>
@@ -247,7 +247,7 @@ export default function BlogPost() {
                 <ul className="space-y-1">
                   <li>
                     <Link href="/en/contact" className="text-sm hover:text-emerald-500 transition-colors">
-                      contact@invisibletext.top
+                      contact@invisibletext.pro
                     </Link>
                   </li>
                 </ul>

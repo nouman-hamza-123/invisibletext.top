@@ -12,7 +12,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Blog | Invisible Text Generator",
     description: "Read our latest articles about invisible text, its applications, and creative uses.",
-    url: "https://invisibletext.top/blog",
+    url: "https://invisibletext.pro/blog",
     type: "website",
     images: [
       {
@@ -35,13 +35,13 @@ export default function BlogPage() {
     name: "Invisible Text Generator Blog",
     description:
       "Articles about invisible text, its applications, and creative uses in gaming, social media, and more.",
-    url: "https://invisibletext.top/blog",
+    url: "https://invisibletext.pro/blog",
     publisher: {
       "@type": "Organization",
-      name: "invisibletext.top",
+      name: "invisibletext.pro",
       logo: {
         "@type": "ImageObject",
-        url: "https://invisibletext.top/logo.png",
+        url: "https://invisibletext.pro/logo.png",
       },
     },
     blogPost: posts.map((post) => ({
@@ -53,7 +53,7 @@ export default function BlogPage() {
         "@type": "Person",
         name: post.author.name,
       },
-      url: `https://invisibletext.top/blog/${post.slug}`,
+      url: `https://invisibletext.pro/blog/${post.slug}`,
     })),
   }
 
@@ -109,7 +109,7 @@ export default function BlogPage() {
                   <div className="h-1 w-full bg-emerald-400 mt-0.5"></div>
                 </span>
               </Link>
-              <p className="text-sm mt-2">© 2025 invisibletext.top. All rights reserved.</p>
+              <p className="text-sm mt-2">© 2025 invisibletext.pro. All rights reserved.</p>
             </div>
             <div className="flex flex-col md:flex-row gap-8">
               <div>
@@ -157,7 +157,7 @@ export default function BlogPage() {
                 <ul className="space-y-1">
                   <li>
                     <Link href="/en/contact" className="text-sm hover:text-emerald-500 transition-colors">
-                      contact@invisibletext.top
+                      contact@invisibletext.pro
                     </Link>
                   </li>
                 </ul>
