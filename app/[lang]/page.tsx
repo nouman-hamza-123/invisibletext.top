@@ -8,6 +8,7 @@ import { generateMetadata as generateSeoMetadata } from "../seo-config";
 import { Breadcrumbs } from "@/components/breadcrumbs";
 import { StructuredData } from "@/components/structured-data";
 import { MobileHeader } from "@/app/[lang]/components/mobile-header";
+import { ThemeToggle } from "@/components/theme-toggle";
 
 // Generate metadata for the page
 export async function generateMetadata({
@@ -489,6 +490,7 @@ export default async function Home({
                   </ul>
                 </div>
               </div>
+              <ThemeToggle />
             </div>
           </div>
         </footer>
