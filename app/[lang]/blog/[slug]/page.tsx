@@ -9,8 +9,13 @@ import { StructuredData } from "@/components/structured-data"
 import type { Metadata } from "next"
 
 // Generate metadata for the page
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
-  const post = getBlogPostBySlug(params.slug)
+export async function generateMetadata({ params }: { params: { lang: 'en'; slug: string } }): Promise<Metadata> {
+  // We need to await the params object before accessing its properties
+  const lang = await params.lang
+  const slug = await params.slug
+
+  const post = await getBlogPostBySlug(slug)
+
   
   if (!post) {
     return {
@@ -44,14 +49,16 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   }
 }
 
-export default function BlogPostPage({ params }: { params: { slug: string } }) {
-  const post = getBlogPostBySlug(params.slug)
+export default async function BlogPostPage({ params }: { params: { slug: string } }) {
+  const slug = params // Destructure safely
   
+  const post = await getBlogPostBySlug(params.slug)
+
   if (!post) {
     notFound()
   }
 
-  const relatedPosts = getRelatedPosts(params.slug)
+  const relatedPosts = await getRelatedPosts(params.slug)
 
   // Define structured data for the blog post
   const structuredData = {

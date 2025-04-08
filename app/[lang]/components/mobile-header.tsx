@@ -36,6 +36,9 @@ export function MobileHeader({
 
         {/* Desktop Navigation */}
         <nav className="hidden md:flex gap-6 items-center">
+          <Link href={`/${lang}/blog`} className="font-medium hover:text-emerald-500 transition-colors">
+            Blog
+          </Link>
           <Link href={`/${lang}/#features`} className="font-medium hover:text-emerald-500 transition-colors">
             {navigation.features}
           </Link>
@@ -64,14 +67,14 @@ export function MobileHeader({
           <nav className="flex flex-col gap-6 items-start">
             
             <Link
-              href="/"
+              href={`/${lang}`}
               className="font-medium text-xl hover:text-emerald-500 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
               Home
             </Link>
             <Link
-              href="/blog"
+              href="/en/blog"
               className="font-medium text-xl hover:text-emerald-500 transition-colors"
               onClick={() => setIsMenuOpen(false)}
             >
