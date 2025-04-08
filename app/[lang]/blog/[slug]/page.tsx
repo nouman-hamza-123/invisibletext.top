@@ -2,8 +2,8 @@ import Link from "next/link"
 import Image from "next/image"
 import { notFound } from "next/navigation"
 import { getBlogPostBySlug, getRelatedPosts } from "@/lib/blog-data"
-import { BlogContent } from "../components/blog-content"
-import { RelatedPosts } from "../components/related-posts"
+import { BlogContent } from "../../../blog/components/blog-content"
+import { RelatedPosts } from "../../../blog/components/related-posts"
 import { StructuredData } from "@/components/structured-data"
 import type { Metadata } from "next"
 import { getDictionary } from "@/dictionaries"
@@ -170,7 +170,7 @@ export default async function BlogPostPage({ params }: { params: { lang: Locale;
             </div>
           </article>
 
-          <RelatedPosts posts={relatedPosts} lang={lang} />
+          <RelatedPosts posts={relatedPosts}  />
 
           <div className="bg-white dark:bg-gray-800 p-8 rounded-xl border-2 border-black dark:border-gray-700 shadow-lg text-center mt-12">
             <h2 className="text-2xl font-bold mb-4">Ready to try invisible text yourself?</h2>
