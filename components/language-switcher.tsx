@@ -25,6 +25,9 @@ export function LanguageSwitcher({ lang }: { lang: string }) {
         </Button>
       </DropdownMenuTrigger>
       <DropdownMenuContent align="end">
+        <DropdownMenuItem onClick={() => switchLanguage("ar")} className={lang === "ar" ? "bg-muted" : ""}>
+          Arabic
+        </DropdownMenuItem>
         <DropdownMenuItem onClick={() => switchLanguage("en")} className={lang === "en" ? "bg-muted" : ""}>
           English
         </DropdownMenuItem>
@@ -51,6 +54,15 @@ export function LanguageSwitcher({ lang }: { lang: string }) {
         </DropdownMenuItem>
         <DropdownMenuItem onClick={() => switchLanguage("de")} className={lang === "de" ? "bg-muted" : ""}>
           Deutsch
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => switchLanguage("tr")} className={lang === "tr" ? "bg-muted" : ""}>
+          Turkish
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => switchLanguage("ko")} className={lang === "ko" ? "bg-muted" : ""}>
+          Korean
+        </DropdownMenuItem>
+        <DropdownMenuItem onClick={() => switchLanguage("my")} className={lang === "my" ? "bg-muted" : ""}>
+          Malay
         </DropdownMenuItem>
       </DropdownMenuContent>
     </DropdownMenu>

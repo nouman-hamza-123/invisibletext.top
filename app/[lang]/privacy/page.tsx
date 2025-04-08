@@ -1,10 +1,15 @@
-import Link from "next/link"
-import { getDictionary } from "@/dictionaries"
-import type { Locale } from "@/types"
-import { MobileHeader } from "@/app/[lang]/components/mobile-header"
+import Link from "next/link";
+import { getDictionary } from "@/dictionaries";
+import type { Locale } from "@/types";
+import { MobileHeader } from "@/app/[lang]/components/mobile-header";
 
-export default async function PrivacyPolicy({ params: { lang } }: { params: { lang: Locale } }) {
-  const dict = await getDictionary(lang)
+export default async function PrivacyPolicy({
+  params,
+}: {
+  params: Promise<{ lang: Locale }>;
+}) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
 
   return (
     <div className="min-h-screen bg-slate-50 bg-[radial-gradient(#e0e0e0_1px,transparent_1px)] [background-size:20px_20px]">
@@ -146,7 +151,7 @@ export default async function PrivacyPolicy({ params: { lang } }: { params: { la
                 <ul className="space-y-1">
                   <li>
                     <Link href={`/${lang}/contact`} className="text-sm hover:text-emerald-500 transition-colors">
-                      contact@invisibletext.top
+                      contact@invisibletext.pro
                     </Link>
                   </li>
                 </ul>

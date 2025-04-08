@@ -1,0 +1,42 @@
+node_modules
+.next
+.unneccess
+
+# Node modules
+node_modules/
+
+# Build output
+.next/
+out/
+
+# Production build
+dist/
+
+# Local env files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+bun.lockb
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sw?
+
+# Optional: if using vercel CLI
+.vercel/
+
+# Optional: if using TurboRepo or Nx
+turbo/

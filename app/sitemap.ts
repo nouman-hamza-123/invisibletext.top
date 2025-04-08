@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next"
 import { baseUrl } from "./seo-config"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const languages = ["en", "es"]
+  const languages = [ "en", "es", 'id', 'it', 'fr', 'de', 'ru', 'nl', 'ko', 'tr', 'my', 'pt' ]
   const pages = ["", "/about", "/contact", "/privacy", "/terms-of-service"]
 
   const routes = languages.flatMap((lang) =>

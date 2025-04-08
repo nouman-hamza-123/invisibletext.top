@@ -36,15 +36,15 @@ export default function ContactForm({
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "ContactPage",
-    name: `${dict.pages.contact.title} | invisibletext.top`,
+    name: `${dict.pages.contact.title} | invisibletext.pro`,
     description: dict.pages.contact.introduction,
-    url: `https://invisibletext.top/${lang}/contact`,
+    url: `https://invisibletext.pro/${lang}/contact`,
     publisher: {
       "@type": "Organization",
-      name: "invisibletext.top",
+      name: "invisibletext.pro",
       contactPoint: {
         "@type": "ContactPoint",
-        email: "contact@invisibletext.top",
+        email: "contact@invisibletext.pro",
         contactType: "customer service",
       },
     },
@@ -319,7 +319,7 @@ export default function ContactForm({
                 <ul className="space-y-1">
                   <li>
                     <Link href={`/${lang}/contact`} className="text-sm hover:text-emerald-500 transition-colors">
-                      contact@invisibletext.top
+                      contact@invisibletext.pro
                     </Link>
                   </li>
                 </ul>

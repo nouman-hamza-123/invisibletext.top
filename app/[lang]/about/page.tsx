@@ -1,42 +1,51 @@
-import Link from "next/link"
-import { getDictionary } from "@/dictionaries"
-import type { Locale } from "@/types"
-import { Check } from "lucide-react"
-import type { Metadata } from "next"
-import { generateMetadata as generateSeoMetadata } from "../../seo-config"
-import { Breadcrumbs } from "@/components/breadcrumbs"
-import { StructuredData } from "@/components/structured-data"
-import { MobileHeader } from "@/app/[lang]/components/mobile-header"
+import Link from "next/link";
+import { getDictionary } from "@/dictionaries";
+import type { Locale } from "@/types";
+import { Check } from "lucide-react";
+import type { Metadata } from "next";
+import { generateMetadata as generateSeoMetadata } from "../../seo-config";
+import { Breadcrumbs } from "@/components/breadcrumbs";
+import { StructuredData } from "@/components/structured-data";
+import { MobileHeader } from "@/app/[lang]/components/mobile-header";
 
-// Generate metadata for the page
-export async function generateMetadata({ params }: { params: { lang: Locale } }): Promise<Metadata> {
-  const dict = await getDictionary(params.lang)
-  return generateSeoMetadata("about", params.lang, dict)
+// ✅ Fix metadata function by awaiting `params`
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ lang: Locale }>;
+}): Promise<Metadata> {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
+  return generateSeoMetadata("about", lang, dict); // 🛠 was `params.lang`, now it's `lang`
 }
 
-export default async function About({ params: { lang } }: { params: { lang: Locale } }) {
-  const dict = await getDictionary(lang)
+export default async function About({
+  params,
+}: {
+  params: Promise<{ lang: Locale }>;
+}) {
+  const { lang } = await params;
+  const dict = await getDictionary(lang);
 
-  // Define structured data for the page
   const structuredData = {
     "@context": "https://schema.org",
     "@type": "AboutPage",
-    name: `${dict.pages.about.title} | invisibletext.top`,
+    name: `${dict.pages.about.title} | InvisibleText.pro`,
     description: dict.pages.about.mission.content,
-    url: `https://invisibletext.top/${lang}/about`,
+    url: `https://www.invisibletext.pro/${lang}/about`,
     publisher: {
       "@type": "Organization",
-      name: "invisibletext.top",
+      name: "invisibletext.pro",
       logo: {
         "@type": "ImageObject",
-        url: "https://invisibletext.top/logo.png",
+        url: "https://invisibletext.pro/logo.png",
       },
     },
-  }
+  };
 
   return (
     <div className="min-h-screen bg-slate-50 bg-[radial-gradient(#e0e0e0_1px,transparent_1px)] [background-size:20px_20px]">
-      {/* Add structured data */}
+      
       <StructuredData data={structuredData} />
 
       <MobileHeader
@@ -202,7 +211,7 @@ export default async function About({ params: { lang } }: { params: { lang: Loca
                 <ul className="space-y-1">
                   <li>
                     <Link href={`/${lang}/contact`} className="text-sm hover:text-emerald-500 transition-colors">
-                      contact@invisibletext.top
+                      contact@invisibletext.pro
                     </Link>
                   </li>
                 </ul>
@@ -212,6 +221,7 @@ export default async function About({ params: { lang } }: { params: { lang: Loca
         </div>
       </footer>
     </div>
-  )
+  );
 }
+
 

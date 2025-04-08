@@ -1,0 +1,393 @@
+{
+  "meta": {
+    "title": "Görünmez Metin Üreticisi | invisibletext.top",
+    "description": "Oyunlar, sosyal medya ve daha fazlası için görünmez metin oluşturun. Boş kullanıcı adları, gizli mesajlar ve görünmez karakterler üretin. SEO uyumlu içeriklerle dijital varlığınızı güçlendirin ve arama motorlarında üst sıralara çıkın."
+  },
+  "navigation": {
+    "features": "Özellikler",
+    "about": "Hakkımızda",
+    "contact": "İletişim",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Hizmet Şartları"
+  },
+  "hero": {
+    "title": "GÖRÜNMEZ METİN",
+    "subtitle": "Ücretsiz çevrimiçi görünmez metin üreticimize hoş geldiniz! Sıfır genişlikte karakterler, renk maskesi ve daha fazlasını kullanarak mesajlarınızı açık görünümde saklayın. Ekstra SEO stratejileriyle içeriklerinizi güçlendirin ve dijital dünyada fark yaratın."
+  },
+  "tool": {
+    "tabs": {
+      "quickCopy": "Hızlı Kopyala",
+      "manualSelect": "Manuel Seçim",
+      "customGenerator": "Özel Üretici",
+      "testCopy": "Test Et & Kopyala"
+    },
+    "method1": {
+      "title": "Yöntem 1 - Düğmeyle Kopyala",
+      "description": "Aşağıdaki düğmelerden birine tıklayarak görünmez bir karakteri panonuza kopyalayın. Bu yöntem, SEO dostu içeriklerinizde hızlı entegrasyon sağlar ve kullanıcı deneyimini artırır.",
+      "copySmall": "Küçük Kopyala",
+      "copyMedium": "Orta Kopyala",
+      "copyLarge": "Büyük Kopyala",
+      "note": "Görünmez karakteri panoya kopyalamak için yukarıdaki düğmeye tıklayın. Eğer cihazınızda çalışmazsa, boş alanı kopyalamak için Yöntem 2’yi kullanın. Ek olarak, metin üzerinde gizli SEO etiketleri ekleyebilirsiniz."
+    },
+    "method2": {
+      "title": "Yöntem 2 - Boş Alanı Manuel Kopyala",
+      "description": "Aşağıdaki kesikli metin alanından boş karakteri elle seçip kopyalayın. Metin alanının altındaki 'Seç' düğmesine tıklayın. Görünmez karakter seçilecek, ardından [CTRL+C (Windows) veya CMD+C (MacOS)] ile kopyalayın. Bu yöntem, SEO uyumlu meta veriler eklemenize olanak tanır.",
+      "select": "Seç",
+      "note": "Görünmez karakteri seçtikten sonra panoya kopyalamak için CTRL+C (Windows) veya CMD+C (Mac) tuşlarına basın."
+    },
+    "method3": {
+      "title": "Yöntem 3 - Sınırsız Görünmez Karakter Üret",
+      "description": "Üretmek istediğiniz görünmez karakter sayısını (1-1000 arası) girin ve 'Üret' düğmesine tıklayın. Bu özellik, SEO stratejilerinize uygun şekilde metin içeriklerinizi zenginleştirmenize yardımcı olur.",
+      "generate": "Üret",
+      "generatedText": "Üretilen görünmez karakterler:",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı!",
+      "charactersGenerated": "görünmez karakter üretildi",
+      "charactersGeneratedPlural": "görünmez karakter üretildi"
+    },
+    "test": {
+      "title": "Görünmez Karakteri Test Et & Kopyala",
+      "description": "Görünmez karakterleri buraya yapıştırarak test edebilir veya kaç adet karakter bulunduğunu görebilirsiniz. Bu alan, içeriklerin SEO uyumluluğunu kontrol etmenize yardımcı olur.",
+      "placeholder": "Görünmez karakterleri buraya yapıştırın, kopyalayın ve test edin...",
+      "characters": "Karakterler:",
+      "clear": "Temizle",
+      "copy": "Kopyala"
+    },
+    "proTip": {
+      "title": "Uzman İpucu:",
+      "content": "Farklı platformlar görünmez karakterleri farklı şekilde işleyebilir. Belirli kullanım durumunuzda bir yöntem işe yaramazsa, başka bir yöntemi ya da farklı karakter sayısını deneyin. SEO stratejilerinizi geliştirmek için ek ipuçlarımızı da kullanın."
+    }
+  },
+  "sections": {
+    "whatIs": {
+      "title": "GÖRÜNMEZ METİN NEDİR?",
+      "content1": "Görünmez metin, bir belge veya mesaj içinde bulunan ancak çıplak gözle görünmeyen karakterlere veya karakter dizilerine denir. Bu, sıfır genişlikte karakterler, renk maskesi (örneğin beyaz metin beyaz arka plan üzerinde) veya görünür temsili olmayan özel Unicode karakterleri kullanılarak elde edilir.",
+      "content2": "Bu görünmez karakterler dijital ortamda varlıklarını sürdürür, kopyalanabilir, yapıştırılabilir ve normal metin gibi iletilebilir. Ayrıca, gizli SEO etiketleri ve meta veriler ekleyerek içeriklerinizi arama motorlarına daha uygun hale getirebilirsiniz."
+    },
+    "howTo": {
+      "title": "GÖRÜNMEZ METİN NASIL KOPYALANIR-YAPIŞTIRILIR?",
+      "step1": {
+        "title": "Yöntemi Seçin",
+        "content": "Hızlı kopyalama düğmeleri, manuel seçim veya özel üretici seçeneklerinden ihtiyacınıza uygun olanı seçin."
+      },
+      "step2": {
+        "title": "Kopyala",
+        "content": "Görünmez karakterleri tek tıklamayla panonuza kopyalayın, böylece SEO uyumlu içeriklerinize kolayca ekleyebilirsiniz."
+      },
+      "step3": {
+        "title": "Test Et & Kullan",
+        "content": "Görünmez metninizi test alanımızda kontrol edin ve ardından ihtiyacınız olan her yerde kullanın. Böylece hem işlevselliği hem de SEO performansı artar."
+      }
+    },
+    "whyUse": {
+      "title": "GÖRÜNMEZ METNİ NEDEN KULLANMALISINIZ?",
+      "privacy": {
+        "title": "Gizlilik & Mahremiyet",
+        "content": "Görünmez metin, mesajlarınızı açık görünümde saklamanıza olanak tanır, böylece hassas bilgilerinize ekstra bir gizlilik katmanı ekler. SEO açısından da, gizli içerik ekleme yöntemlerinizle fark yaratabilirsiniz."
+      },
+      "creative": {
+        "title": "Yaratıcı Kullanımlar",
+        "content": "Oyunlarda benzersiz kullanıcı adları oluşturun, sosyal medya platformlarında boş mesajlar gönderin veya içeriğinize izinsiz kopyalanmayı önleyen gizli watermark’lar ekleyin. Ekstra SEO etiketleriyle içeriklerinizi güçlendirin."
+      },
+      "steganography": {
+        "title": "Dijital Steganografi",
+        "content": "Mesajlarınızı diğer mesajların içine gizleyin, böylece dikkat çekmeden gizli iletişim sağlayın. Bu teknik, SEO açısından da stratejik avantajlar sunar."
+      },
+      "accessibility": {
+        "title": "Erişilebilirlik",
+        "content": "İçeriğinize, ekran okuyucular veya diğer yardımcı teknolojiler tarafından erişilebilen ancak görsel sunumu etkilemeyen gizli bağlam veya meta veriler ekleyin. Böylece içerik hem erişilebilir hem de SEO dostu olur."
+      }
+    },
+    "whoUses": {
+      "title": "GÖRÜNMEZ METNİ KULLANANLAR",
+      "gamers": {
+        "title": "Oyuncular",
+        "content": "Free Fire, PUBG ve diğer online oyunlarda oyuncular, benzersiz ve minimal kullanıcı adları oluşturmak için görünmez karakterleri kullanır. Bu yöntem, oyun içi SEO stratejilerini de destekler."
+      },
+      "socialMedia": {
+        "title": "Sosyal Medya Kullanıcıları",
+        "content": "Instagram, Twitter, Discord gibi platformlarda eşsiz profiller oluşturmak, boş mesajlar göndermek veya normal gönderiler içerisinde bilgileri gizlemek isteyen kullanıcılar bu tekniği kullanarak SEO performansını artırır."
+      },
+      "contentCreators": {
+        "title": "İçerik Üreticileri",
+        "content": "Yazarlar, tasarımcılar ve dijital sanatçılar, içeriğe gizli watermark’lar veya meta veriler ekleyerek izinsiz kullanımı takip eder ve SEO açısından avantaj sağlar."
+      }
+    },
+    "features": {
+      "title": "GÖRÜNMEZ METİN ARAÇ SÖZELLİKLERİ",
+      "methods": {
+        "title": "Çoklu Gizleme Yöntemleri",
+        "content": "Sıfır genişlikte karakterler, renk maskesi gibi çeşitli teknikler arasından seçim yaparak SEO uyumlu gizli içerikler oluşturun."
+      },
+      "quickCopy": {
+        "title": "Hızlı Kopyala Düğmeleri",
+        "content": "Küçük, orta veya büyük görünmez karakterleri tek tıklamayla anında kopyalayın. Bu özellik, zaman kazandırır ve SEO entegrasyonunu destekler."
+      },
+      "customGenerator": {
+        "title": "Özel Üretici",
+        "content": "1'den sonsuza kadar istediğiniz sayıda görünmez karakter üretin. Böylece SEO anahtar kelimelerinizi gizli şekilde ekleyerek içeriklerinizi güçlendirin."
+      },
+      "testingArea": {
+        "title": "Test Alanı",
+        "content": "Görünmez karakterlerinizi kullanmadan önce test edin. Böylece, içeriklerinizin beklendiği gibi çalıştığından ve SEO performansını artırdığından emin olun."
+      },
+      "counter": {
+        "title": "Karakter Sayacı",
+        "content": "Üretilen veya yapıştırılan görünmez karakterlerin sayısını tam olarak görün, böylece SEO stratejinizi optimize edebilirsiniz."
+      },
+      "encoding": {
+        "title": "Gelişmiş Metin Kodlaması",
+        "content": "Görünmez karakterler içine gizli mesajlar saklayın. Bu yöntem, hem gizli iletişim hem de SEO açısından yenilikçi bir çözümdür."
+      }
+    },
+    "benefits": {
+      "title": "INVISIBLETEXT.TOP KULLANMANIN FAYDALARI",
+      "free": {
+        "title": "100% Ücretsiz",
+        "content": "Gizli ücretler veya ücretli premium özellikler yoktur. Tüm SEO avantajlarını ücretsiz olarak elde edin."
+      },
+      "noRegistration": {
+        "title": "Kayıt Gerektirmez",
+        "content": "Hesap oluşturmadan anında araca erişin ve SEO dönüşüm oranlarınızı artırın."
+      },
+      "privacy": {
+        "title": "Gizlilik Odaklı",
+        "content": "Metinlerinizi saklamıyor veya kullanımınızı izlemiyoruz. Bu sayede, hem gizliliğiniz korunur hem de SEO verileriniz güvence altına alınır."
+      },
+      "userFriendly": {
+        "title": "Kullanıcı Dostu Arayüz",
+        "content": "Basit ve sezgisel tasarımımız, herkesin kolayca kullanabilmesini sağlar. Bu da hem kullanıcı deneyimini hem de SEO sıralamalarını iyileştirir."
+      },
+      "moreMethods": {
+        "title": "Rakiplerden Fazla Yöntem",
+        "content": "Diğer araçlardan daha fazla görünmez metin oluşturma ve kullanma yöntemi sunuyoruz, bu da size ekstra SEO avantajı sağlar."
+      },
+      "mobileFriendly": {
+        "title": "Mobil Uyumlu",
+        "content": "Akıllı telefonlar ve tabletlerde kusursuz çalışır. Mobil SEO performansınızı artırmak için idealdir."
+      }
+    },
+    "useCases": {
+      "title": "PRATİK KULLANIM ÖRNEKLERİ",
+      "gaming": {
+        "title": "Oyun",
+        "content": "Free Fire, PUBG gibi oyunlarda benzersiz \"görünmez\" kullanıcı adları oluşturarak rakiplerinizden sıyrılın. SEO uyumlu içerik stratejilerinizle profilinizi öne çıkarın.",
+        "example": "OyuncuAdı: \"⁣ ⁣\"",
+        "note": "(Boş veya minimal kullanıcı adı olarak görünür)"
+      },
+      "socialMedia": {
+        "title": "Sosyal Medya",
+        "content": "WhatsApp, Telegram, Discord gibi platformlarda boş mesajlar gönderin veya özgün profiller oluşturun. SEO için gizli veri ve etiketler ekleyin.",
+        "example": "Mesaj: \"⁣ ⁣\"",
+        "note": "(Boş mesaj olarak görünür, ancak kopyalanıp çözümlenebilir)"
+      },
+      "watermarking": {
+        "title": "Dijital Filigran",
+        "content": "İçeriklerinize, yetkisiz kullanımın tespiti için görünmez imzalar ekleyin. SEO anahtar kelimeleriyle desteklenen filigranlar, özgünlüğünüzü korur.",
+        "example": "Belge: \"Bu benim içeriğim‍‌‍‌‍‌‍‌.\"",
+        "note": "(Okuyucular tarafından görünmeyen gizli filigran içerir)"
+      },
+      "hiddenMessages": {
+        "title": "Gizli Mesajlar",
+        "content": "Normal metin içine, sadece bilenler tarafından açığa çıkarılabilen gizli mesajlar yerleştirin. SEO uyumlu meta veriler ekleyerek içeriklerinizi güçlendirin.",
+        "example": "Genel Gönderi: \"Bugün harika bir gün!‍‌‍‌‍‌‍‌\"",
+        "note": "(Gizli mesaj içerir: \"Saat 17'de buluşalım\")"
+      }
+    },
+    "faq": {
+      "title": "SIKÇA SORULAN SORULAR",
+      "isInvisible": {
+        "question": "Görünmez metin gerçekten görünmez mi?",
+        "answer": "Evet, görünmez metin normalde çıplak gözle görülmez. Ancak, metni seçerek, kod çözücü aracımızı kullanarak veya özel karakterleri gösteren bazı metin düzenleyicilerle görünür hale getirilebilir."
+      },
+      "allPlatforms": {
+        "question": "Görünmez metin tüm platformlarda çalışır mı?",
+        "answer": "Çoğu görünmez metin yöntemi sosyal medya, mesajlaşma uygulamaları ve oyunlar gibi geniş platformlarda çalışır. Ancak bazı platformlar görünmez metni farklı şekillerde filtreleyebilir veya kısıtlayabilir."
+      },
+      "allowed": {
+        "question": "Oyunlarda görünmez metin kullanmak serbest mi?",
+        "answer": "Bu, oyunun kullanım şartlarına bağlıdır. Bazı oyunlar kullanıcı adlarında görünmez karakter kullanımını kural ihlali olarak görebilir. Her zaman oyunun politikalarını kontrol edin."
+      },
+      "decode": {
+        "question": "Görünmez metni nasıl çözerim?",
+        "answer": "Kod çözücü alanımızı kullanarak görünmez metni yapıştırın. Araç, karakter sayısını gösterir ve gizli içeriği açığa çıkarır."
+      },
+      "difference": {
+        "question": "Küçük, orta ve büyük görünmez karakterler arasındaki fark nedir?",
+        "answer": "Küçük seçenek 1 karakter, orta 5 karakter ve büyük 10 karakter oluşturur. Daha fazla karakter, belirli platformlarda görünmez metni daha sağlam hale getirebilir."
+      }
+    }
+  },
+  "footer": {
+    "copyright": "© 2025 invisibletext.top. Tüm hakları saklıdır.",
+    "navigation": "Navigasyon",
+    "legal": "Yasal Bilgiler",
+    "contact": "İletişim"
+  },
+  "pages": {
+    "privacy": {
+      "title": "Gizlilik Politikası",
+      "lastUpdated": "Son Güncelleme: 7 Nisan 2025",
+      "introduction": {
+        "title": "Giriş",
+        "content": "invisibletext.top olarak, gizliliğinize büyük önem veriyor ve kişisel bilgilerinizi korumaya kararlıyız. Bu Gizlilik Politikası, sitemizi ziyaret ettiğinizde bilgilerinizi nasıl topladığımızı, kullandığımızı ve koruduğumuzu açıklar. Ek SEO stratejileriyle bilgilerinizin güvenliği sağlanır."
+      },
+      "informationCollected": {
+        "title": "Toplanan Bilgiler",
+        "content": "Hizmetlerimizi sağlamak ve geliştirmek için minimum bilgileri topluyoruz:",
+        "items": [
+          "Kullanım Verileri: Sitemizle nasıl etkileşimde bulunduğunuza dair anonim bilgiler (ziyaret edilen sayfalar, geçirilen süre, vb.).",
+          "Cihaz Bilgileri: Tarayıcı türü, IP adresi ve işletim sistemi gibi cihazınızla ilgili bilgiler.",
+          "Çerezler: Deneyiminizi iyileştirmek ve site trafiğini analiz etmek için çerez kullanıyoruz."
+        ]
+      },
+      "useOfInformation": {
+        "title": "Bilgilerinizi Nasıl Kullanıyoruz",
+        "content": "Toplanan bilgiler aşağıdaki amaçlarla kullanılır:",
+        "items": [
+          "Hizmetlerimizi sağlamak ve sürdürmek",
+          "Web sitemizi ve kullanıcı deneyimini geliştirmek",
+          "Kullanım desenlerini izleyerek SEO trendlerini analiz etmek",
+          "Teknik sorunları tespit etmek ve önlemek"
+        ]
+      },
+      "dataSharing": {
+        "title": "Bilgilerinizin Paylaşılması",
+        "content": "Bilgilerinizi üçüncü taraflarla satmıyor, takas etmiyor veya aktarmıyoruz. Anonimleştirilmiş, toplu veriler analitik sağlayıcılarla paylaşılabilir."
+      },
+      "dataRetention": {
+        "title": "Veri Saklama",
+        "content": "Bilgilerinizi, bu Gizlilik Politikasında belirtilen amaçlara ulaşmak için gerekli olduğu sürece saklarız."
+      },
+      "security": {
+        "title": "Güvenlik",
+        "content": "Bilgilerinizi korumak için uygun güvenlik önlemleri uygularız. Ancak, internet üzerinden veri iletimi veya elektronik depolama %100 güvenli değildir ve kesin güvenlik garanti edilemez."
+      },
+      "childrenPrivacy": {
+        "title": "Çocukların Gizliliği",
+        "content": "Sitemiz 13 yaş altı çocuklara yönelik değildir. 13 yaş altındaki çocuklardan bilerek kişisel bilgi toplamayız. Eğer çocuğunuzun bize bilgi verdiğini düşünüyorsanız lütfen bizimle iletişime geçin."
+      },
+      "changes": {
+        "title": "Gizlilik Politikasındaki Değişiklikler",
+        "content": "Gizlilik Politikamızı zaman zaman güncelleyebiliriz. Herhangi bir değişikliği bu sayfada yayınlayarak 'Son Güncelleme' tarihini güncelliyoruz."
+      },
+      "contact": {
+        "title": "Bizimle İletişime Geçin",
+        "content": "Bu Gizlilik Politikası hakkında herhangi bir sorunuz varsa lütfen privacy@invisibletext.top adresinden bizimle iletişime geçin."
+      }
+    },
+    "terms": {
+      "title": "Hizmet Şartları",
+      "lastUpdated": "Son Güncelleme: 7 Nisan 2025",
+      "introduction": {
+        "title": "Giriş",
+        "content": "invisibletext.top'e hoş geldiniz. Sitemize erişerek veya kullanarak, bu Hizmet Şartlarına bağlı kalmayı kabul etmiş olursunuz. Şartların herhangi bir kısmıyla anlaşmazlık yaşıyorsanız, lütfen sitemizi kullanmayın."
+      },
+      "intellectualProperty": {
+        "title": "Fikri Mülkiyet",
+        "content": "Sitemizin içeriği, özellikleri ve işlevselliği invisibletext.top'a aittir ve uluslararası telif hakkı, marka ve diğer fikri mülkiyet yasaları ile korunmaktadır."
+      },
+      "userConduct": {
+        "title": "Kullanıcı Davranışı",
+        "content": "Sitemizi kullanırken aşağıdakileri kabul edersiniz:",
+        "items": [
+          "Hizmetlerimizi yalnızca yasal amaçlar için kullanmak",
+          "Hizmetlerimizi yasa dışı veya yetkisiz amaçlarla kullanmamak",
+          "Sitemizin düzgün çalışmasına müdahale etmemek",
+          "Başkalarına zarar verecek veya zararlı faaliyetlerde bulunmamak"
+        ]
+      },
+      "disclaimer": {
+        "title": "Feragatname",
+        "content": "Sitemiz ve içeriği 'olduğu gibi' ve 'erişilebilir olduğu gibi' sunulmaktadır. Sitemizin kesintisiz, güvenli veya hatasız çalışacağına dair garanti verilmemektedir."
+      },
+      "limitation": {
+        "title": "Sorumluluğun Sınırlandırılması",
+        "content": "Herhangi bir durumda invisibletext.top, sitemizi kullanmanızdan doğan dolaylı, tesadüfi, özel, sonuçsal veya cezai zararlardan sorumlu tutulamaz."
+      },
+      "indemnification": {
+        "title": "Tazminat",
+        "content": "Sitemizi kullanmanız veya bu Hizmet Şartlarını ihlal etmeniz durumunda ortaya çıkan her türlü talep, zarar, yükümlülük veya masraftan invisibletext.top ve bağlı kuruluşlarını tazmin etmeyi ve zarar görmelerini engellemeyi kabul edersiniz."
+      },
+      "changes": {
+        "title": "Şartlardaki Değişiklikler",
+        "content": "Bu Hizmet Şartlarını herhangi bir zamanda değiştirme veya yerine geçirme hakkımızı saklı tutarız. Yapılan değişiklikler bu sayfada yayınlanacak ve 'Son Güncelleme' tarihi güncellenecektir."
+      },
+      "contact": {
+        "title": "Bizimle İletişime Geçin",
+        "content": "Bu Hizmet Şartlarıyla ilgili sorularınız varsa lütfen terms@invisibletext.top adresinden bizimle iletişime geçin."
+      }
+    },
+    "about": {
+      "title": "Hakkımızda",
+      "mission": {
+        "title": "Misyonumuz",
+        "content": "invisibletext.top olarak, çevrimiçi en kullanıcı dostu ve kapsamlı görünmez metin oluşturma aracını sunmayı amaçlıyoruz. Dijital iletişimi daha esnek ve yaratıcı hale getirmek için görünmez karakterleri yenilikçi yollarla kullanıyoruz."
+      },
+      "story": {
+        "title": "Hikayemiz",
+        "content": "invisibletext.top, görünmez Unicode karakterlerinin yaratıcı uygulamalarına hayran olan bir geliştirici ekibi tarafından oluşturuldu. Sıfır genişlikte boşluklar üreten basit bir araç olarak başlayan yolculuğumuz, şimdi çeşitli bağlamlarda kullanılabilecek kapsamlı bir platforma dönüştü."
+      },
+      "team": {
+        "title": "Ekibimiz",
+        "content": "Tutkulu geliştiriciler, tasarımcılar ve dijital iletişim meraklılarından oluşan küçük ekibimiz, çevrimiçi ifade ve iletişimi güçlendiren kullanışlı araçlar yaratmaya kendini adamıştır."
+      },
+      "values": {
+        "title": "Değerlerimiz",
+        "items": [
+          {
+            "title": "Basitlik",
+            "content": "Teknik bilgi seviyesi ne olursa olsun, herkesin kolayca kullanabileceği araçlar yaratmaya inanıyoruz."
+          },
+          {
+            "title": "Yenilik",
+            "content": "Araçlarımızı sürekli geliştirmek ve dijital iletişimde benzersiz çözümler sunmak için yenilikçi yollar arıyoruz."
+          },
+          {
+            "title": "Erişilebilirlik",
+            "content": "Herkese ücretsiz ve engellerden uzak erişim sağlayarak dijital dünyada daha geniş kitlelere ulaşmayı hedefliyoruz."
+          },
+          {
+            "title": "Gizlilik",
+            "content": "Gizliliğinize saygı duyuyoruz ve araçlarımız üzerinden oluşturduğunuz içerikleri veya kişisel bilgilerinizi saklamıyoruz."
+          }
+        ]
+      },
+      "future": {
+        "title": "Geleceğe Bakış",
+        "content": "invisibletext.top'u sürekli geliştirmek ve hizmetlerimizi genişletmek için çalışıyoruz. Yol haritamız, yeni görünmez karakter türlerinin eklenmesi, test araçlarının iyileştirilmesi ve görünmez metin teknolojisi için yenilikçi uygulamaların geliştirilmesini içeriyor."
+      },
+      "contact": {
+        "title": "Bize Ulaşın",
+        "content": "Kullanıcılarımızın geri bildirimlerine çok değer veriyoruz! Önerileriniz, yorumlarınız veya sorularınız varsa, lütfen bizimle iletişime geçmekten çekinmeyin."
+      }
+    },
+    "contact": {
+      "title": "Bize Ulaşın",
+      "introduction": "Sizden haber almayı çok isteriz! Soru, geri bildirim veya sadece selam vermek için aşağıdaki yöntemlerden bize ulaşabilirsiniz.",
+      "form": {
+        "title": "Bize Mesaj Gönderin",
+        "name": "Adınız",
+        "email": "E-posta Adresiniz",
+        "subject": "Konu",
+        "message": "Mesajınız",
+        "submit": "Mesajı Gönder",
+        "success": "Mesajınız başarıyla gönderildi!",
+        "error": "Mesajınız gönderilirken bir hata oluştu. Lütfen tekrar deneyin."
+      },
+      "email": {
+        "title": "E-posta Gönderin",
+        "address": "contact@invisibletext.top",
+        "note": "Genellikle 24-48 saat içinde cevap veriyoruz."
+      },
+      "social": {
+        "title": "Bizi Takip Edin",
+        "note": "Güncellemeler, ipuçları ve daha fazlası için sosyal medyada bizi takip edin."
+      },
+      "faq": {
+        "title": "Sıkça Sorulan Sorular",
+        "note": "Bizimle iletişime geçmeden önce, sorunuzun yanıtını FAQ bölümümüzde bulabilirsiniz."
+      }
+    }
+  }
+}
