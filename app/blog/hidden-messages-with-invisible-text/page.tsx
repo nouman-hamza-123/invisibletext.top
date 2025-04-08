@@ -7,7 +7,7 @@ import type { BlogPost } from "@/lib/blog-data"
 import { useEffect, useState } from "react"
 import ReactMarkdown from "react-markdown"
 import { Menu, X } from "lucide-react"
-import { ThemeToggle } from "@/components/theme-provider"
+import { ThemeToggle } from "@/components/theme-toggle"
 
 // BlogHeader component included directly
 function BlogHeader() {
