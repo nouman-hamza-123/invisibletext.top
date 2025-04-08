@@ -22,6 +22,6 @@
       "@/*": ["./*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".unneccess/decode-text.tsx", ".unneccess/invisible-text-generator.tsx"],
+  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts", ".unneccess/decode-text.tsx", ".unneccess/invisible-text-generator.tsx", ".unneccess/page.tsx"],
   "exclude": ["node_modules"]
 }
