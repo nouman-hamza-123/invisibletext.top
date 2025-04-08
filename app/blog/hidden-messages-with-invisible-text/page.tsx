@@ -1,52 +1,171 @@
+"use client"
+
 import Link from "next/link"
 import Image from "next/image"
 import { getBlogPostBySlug, getRelatedPosts } from "@/lib/blog-data"
-import { BlogHeader } from "../components/blog-header"
-import { BlogContent } from "../components/blog-content"
-import { RelatedPosts } from "../components/related-posts"
-import { StructuredData } from "@/components/structured-data"
-import type { Metadata } from "next"
+import type { BlogPost } from "@/lib/blog-data"
+import { useEffect, useState } from "react"
+import ReactMarkdown from "react-markdown"
+import { Menu, X } from "lucide-react"
+import { ThemeToggle } from "@/components/theme-provider"
 
-// Generate metadata for the page
-export async function generateMetadata(): Promise<Metadata> {
-  const slug = "how-to-use-invisible-text"
-  const post = getBlogPostBySlug(slug)
+// BlogHeader component included directly
+function BlogHeader() {
+  const [isMenuOpen, setIsMenuOpen] = useState(false)
 
-  if (!post) {
-    return {
-      title: "Post Not Found",
-      description: "The requested blog post could not be found.",
-    }
-  }
+  return (
+    <header className="container mx-auto py-4 px-4">
+      <div className="flex justify-between items-center">
+        <Link href="/en" className="flex items-center gap-2 z-20">
+          <div className="w-10 h-10 bg-white border-2 border-black rounded-md flex items-center justify-center">
+            <span className="font-bold text-lg">IT</span>
+          </div>
+          <span className="font-bold text-xl tracking-tight">
+            INVISIBLE TEXT
+            <div className="h-1 w-full bg-emerald-400 mt-0.5"></div>
+          </span>
+        </Link>
 
-  return {
-    title: `${post.title} | Invisible Text Generator Blog`,
-    description: post.excerpt,
-    openGraph: {
-      title: post.title,
-      description: post.excerpt,
-      url: `https://invisibletext.pro/blog/${post.slug}`,
-      type: "article",
-      publishedTime: post.date,
-      authors: [post.author.name],
-      images: [
-        {
-          url: post.coverImage.startsWith("/placeholder")
-            ? "https://invisibletext.pro/og-image.jpg"
-            : `https://invisibletext.pro${post.coverImage}`,
-          width: 1200,
-          height: 630,
-          alt: post.title,
-        },
-      ],
-      tags: post.tags,
-    },
-  }
+        {/* Desktop Navigation */}
+        <nav className="hidden md:flex gap-6 items-center">
+          <Link href="/en" className="font-medium hover:text-emerald-500 transition-colors">
+            Home
+          </Link>
+          <Link href="/blog" className="font-medium hover:text-emerald-500 transition-colors">
+            Blog
+          </Link>
+          <Link href="/en/about" className="font-medium hover:text-emerald-500 transition-colors">
+            About Us
+          </Link>
+          <Link href="/en/contact" className="font-medium hover:text-emerald-500 transition-colors">
+            Contact
+          </Link>
+          <ThemeToggle />
+        </nav>
+
+        {/* Mobile Menu Button */}
+        <button
+          className="md:hidden z-20"
+          onClick={() => setIsMenuOpen(!isMenuOpen)}
+          aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+        >
+          {isMenuOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
+        </button>
+      </div>
+
+      {/* Mobile Navigation */}
+      {isMenuOpen && (
+        <div className="fixed inset-0 bg-white dark:bg-gray-900 z-10 pt-20 px-6">
+          <nav className="flex flex-col gap-6 items-start">
+            <Link
+              href="/en"
+              className="font-medium text-xl hover:text-emerald-500 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Home
+            </Link>
+            <Link
+              href="/blog"
+              className="font-medium text-xl hover:text-emerald-500 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Blog
+            </Link>
+            <Link
+              href="/en/about"
+              className="font-medium text-xl hover:text-emerald-500 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              About Us
+            </Link>
+            <Link
+              href="/en/contact"
+              className="font-medium text-xl hover:text-emerald-500 transition-colors"
+              onClick={() => setIsMenuOpen(false)}
+            >
+              Contact
+            </Link>
+            <div className="mt-4">
+              <ThemeToggle />
+            </div>
+          </nav>
+        </div>
+      )}
+    </header>
+  )
 }
 
-export default function BlogPost() {
-  const slug = "how-to-use-invisible-text"
+// BlogContent component included directly
+function BlogContent({ content }: { content: string }) {
+  // Use client-side rendering for ReactMarkdown
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return <div className="animate-pulse h-96 bg-gray-100 dark:bg-gray-700 rounded-lg"></div>
+  }
+
+  return (
+    <div className="prose prose-lg dark:prose-invert max-w-none">
+      <ReactMarkdown>{content}</ReactMarkdown>
+    </div>
+  )
+}
+
+// RelatedPosts component included directly
+function RelatedPosts({ posts }: { posts: BlogPost[] }) {
+  if (posts.length === 0) {
+    return null
+  }
+
+  return (
+    <div className="mt-12">
+      <h2 className="text-2xl font-bold mb-6">Related Posts</h2>
+
+      <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
+        {posts.map((post) => (
+          <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
+            <div className="bg-white dark:bg-gray-800 rounded-xl border-2 border-black dark:border-gray-700 shadow-md overflow-hidden transition-all duration-300 group-hover:shadow-lg group-hover:-translate-y-1">
+              <div className="flex">
+                <div className="relative w-24 h-24 flex-shrink-0">
+                  <Image src={post.coverImage || "/placeholder.svg"} alt={post.title} fill className="object-cover" />
+                </div>
+
+                <div className="p-4">
+                  <h3 className="text-lg font-bold mb-2 group-hover:text-emerald-600 transition-colors">
+                    {post.title}
+                  </h3>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm line-clamp-2">{post.excerpt}</p>
+                </div>
+              </div>
+            </div>
+          </Link>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+// StructuredData component included directly
+function StructuredData({ data }: { data: any }) {
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
+}
+
+function BlogPostPage() {
+  const slug = "hidden-messages-with-invisible-text"
   const post = getBlogPostBySlug(slug)
+  const [mounted, setMounted] = useState(false)
+
+  useEffect(() => {
+    setMounted(true)
+  }, [])
+
+  if (!mounted) {
+    return <div className="min-h-screen bg-slate-50 dark:bg-gray-950 animate-pulse"></div>
+  }
 
   if (!post) {
     return (
@@ -80,8 +199,8 @@ export default function BlogPost() {
     headline: post.title,
     description: post.excerpt,
     image: post.coverImage.startsWith("/placeholder")
-      ? "https://invisibletext.pro/og-image.jpg"
-      : `https://invisibletext.pro${post.coverImage}`,
+      ? "https://invisibletext.top/og-image.jpg"
+      : `https://invisibletext.top${post.coverImage}`,
     datePublished: post.date,
     author: {
       "@type": "Person",
@@ -89,15 +208,15 @@ export default function BlogPost() {
     },
     publisher: {
       "@type": "Organization",
-      name: "invisibletext.pro",
+      name: "invisibletext.top",
       logo: {
         "@type": "ImageObject",
-        url: "https://invisibletext.pro/logo.png",
+        url: "https://invisibletext.top/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://invisibletext.pro/blog/${post.slug}`,
+      "@id": `https://invisibletext.top/blog/${post.slug}`,
     },
     keywords: post.tags.join(", "),
   }
@@ -199,7 +318,7 @@ export default function BlogPost() {
                   <div className="h-1 w-full bg-emerald-400 mt-0.5"></div>
                 </span>
               </Link>
-              <p className="text-sm mt-2">© 2025 invisibletext.pro. All rights reserved.</p>
+              <p className="text-sm mt-2">© 2025 invisibletext.top. All rights reserved.</p>
             </div>
             <div className="flex flex-col md:flex-row gap-8">
               <div>
@@ -247,7 +366,7 @@ export default function BlogPost() {
                 <ul className="space-y-1">
                   <li>
                     <Link href="/en/contact" className="text-sm hover:text-emerald-500 transition-colors">
-                      contact@invisibletext.pro
+                      contact@invisibletext.top
                     </Link>
                   </li>
                 </ul>
@@ -259,3 +378,5 @@ export default function BlogPost() {
     </div>
   )
 }
+
+export default BlogPostPage

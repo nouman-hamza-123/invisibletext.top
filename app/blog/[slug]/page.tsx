@@ -1,5 +1,6 @@
 import Link from "next/link"
 import Image from "next/image"
+import { notFound } from "next/navigation"
 import { getBlogPostBySlug, getRelatedPosts } from "@/lib/blog-data"
 import { BlogHeader } from "../components/blog-header"
 import { BlogContent } from "../components/blog-content"
@@ -8,9 +9,8 @@ import { StructuredData } from "@/components/structured-data"
 import type { Metadata } from "next"
 
 // Generate metadata for the page
-export async function generateMetadata(): Promise<Metadata> {
-  const slug = "hidden-messages-with-invisible-text"
-  const post = getBlogPostBySlug(slug)
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+  const post = getBlogPostBySlug(params.slug)
 
   if (!post) {
     return {
@@ -25,15 +25,15 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      url: `https://invisibletext.pro/blog/${post.slug}`,
+      url: `https://invisibletext.top/blog/${post.slug}`,
       type: "article",
       publishedTime: post.date,
       authors: [post.author.name],
       images: [
         {
           url: post.coverImage.startsWith("/placeholder")
-            ? "https://invisibletext.pro/og-image.jpg"
-            : `https://invisibletext.pro${post.coverImage}`,
+            ? "https://invisibletext.top/og-image.jpg"
+            : `https://invisibletext.top${post.coverImage}`,
           width: 1200,
           height: 630,
           alt: post.title,
@@ -44,34 +44,14 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export default function BlogPost() {
-  const slug = "hidden-messages-with-invisible-text"
-  const post = getBlogPostBySlug(slug)
+export default function BlogPostPage({ params }: { params: { slug: string } }) {
+  const post = getBlogPostBySlug(params.slug)
 
   if (!post) {
-    return (
-      <div className="min-h-screen bg-slate-50 dark:bg-gray-950">
-        <BlogHeader />
-        <main className="container mx-auto px-4 py-12">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-black tracking-tight mb-8">
-              Post Not Found
-              <div className="h-2 w-24 bg-emerald-400 mx-auto mt-4"></div>
-            </h1>
-            <p className="text-xl mb-8">Sorry, the blog post you're looking for doesn't exist or has been moved.</p>
-            <Link
-              href="/blog"
-              className="inline-block bg-black hover:bg-gray-800 text-white font-bold py-3 px-8 rounded-lg transition-colors"
-            >
-              Back to Blog
-            </Link>
-          </div>
-        </main>
-      </div>
-    )
+    notFound()
   }
 
-  const relatedPosts = getRelatedPosts(slug)
+  const relatedPosts = getRelatedPosts(params.slug)
 
   // Define structured data for the blog post
   const structuredData = {
@@ -80,8 +60,8 @@ export default function BlogPost() {
     headline: post.title,
     description: post.excerpt,
     image: post.coverImage.startsWith("/placeholder")
-      ? "https://invisibletext.pro/og-image.jpg"
-      : `https://invisibletext.pro${post.coverImage}`,
+      ? "https://invisibletext.top/og-image.jpg"
+      : `https://invisibletext.top${post.coverImage}`,
     datePublished: post.date,
     author: {
       "@type": "Person",
@@ -89,21 +69,21 @@ export default function BlogPost() {
     },
     publisher: {
       "@type": "Organization",
-      name: "invisibletext.pro",
+      name: "invisibletext.top",
       logo: {
         "@type": "ImageObject",
-        url: "https://invisibletext.pro/logo.png",
+        url: "https://invisibletext.top/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://invisibletext.pro/blog/${post.slug}`,
+      "@id": `https://invisibletext.top/blog/${post.slug}`,
     },
     keywords: post.tags.join(", "),
   }
 
   return (
-    <div className="min-h-screen bg-slate-50 dark:bg-gray-950 bg-[radial-gradient(#e0e0e0_1px,transparent_1px)] dark:bg-[radial-gradient(#333333_1px,transparent_1px)] [background-size:20px_20px]">
+    <div className="min-h-screen bg-slate-50 bg-[radial-gradient(#e0e0e0_1px,transparent_1px)] [background-size:20px_20px]">
       {/* Add structured data */}
       <StructuredData data={structuredData} />
 
@@ -130,7 +110,7 @@ export default function BlogPost() {
             </Link>
           </div>
 
-          <article className="bg-white dark:bg-gray-800 rounded-xl border-2 border-black dark:border-gray-700 shadow-lg overflow-hidden mb-12">
+          <article className="bg-white rounded-xl border-2 border-black shadow-lg overflow-hidden mb-12">
             <div className="relative w-full h-[400px]">
               <Image
                 src={post.coverImage || "/placeholder.svg"}
@@ -154,7 +134,7 @@ export default function BlogPost() {
                   </div>
                   <span className="text-sm font-medium">{post.author.name}</span>
                 </div>
-                <span className="text-sm text-gray-500 dark:text-gray-400">{post.date}</span>
+                <span className="text-sm text-gray-500">{post.date}</span>
               </div>
 
               <h1 className="text-4xl font-black tracking-tight mb-6">{post.title}</h1>
@@ -173,7 +153,7 @@ export default function BlogPost() {
 
           <RelatedPosts posts={relatedPosts} />
 
-          <div className="bg-white dark:bg-gray-800 p-8 rounded-xl border-2 border-black dark:border-gray-700 shadow-lg text-center mt-12">
+          <div className="bg-white p-8 rounded-xl border-2 border-black shadow-lg text-center mt-12">
             <h2 className="text-2xl font-bold mb-4">Ready to try invisible text yourself?</h2>
             <p className="mb-6">Use our generator to create invisible characters for your own creative projects.</p>
             <Link
@@ -186,7 +166,7 @@ export default function BlogPost() {
         </div>
       </main>
 
-      <footer className="bg-white dark:bg-gray-900 border-t-2 border-black dark:border-gray-700 py-8 mt-12">
+      <footer className="bg-white border-t-2 border-black py-8 mt-12">
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
@@ -199,7 +179,7 @@ export default function BlogPost() {
                   <div className="h-1 w-full bg-emerald-400 mt-0.5"></div>
                 </span>
               </Link>
-              <p className="text-sm mt-2">© 2025 invisibletext.pro. All rights reserved.</p>
+              <p className="text-sm mt-2">© 2025 invisibletext.top. All rights reserved.</p>
             </div>
             <div className="flex flex-col md:flex-row gap-8">
               <div>
@@ -247,7 +227,7 @@ export default function BlogPost() {
                 <ul className="space-y-1">
                   <li>
                     <Link href="/en/contact" className="text-sm hover:text-emerald-500 transition-colors">
-                      contact@invisibletext.pro
+                      contact@invisibletext.top
                     </Link>
                   </li>
                 </ul>

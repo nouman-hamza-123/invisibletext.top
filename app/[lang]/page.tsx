@@ -55,7 +55,7 @@ export default async function Home({
     };
 
     return (
-      <div className="min-h-screen bg-slate-50 bg-[radial-gradient(#e0e0e0_1px,transparent_1px)] [background-size:20px_20px]">
+      <div className="min-h-screen bg-slate-50 dark:bg-gray-950 bg-[radial-gradient(#e0e0e0_1px,transparent_1px)] [background-size:20px_20px]">
         <StructuredData data={structuredData} />
 
         <MobileHeader
@@ -407,7 +407,7 @@ export default async function Home({
           </section>
         </main>
 
-        <footer className="bg-white border-t-2 border-black py-8">
+        <footer className="bg-white dark:bg-muted border-t-2 border-black py-8">
           <div className="container mx-auto px-4">
             <div className="flex flex-col md:flex-row justify-between items-center">
               <div className="mb-6 md:mb-0">

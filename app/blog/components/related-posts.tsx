@@ -1,9 +1,8 @@
 import Link from "next/link"
 import Image from "next/image"
 import type { BlogPost } from "@/lib/blog-data"
-import type { Locale } from "@/types"
 
-export function RelatedPosts({ posts, lang }: { posts: BlogPost[]; lang: Locale }) {
+export function RelatedPosts({ posts }: { posts: BlogPost[] }) {
   if (posts.length === 0) {
     return null
   }
@@ -14,8 +13,8 @@ export function RelatedPosts({ posts, lang }: { posts: BlogPost[]; lang: Locale 
 
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
         {posts.map((post) => (
-          <Link key={post.slug} href={`/${lang}/blog/${post.slug}`} className="group">
-            <div className="bg-white rounded-xl border-2 border-black shadow-md overflow-hidden transition-all duration-300 group-hover:shadow-lg group-hover:-translate-y-1">
+          <Link key={post.slug} href={`/blog/${post.slug}`} className="group">
+            <div className="bg-white dark:bg-gray-800 rounded-xl border-2 border-black dark:border-gray-700 shadow-md overflow-hidden transition-all duration-300 group-hover:shadow-lg group-hover:-translate-y-1">
               <div className="flex">
                 <div className="relative w-24 h-24 flex-shrink-0">
                   <Image src={post.coverImage || "/placeholder.svg"} alt={post.title} fill className="object-cover" />
@@ -25,7 +24,7 @@ export function RelatedPosts({ posts, lang }: { posts: BlogPost[]; lang: Locale 
                   <h3 className="text-lg font-bold mb-2 group-hover:text-emerald-600 transition-colors">
                     {post.title}
                   </h3>
-                  <p className="text-gray-600 text-sm line-clamp-2">{post.excerpt}</p>
+                  <p className="text-gray-600 dark:text-gray-300 text-sm line-clamp-2">{post.excerpt}</p>
                 </div>
               </div>
             </div>

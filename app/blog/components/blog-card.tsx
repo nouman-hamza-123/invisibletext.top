@@ -1,12 +1,11 @@
 import Link from "next/link"
 import Image from "next/image"
 import type { BlogPost } from "@/lib/blog-data"
-import type { Locale } from "@/types"
 
-export function BlogCard({ post, lang }: { post: BlogPost; lang: Locale }) {
+export function BlogCard({ post }: { post: BlogPost }) {
   return (
-    <Link href={`/${lang}/blog/${post.slug}`} className="group">
-      <div className="bg-white rounded-xl border-2 border-black shadow-md overflow-hidden transition-all duration-300 group-hover:shadow-lg group-hover:-translate-y-1">
+    <Link href={`/blog/${post.slug}`} className="group">
+      <div className="bg-white dark:bg-gray-800 rounded-xl border-2 border-black dark:border-gray-700 shadow-md overflow-hidden transition-all duration-300 group-hover:shadow-lg group-hover:-translate-y-1">
         <div className="relative w-full h-48">
           <Image src={post.coverImage || "/placeholder.svg"} alt={post.title} fill className="object-cover" />
         </div>
@@ -24,11 +23,11 @@ export function BlogCard({ post, lang }: { post: BlogPost; lang: Locale }) {
               </div>
               <span className="text-xs">{post.author.name}</span>
             </div>
-            <span className="text-xs text-gray-500">{post.date}</span>
+            <span className="text-xs text-gray-500 dark:text-gray-400">{post.date}</span>
           </div>
 
           <h2 className="text-xl font-bold mb-2 group-hover:text-emerald-600 transition-colors">{post.title}</h2>
-          <p className="text-gray-600 text-sm mb-4">{post.excerpt}</p>
+          <p className="text-gray-600 dark:text-gray-300 text-sm mb-4">{post.excerpt}</p>
 
           <div className="flex flex-wrap gap-2">
             {post.tags.slice(0, 2).map((tag) => (
@@ -37,7 +36,9 @@ export function BlogCard({ post, lang }: { post: BlogPost; lang: Locale }) {
               </span>
             ))}
             {post.tags.length > 2 && (
-              <span className="bg-gray-100 text-gray-800 text-xs px-2 py-1 rounded-full">+{post.tags.length - 2}</span>
+              <span className="bg-gray-100 dark:bg-gray-700 text-gray-800 dark:text-gray-300 text-xs px-2 py-1 rounded-full">
+                +{post.tags.length - 2}
+              </span>
             )}
           </div>
         </div>

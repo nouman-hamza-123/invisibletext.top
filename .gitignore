@@ -1,6 +1,6 @@
 node_modules
 .next
-.unneccess
+.unneccess/
 
 # Node modules
 node_modules/

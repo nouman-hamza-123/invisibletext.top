@@ -1,15 +1,21 @@
 import Link from "next/link"
 import Image from "next/image"
+import { notFound } from "next/navigation"
 import { getBlogPostBySlug, getRelatedPosts } from "@/lib/blog-data"
-import { BlogHeader } from "../components/blog-header"
 import { BlogContent } from "../components/blog-content"
 import { RelatedPosts } from "../components/related-posts"
 import { StructuredData } from "@/components/structured-data"
 import type { Metadata } from "next"
+import { getDictionary } from "@/dictionaries"
+import type { Locale } from "@/types"
+import { MobileHeader } from "@/app/[lang]/components/mobile-header"
 
 // Generate metadata for the page
-export async function generateMetadata(): Promise<Metadata> {
-  const slug = "invisible-characters-in-gaming"
+export async function generateMetadata({ params }: { params: { lang: Locale; slug: string } }): Promise<Metadata> {
+  // We need to await the params object before accessing its properties
+  const lang = await params.lang
+  const slug = await params.slug
+
   const post = getBlogPostBySlug(slug)
 
   if (!post) {
@@ -25,15 +31,15 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: post.title,
       description: post.excerpt,
-      url: `https://invisibletext.pro/blog/${post.slug}`,
+      url: `https://invisibletext.top/${lang}/blog/${post.slug}`,
       type: "article",
       publishedTime: post.date,
       authors: [post.author.name],
       images: [
         {
           url: post.coverImage.startsWith("/placeholder")
-            ? "https://invisibletext.pro/og-image.jpg"
-            : `https://invisibletext.pro${post.coverImage}`,
+            ? "https://invisibletext.top/og-image.jpg"
+            : `https://invisibletext.top${post.coverImage}`,
           width: 1200,
           height: 630,
           alt: post.title,
@@ -44,31 +50,16 @@ export async function generateMetadata(): Promise<Metadata> {
   }
 }
 
-export default function BlogPost() {
-  const slug = "invisible-characters-in-gaming"
+export default async function BlogPostPage({ params }: { params: { lang: Locale; slug: string } }) {
+  // We need to await the params object before accessing its properties
+  const lang = await params.lang
+  const slug = await params.slug
+
+  const dict = await getDictionary(lang)
   const post = getBlogPostBySlug(slug)
 
   if (!post) {
-    return (
-      <div className="min-h-screen bg-slate-50 dark:bg-gray-950">
-        <BlogHeader />
-        <main className="container mx-auto px-4 py-12">
-          <div className="max-w-4xl mx-auto text-center">
-            <h1 className="text-5xl font-black tracking-tight mb-8">
-              Post Not Found
-              <div className="h-2 w-24 bg-emerald-400 mx-auto mt-4"></div>
-            </h1>
-            <p className="text-xl mb-8">Sorry, the blog post you're looking for doesn't exist or has been moved.</p>
-            <Link
-              href="/blog"
-              className="inline-block bg-black hover:bg-gray-800 text-white font-bold py-3 px-8 rounded-lg transition-colors"
-            >
-              Back to Blog
-            </Link>
-          </div>
-        </main>
-      </div>
-    )
+    notFound()
   }
 
   const relatedPosts = getRelatedPosts(slug)
@@ -80,8 +71,8 @@ export default function BlogPost() {
     headline: post.title,
     description: post.excerpt,
     image: post.coverImage.startsWith("/placeholder")
-      ? "https://invisibletext.pro/og-image.jpg"
-      : `https://invisibletext.pro${post.coverImage}`,
+      ? "https://invisibletext.top/og-image.jpg"
+      : `https://invisibletext.top${post.coverImage}`,
     datePublished: post.date,
     author: {
       "@type": "Person",
@@ -89,15 +80,15 @@ export default function BlogPost() {
     },
     publisher: {
       "@type": "Organization",
-      name: "invisibletext.pro",
+      name: "invisibletext.top",
       logo: {
         "@type": "ImageObject",
-        url: "https://invisibletext.pro/logo.png",
+        url: "https://invisibletext.top/logo.png",
       },
     },
     mainEntityOfPage: {
       "@type": "WebPage",
-      "@id": `https://invisibletext.pro/blog/${post.slug}`,
+      "@id": `https://invisibletext.top/${lang}/blog/${post.slug}`,
     },
     keywords: post.tags.join(", "),
   }
@@ -107,12 +98,20 @@ export default function BlogPost() {
       {/* Add structured data */}
       <StructuredData data={structuredData} />
 
-      <BlogHeader />
+      <MobileHeader
+        lang={lang}
+        title={dict.hero.title}
+        navigation={{
+          features: dict.navigation.features,
+          about: dict.navigation.about,
+          contact: dict.navigation.contact,
+        }}
+      />
 
       <main className="container mx-auto px-4 py-12">
         <div className="max-w-4xl mx-auto">
           <div className="mb-8">
-            <Link href="/blog" className="text-emerald-600 hover:text-emerald-700 flex items-center gap-2">
+            <Link href={`/${lang}/blog`} className="text-emerald-600 hover:text-emerald-700 flex items-center gap-2">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="16"
@@ -154,7 +153,7 @@ export default function BlogPost() {
                   </div>
                   <span className="text-sm font-medium">{post.author.name}</span>
                 </div>
-                <span className="text-sm text-gray-500 dark:text-gray-400">{post.date}</span>
+                <span className="text-sm text-gray-500">{post.date}</span>
               </div>
 
               <h1 className="text-4xl font-black tracking-tight mb-6">{post.title}</h1>
@@ -171,13 +170,13 @@ export default function BlogPost() {
             </div>
           </article>
 
-          <RelatedPosts posts={relatedPosts} />
+          <RelatedPosts posts={relatedPosts} lang={lang} />
 
           <div className="bg-white dark:bg-gray-800 p-8 rounded-xl border-2 border-black dark:border-gray-700 shadow-lg text-center mt-12">
             <h2 className="text-2xl font-bold mb-4">Ready to try invisible text yourself?</h2>
             <p className="mb-6">Use our generator to create invisible characters for your own creative projects.</p>
             <Link
-              href="/en"
+              href={`/${lang}`}
               className="inline-block bg-black hover:bg-gray-800 text-white font-bold py-3 px-8 rounded-lg transition-colors"
             >
               Try the Generator
@@ -190,64 +189,67 @@ export default function BlogPost() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-6 md:mb-0">
-              <Link href="/en" className="flex items-center gap-2">
+              <Link href={`/${lang}`} className="flex items-center gap-2">
                 <div className="w-8 h-8 bg-white border-2 border-black rounded-md flex items-center justify-center">
                   <span className="font-bold text-sm">IT</span>
                 </div>
                 <span className="font-bold text-lg tracking-tight">
-                  INVISIBLE TEXT
+                  {dict.hero.title}
                   <div className="h-1 w-full bg-emerald-400 mt-0.5"></div>
                 </span>
               </Link>
-              <p className="text-sm mt-2">© 2025 invisibletext.pro. All rights reserved.</p>
+              <p className="text-sm mt-2">{dict.footer.copyright}</p>
             </div>
             <div className="flex flex-col md:flex-row gap-8">
               <div>
-                <h4 className="font-bold mb-2">Navigation</h4>
+                <h4 className="font-bold mb-2">{dict.footer.navigation}</h4>
                 <ul className="space-y-1">
                   <li>
-                    <Link href="/en" className="text-sm hover:text-emerald-500 transition-colors">
+                    <Link href={`/${lang}`} className="text-sm hover:text-emerald-500 transition-colors">
                       Home
                     </Link>
                   </li>
                   <li>
-                    <Link href="/blog" className="text-sm hover:text-emerald-500 transition-colors">
+                    <Link href={`/${lang}/blog`} className="text-sm hover:text-emerald-500 transition-colors">
                       Blog
                     </Link>
                   </li>
                   <li>
-                    <Link href="/en/about" className="text-sm hover:text-emerald-500 transition-colors">
-                      About Us
+                    <Link href={`/${lang}/about`} className="text-sm hover:text-emerald-500 transition-colors">
+                      {dict.navigation.about}
                     </Link>
                   </li>
                   <li>
-                    <Link href="/en/contact" className="text-sm hover:text-emerald-500 transition-colors">
-                      Contact
-                    </Link>
-                  </li>
-                </ul>
-              </div>
-              <div>
-                <h4 className="font-bold mb-2">Legal</h4>
-                <ul className="space-y-1">
-                  <li>
-                    <Link href="/en/privacy" className="text-sm hover:text-emerald-500 transition-colors">
-                      Privacy Policy
-                    </Link>
-                  </li>
-                  <li>
-                    <Link href="/en/terms-of-service" className="text-sm hover:text-emerald-500 transition-colors">
-                      Terms of Service
+                    <Link href={`/${lang}/contact`} className="text-sm hover:text-emerald-500 transition-colors">
+                      {dict.navigation.contact}
                     </Link>
                   </li>
                 </ul>
               </div>
               <div>
-                <h4 className="font-bold mb-2">Contact</h4>
+                <h4 className="font-bold mb-2">{dict.footer.legal}</h4>
                 <ul className="space-y-1">
                   <li>
-                    <Link href="/en/contact" className="text-sm hover:text-emerald-500 transition-colors">
-                      contact@invisibletext.pro
+                    <Link href={`/${lang}/privacy`} className="text-sm hover:text-emerald-500 transition-colors">
+                      {dict.navigation.privacy}
+                    </Link>
+                  </li>
+                  <li>
+                    <Link
+                      href={`/${lang}/terms-of-service`}
+                      className="text-sm hover:text-emerald-500 transition-colors"
+                    >
+                      {dict.navigation.terms}
+                    </Link>
+                  </li>
+                </ul>
+              </div>
+              <div>
+                <h4 className="font-bold mb-2">{dict.footer.contact}</h4>
+                <ul className="space-y-1">
+                  <li>
+                    <Link href={`/${lang}/contact`} className="text-sm hover:text-emerald-500 transition-colors">
+                      contact@invisibletext.top
                     </Link>
                   </li>
                 </ul>
